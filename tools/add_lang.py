@@ -1,12 +1,15 @@
 import json
 lang = "en"
 
-cpp = json.load(open("香港.json", encoding="utf-8"))
-cache = {}
+cpp = json.load(open("上海.json", encoding="utf-8"))
+try:
+    cache = json.load(open("cache.json", encoding="utf-8"))
+except:
+    cache = {}
 for line_name in cpp["Lines"]:
     line = cpp["Lines"][line_name]
     if lang not in line['name']:
-        print("當前無")
+        print("當前無", line, line['name']['zh'])
         if line['name']['zh'] in cache:
             print("緩存:", cache[line['name']['zh']])
             cpp["Lines"][line_name]['name'][lang] = cache[line['name']['zh']]
@@ -14,6 +17,9 @@ for line_name in cpp["Lines"]:
             c = input("新：")
             cpp["Lines"][line_name]['name'][lang] = c
             cache[line['name']['zh']] = c
+json.dump(cache, open("cache.json", "w", encoding="utf-8"),
+              indent=4, ensure_ascii=False, sort_keys=True)
+
 
 for system_name in cpp["Systems"]:
     line = cpp["Systems"][system_name]
@@ -26,6 +32,8 @@ for system_name in cpp["Systems"]:
             c = input("新：")
             cpp["Systems"][system_name][lang] = c
             cache[line['zh']] = c
+json.dump(cache, open("cache.json", "w", encoding="utf-8"),
+              indent=4, ensure_ascii=False, sort_keys=True)
 for station_name in cpp["Stations"]:
     line = cpp["Stations"][station_name]
     if lang not in line['name']:
@@ -38,4 +46,6 @@ for station_name in cpp["Stations"]:
             cpp["Stations"][station_name]['name'][lang] = c
             cache[line['name']['zh']] = c
     json.dump(cpp, open("香港.json", "w", encoding="utf-8"),
+              indent=4, ensure_ascii=False, sort_keys=True)
+json.dump(cache, open("cache.json", "w", encoding="utf-8"),
               indent=4, ensure_ascii=False, sort_keys=True)

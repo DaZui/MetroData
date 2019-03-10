@@ -10,6 +10,7 @@
                 "1_1"
             ],
             "name": {
+                "en": "Line 1",
                 "zh": "一号线"
             },
             "shortname": "1"
@@ -21,6 +22,7 @@
                 "10_1"
             ],
             "name": {
+                "en": "Line 10",
                 "zh": "十号线"
             },
             "shortname": "10"
@@ -32,6 +34,7 @@
                 "10/1_1"
             ],
             "name": {
+                "en": "Line 10",
                 "zh": "十号线"
             },
             "shortname": "10"
@@ -43,6 +46,7 @@
                 "11_1"
             ],
             "name": {
+                "en": "Line 11",
                 "zh": "十一号线"
             },
             "shortname": "11"
@@ -54,6 +58,7 @@
                 "11/1_1"
             ],
             "name": {
+                "en": "Line 11",
                 "zh": "十一号线"
             },
             "shortname": "11"
@@ -65,6 +70,7 @@
                 "12_1"
             ],
             "name": {
+                "en": "Line 12",
                 "zh": "十二号线"
             },
             "shortname": "12"
@@ -76,6 +82,7 @@
                 "13_1"
             ],
             "name": {
+                "en": "Line 13",
                 "zh": "十三号线"
             },
             "shortname": "13"
@@ -87,6 +94,7 @@
                 "16_1"
             ],
             "name": {
+                "en": "Line 16",
                 "zh": "十六号线"
             },
             "shortname": "16"
@@ -98,6 +106,7 @@
                 "17_1"
             ],
             "name": {
+                "en": "Line 17",
                 "zh": "十七号线"
             },
             "shortname": "17"
@@ -109,6 +118,7 @@
                 "2_1"
             ],
             "name": {
+                "en": "Line 2",
                 "zh": "二号线"
             },
             "shortname": "2"
@@ -120,6 +130,7 @@
                 "2/1_1"
             ],
             "name": {
+                "en": "Line 2",
                 "zh": "二号线"
             },
             "shortname": "2"
@@ -131,6 +142,7 @@
                 "3_1"
             ],
             "name": {
+                "en": "Line 3",
                 "zh": "三号线"
             },
             "shortname": "3"
@@ -142,6 +154,7 @@
                 "cw"
             ],
             "name": {
+                "en": "Line 4",
                 "zh": "四号线"
             },
             "shortname": "4"
@@ -153,6 +166,7 @@
                 "5_1"
             ],
             "name": {
+                "en": "Line 5",
                 "zh": "五号线"
             },
             "shortname": "5"
@@ -164,6 +178,7 @@
                 "5/1_1"
             ],
             "name": {
+                "en": "Line 5",
                 "zh": "五号线"
             },
             "shortname": "5"
@@ -175,6 +190,7 @@
                 "6_1"
             ],
             "name": {
+                "en": "Line 6",
                 "zh": "六号线"
             },
             "shortname": "6"
@@ -186,6 +202,7 @@
                 "7_1"
             ],
             "name": {
+                "en": "Line 7",
                 "zh": "七号线"
             },
             "shortname": "7"
@@ -197,6 +214,7 @@
                 "8_1"
             ],
             "name": {
+                "en": "Line 8",
                 "zh": "八号线"
             },
             "shortname": "8"
@@ -208,6 +226,7 @@
                 "9_1"
             ],
             "name": {
+                "en": "Line 9",
                 "zh": "九号线"
             },
             "shortname": "9"
@@ -219,6 +238,7 @@
                 "张_1"
             ],
             "name": {
+                "en": "Zhangjiang Tram",
                 "zh": "张江电车"
             },
             "shortname": "张"
@@ -230,6 +250,7 @@
                 "浦_1"
             ],
             "name": {
+                "en": "Pujiang Line",
                 "zh": "浦江线"
             },
             "shortname": "浦"
@@ -241,6 +262,7 @@
                 "磁_1"
             ],
             "name": {
+                "en": "Maglev",
                 "zh": "磁悬浮"
             },
             "shortname": "磁"
@@ -252,6 +274,7 @@
                 "金_1"
             ],
             "name": {
+                "en": "Jinshan Railway",
                 "zh": "金山铁路"
             },
             "shortname": "金"
@@ -261,6 +284,7 @@
         "10/1_1": {
             "line": "10/1",
             "name": {
+                "en": "Longxi Road",
                 "zh": "龙溪路"
             },
             "neighbors": {
@@ -279,6 +303,7 @@
         "10/1_2": {
             "line": "10/1",
             "name": {
+                "en": "Longbai Xincun",
                 "zh": "龙柏新村"
             },
             "neighbors": {
@@ -300,6 +325,7 @@
         "10/1_3": {
             "line": "10/1",
             "name": {
+                "en": "Ziteng Road",
                 "zh": "紫藤路"
             },
             "neighbors": {
@@ -321,6 +347,7 @@
         "10/1_4": {
             "line": "10/1",
             "name": {
+                "en": "Hangzhong Road",
                 "zh": "航中路"
             },
             "neighbors": {
@@ -336,6 +363,7 @@
         "10_1": {
             "line": "10",
             "name": {
+                "en": "Xinjiangwancheng",
                 "zh": "新江湾城"
             },
             "neighbors": {
@@ -351,6 +379,7 @@
         "10_10": {
             "line": "10",
             "name": {
+                "en": "Hailun Road",
                 "zh": "海伦路"
             },
             "neighbors": {
@@ -375,6 +404,7 @@
         "10_11": {
             "line": "10",
             "name": {
+                "en": "North Sichuan Road",
                 "zh": "四川北路"
             },
             "neighbors": {
@@ -396,6 +426,7 @@
         "10_12": {
             "line": "10",
             "name": {
+                "en": "Tiantong Road",
                 "zh": "天潼路"
             },
             "neighbors": {
@@ -420,6 +451,7 @@
         "10_13": {
             "line": "10",
             "name": {
+                "en": "East Nanjing Road",
                 "zh": "南京东路"
             },
             "neighbors": {
@@ -444,6 +476,7 @@
         "10_14": {
             "line": "10",
             "name": {
+                "en": "Yuyuan Garden",
                 "zh": "豫园"
             },
             "neighbors": {
@@ -465,6 +498,7 @@
         "10_15": {
             "line": "10",
             "name": {
+                "en": "Laoximen",
                 "zh": "老西门"
             },
             "neighbors": {
@@ -489,6 +523,7 @@
         "10_16": {
             "line": "10",
             "name": {
+                "en": "Xintiandi",
                 "zh": "新天地"
             },
             "neighbors": {
@@ -513,6 +548,7 @@
         "10_17": {
             "line": "10",
             "name": {
+                "en": "South Shaanxi Road",
                 "zh": "陕西南路"
             },
             "neighbors": {
@@ -540,6 +576,7 @@
         "10_18": {
             "line": "10",
             "name": {
+                "en": "Shanghai Library",
                 "zh": "上海图书馆"
             },
             "neighbors": {
@@ -561,6 +598,7 @@
         "10_19": {
             "line": "10",
             "name": {
+                "en": "Jiaotong University",
                 "zh": "交通大学"
             },
             "neighbors": {
@@ -585,6 +623,7 @@
         "10_2": {
             "line": "10",
             "name": {
+                "en": "East Yingao Road",
                 "zh": "殷高东路"
             },
             "neighbors": {
@@ -606,6 +645,7 @@
         "10_20": {
             "line": "10",
             "name": {
+                "en": "Hongqiao Road",
                 "zh": "虹桥路"
             },
             "neighbors": {
@@ -633,6 +673,7 @@
         "10_21": {
             "line": "10",
             "name": {
+                "en": "Songyuan Road",
                 "zh": "宋园路"
             },
             "neighbors": {
@@ -654,6 +695,7 @@
         "10_22": {
             "line": "10",
             "name": {
+                "en": "Yili Road",
                 "zh": "伊犁路"
             },
             "neighbors": {
@@ -675,6 +717,7 @@
         "10_23": {
             "line": "10",
             "name": {
+                "en": "Shuicheng Road",
                 "zh": "水城路"
             },
             "neighbors": {
@@ -696,6 +739,7 @@
         "10_24": {
             "line": "10",
             "name": {
+                "en": "Longxi Road",
                 "zh": "龙溪路"
             },
             "neighbors": {
@@ -720,6 +764,7 @@
         "10_25": {
             "line": "10",
             "name": {
+                "en": "Shanghai Zoo",
                 "zh": "上海动物园"
             },
             "neighbors": {
@@ -741,6 +786,7 @@
         "10_26": {
             "line": "10",
             "name": {
+                "en": "Hongqiao Airport Terminal 1",
                 "zh": "虹桥一号航站楼"
             },
             "neighbors": {
@@ -762,6 +808,7 @@
         "10_27": {
             "line": "10",
             "name": {
+                "en": "Hongqiao Airport Terminal 2",
                 "zh": "虹桥二号航站楼"
             },
             "neighbors": {
@@ -786,6 +833,7 @@
         "10_28": {
             "line": "10",
             "name": {
+                "en": "Hongqiao Railway Station",
                 "zh": "虹桥火车站"
             },
             "neighbors": {
@@ -807,6 +855,7 @@
         "10_3": {
             "line": "10",
             "name": {
+                "en": "Sanmen Road",
                 "zh": "三门路"
             },
             "neighbors": {
@@ -828,6 +877,7 @@
         "10_4": {
             "line": "10",
             "name": {
+                "en": "Jiangwan Stadium",
                 "zh": "江湾体育场"
             },
             "neighbors": {
@@ -849,6 +899,7 @@
         "10_5": {
             "line": "10",
             "name": {
+                "en": "Wujiaochang",
                 "zh": "五角场"
             },
             "neighbors": {
@@ -870,6 +921,7 @@
         "10_6": {
             "line": "10",
             "name": {
+                "en": "Guoquan Road",
                 "zh": "国权路"
             },
             "neighbors": {
@@ -891,6 +943,7 @@
         "10_7": {
             "line": "10",
             "name": {
+                "en": "Tongji University",
                 "zh": "同济大学"
             },
             "neighbors": {
@@ -912,6 +965,7 @@
         "10_8": {
             "line": "10",
             "name": {
+                "en": "Siping Road",
                 "zh": "四平路"
             },
             "neighbors": {
@@ -936,6 +990,7 @@
         "10_9": {
             "line": "10",
             "name": {
+                "en": "Youdian Xincun",
                 "zh": "邮电新村"
             },
             "neighbors": {
@@ -957,6 +1012,7 @@
         "11/1_1": {
             "line": "11/1",
             "name": {
+                "en": "Huaqiao",
                 "zh": "花桥"
             },
             "neighbors": {
@@ -972,6 +1028,7 @@
         "11/1_2": {
             "line": "11/1",
             "name": {
+                "en": "Guangming Road",
                 "zh": "光明路"
             },
             "neighbors": {
@@ -993,6 +1050,7 @@
         "11/1_3": {
             "line": "11/1",
             "name": {
+                "en": "Zhaofeng Road",
                 "zh": "兆丰路"
             },
             "neighbors": {
@@ -1014,6 +1072,7 @@
         "11/1_4": {
             "line": "11/1",
             "name": {
+                "en": "Anting",
                 "zh": "安亭"
             },
             "neighbors": {
@@ -1035,6 +1094,7 @@
         "11/1_5": {
             "line": "11/1",
             "name": {
+                "en": "Shanghai Automobile City",
                 "zh": "上海汽车城"
             },
             "neighbors": {
@@ -1056,6 +1116,7 @@
         "11/1_6": {
             "line": "11/1",
             "name": {
+                "en": "East Changji Road",
                 "zh": "昌吉东路"
             },
             "neighbors": {
@@ -1077,6 +1138,7 @@
         "11/1_7": {
             "line": "11/1",
             "name": {
+                "en": "Shanghai Circuit",
                 "zh": "上海赛车场"
             },
             "neighbors": {
@@ -1098,6 +1160,7 @@
         "11/1_8": {
             "line": "11/1",
             "name": {
+                "en": "Jiading Xincheng",
                 "zh": "嘉定新城"
             },
             "neighbors": {
@@ -1116,6 +1179,7 @@
         "11_1": {
             "line": "11",
             "name": {
+                "en": "North Jiading",
                 "zh": "嘉定北"
             },
             "neighbors": {
@@ -1131,6 +1195,7 @@
         "11_10": {
             "line": "11",
             "name": {
+                "en": "Liziyuan",
                 "zh": "李子园"
             },
             "neighbors": {
@@ -1152,6 +1217,7 @@
         "11_11": {
             "line": "11",
             "name": {
+                "en": "West Shanghai Railway Station",
                 "zh": "上海西站"
             },
             "neighbors": {
@@ -1173,6 +1239,7 @@
         "11_12": {
             "line": "11",
             "name": {
+                "en": "Zhenru",
                 "zh": "真如"
             },
             "neighbors": {
@@ -1194,6 +1261,7 @@
         "11_13": {
             "line": "11",
             "name": {
+                "en": "Fengqiao Road",
                 "zh": "枫桥路"
             },
             "neighbors": {
@@ -1215,6 +1283,7 @@
         "11_14": {
             "line": "11",
             "name": {
+                "en": "Caoyang Road",
                 "zh": "曹杨路"
             },
             "neighbors": {
@@ -1242,6 +1311,7 @@
         "11_15": {
             "line": "11",
             "name": {
+                "en": "Longde Road",
                 "zh": "隆德路"
             },
             "neighbors": {
@@ -1266,6 +1336,7 @@
         "11_16": {
             "line": "11",
             "name": {
+                "en": "Jiangsu Road",
                 "zh": "江苏路"
             },
             "neighbors": {
@@ -1290,6 +1361,7 @@
         "11_17": {
             "line": "11",
             "name": {
+                "en": "Jiaotong University",
                 "zh": "交通大学"
             },
             "neighbors": {
@@ -1314,6 +1386,7 @@
         "11_18": {
             "line": "11",
             "name": {
+                "en": "Xujiahui",
                 "zh": "徐家汇"
             },
             "neighbors": {
@@ -1341,6 +1414,7 @@
         "11_19": {
             "line": "11",
             "name": {
+                "en": "Shanghai Swimming Center",
                 "zh": "上海游泳馆"
             },
             "neighbors": {
@@ -1362,6 +1436,7 @@
         "11_2": {
             "line": "11",
             "name": {
+                "en": "West Jiading",
                 "zh": "嘉定西"
             },
             "neighbors": {
@@ -1383,6 +1458,7 @@
         "11_20": {
             "line": "11",
             "name": {
+                "en": "Longhua",
                 "zh": "龙华"
             },
             "neighbors": {
@@ -1407,6 +1483,7 @@
         "11_21": {
             "line": "11",
             "name": {
+                "en": "Yunjin Road",
                 "zh": "云锦路"
             },
             "neighbors": {
@@ -1428,6 +1505,7 @@
         "11_22": {
             "line": "11",
             "name": {
+                "en": "Longyao Road",
                 "zh": "龙耀路"
             },
             "neighbors": {
@@ -1449,6 +1527,7 @@
         "11_23": {
             "line": "11",
             "name": {
+                "en": "Oriental Sports Center",
                 "zh": "东方体育中心"
             },
             "neighbors": {
@@ -1476,6 +1555,7 @@
         "11_24": {
             "line": "11",
             "name": {
+                "en": "Sanlin",
                 "zh": "三林"
             },
             "neighbors": {
@@ -1497,6 +1577,7 @@
         "11_25": {
             "line": "11",
             "name": {
+                "en": "East Sanlin",
                 "zh": "三林东"
             },
             "neighbors": {
@@ -1518,6 +1599,7 @@
         "11_26": {
             "line": "11",
             "name": {
+                "en": "Pusan Road",
                 "zh": "浦三路"
             },
             "neighbors": {
@@ -1539,6 +1621,7 @@
         "11_27": {
             "line": "11",
             "name": {
+                "en": "Yuqiao",
                 "zh": "御桥"
             },
             "neighbors": {
@@ -1560,6 +1643,7 @@
         "11_28": {
             "line": "11",
             "name": {
+                "en": "Luoshan Road",
                 "zh": "罗山路"
             },
             "neighbors": {
@@ -1584,6 +1668,7 @@
         "11_29": {
             "line": "11",
             "name": {
+                "en": "Xiuyan Road",
                 "zh": "秀沿路"
             },
             "neighbors": {
@@ -1605,6 +1690,7 @@
         "11_3": {
             "line": "11",
             "name": {
+                "en": "Baiyin Road",
                 "zh": "白银路"
             },
             "neighbors": {
@@ -1626,6 +1712,7 @@
         "11_30": {
             "line": "11",
             "name": {
+                "en": "Kangxin Highway",
                 "zh": "康新公路"
             },
             "neighbors": {
@@ -1647,6 +1734,7 @@
         "11_31": {
             "line": "11",
             "name": {
+                "en": "Disney Resort",
                 "zh": "迪士尼"
             },
             "neighbors": {
@@ -1662,6 +1750,7 @@
         "11_4": {
             "line": "11",
             "name": {
+                "en": "Jiading Xincheng",
                 "zh": "嘉定新城"
             },
             "neighbors": {
@@ -1686,6 +1775,7 @@
         "11_5": {
             "line": "11",
             "name": {
+                "en": "Malu",
                 "zh": "马陆"
             },
             "neighbors": {
@@ -1707,6 +1797,7 @@
         "11_6": {
             "line": "11",
             "name": {
+                "en": "Nanxiang",
                 "zh": "南翔"
             },
             "neighbors": {
@@ -1728,6 +1819,7 @@
         "11_7": {
             "line": "11",
             "name": {
+                "en": "Taopu Xincun",
                 "zh": "桃浦新村"
             },
             "neighbors": {
@@ -1749,6 +1841,7 @@
         "11_8": {
             "line": "11",
             "name": {
+                "en": "Wuwei Road",
                 "zh": "武威路"
             },
             "neighbors": {
@@ -1770,6 +1863,7 @@
         "11_9": {
             "line": "11",
             "name": {
+                "en": "Qilianshan Road",
                 "zh": "祁连山路"
             },
             "neighbors": {
@@ -1791,6 +1885,7 @@
         "12_1": {
             "line": "12",
             "name": {
+                "en": "Qixin Road",
                 "zh": "七莘路"
             },
             "neighbors": {
@@ -1806,6 +1901,7 @@
         "12_10": {
             "line": "12",
             "name": {
+                "en": "Longhua",
                 "zh": "龙华"
             },
             "neighbors": {
@@ -1830,6 +1926,7 @@
         "12_11": {
             "line": "12",
             "name": {
+                "en": "Middle Longhua Road",
                 "zh": "龙华中路"
             },
             "neighbors": {
@@ -1854,6 +1951,7 @@
         "12_12": {
             "line": "12",
             "name": {
+                "en": "Damuqiao Road",
                 "zh": "大木桥路"
             },
             "neighbors": {
@@ -1878,6 +1976,7 @@
         "12_13": {
             "line": "12",
             "name": {
+                "en": "Jiashan Road",
                 "zh": "嘉善路"
             },
             "neighbors": {
@@ -1902,6 +2001,7 @@
         "12_14": {
             "line": "12",
             "name": {
+                "en": "South Shaanxi Road",
                 "zh": "陕西南路"
             },
             "neighbors": {
@@ -1929,6 +2029,7 @@
         "12_15": {
             "line": "12",
             "name": {
+                "en": "West Nanjing Road",
                 "zh": "南京西路"
             },
             "neighbors": {
@@ -1956,6 +2057,7 @@
         "12_16": {
             "line": "12",
             "name": {
+                "en": "Hanzhong Road",
                 "zh": "汉中路"
             },
             "neighbors": {
@@ -1983,6 +2085,7 @@
         "12_17": {
             "line": "12",
             "name": {
+                "en": "Qufu Road",
                 "zh": "曲阜路"
             },
             "neighbors": {
@@ -2007,6 +2110,7 @@
         "12_18": {
             "line": "12",
             "name": {
+                "en": "Tiantong Road",
                 "zh": "天潼路"
             },
             "neighbors": {
@@ -2031,6 +2135,7 @@
         "12_19": {
             "line": "12",
             "name": {
+                "en": "International Cruise Terminal",
                 "zh": "国际客运中心"
             },
             "neighbors": {
@@ -2052,6 +2157,7 @@
         "12_2": {
             "line": "12",
             "name": {
+                "en": "Hongxin Road",
                 "zh": "虹莘路"
             },
             "neighbors": {
@@ -2073,6 +2179,7 @@
         "12_20": {
             "line": "12",
             "name": {
+                "en": "Tilanqiao",
                 "zh": "提篮桥"
             },
             "neighbors": {
@@ -2094,6 +2201,7 @@
         "12_21": {
             "line": "12",
             "name": {
+                "en": "Dalian Road",
                 "zh": "大连路"
             },
             "neighbors": {
@@ -2118,6 +2226,7 @@
         "12_22": {
             "line": "12",
             "name": {
+                "en": "Jiangpu Park",
                 "zh": "江浦公园"
             },
             "neighbors": {
@@ -2139,6 +2248,7 @@
         "12_23": {
             "line": "12",
             "name": {
+                "en": "Ningguo Road",
                 "zh": "宁国路"
             },
             "neighbors": {
@@ -2160,6 +2270,7 @@
         "12_24": {
             "line": "12",
             "name": {
+                "en": "Longchang Road",
                 "zh": "隆昌路"
             },
             "neighbors": {
@@ -2181,6 +2292,7 @@
         "12_25": {
             "line": "12",
             "name": {
+                "en": "Aiguo Road",
                 "zh": "爱国路"
             },
             "neighbors": {
@@ -2202,6 +2314,7 @@
         "12_26": {
             "line": "12",
             "name": {
+                "en": "Fuxing Island",
                 "zh": "复兴岛"
             },
             "neighbors": {
@@ -2223,6 +2336,7 @@
         "12_27": {
             "line": "12",
             "name": {
+                "en": "Donglu Road",
                 "zh": "东陆路"
             },
             "neighbors": {
@@ -2244,6 +2358,7 @@
         "12_28": {
             "line": "12",
             "name": {
+                "en": "Jufeng Road",
                 "zh": "巨峰路"
             },
             "neighbors": {
@@ -2268,6 +2383,7 @@
         "12_29": {
             "line": "12",
             "name": {
+                "en": "North Yanggao Road",
                 "zh": "杨高北路"
             },
             "neighbors": {
@@ -2289,6 +2405,7 @@
         "12_3": {
             "line": "12",
             "name": {
+                "en": "Gudai Road",
                 "zh": "顾戴路"
             },
             "neighbors": {
@@ -2310,6 +2427,7 @@
         "12_30": {
             "line": "12",
             "name": {
+                "en": "Jinjing Road",
                 "zh": "金京路"
             },
             "neighbors": {
@@ -2331,6 +2449,7 @@
         "12_31": {
             "line": "12",
             "name": {
+                "en": "Shenjiang Road",
                 "zh": "申江路"
             },
             "neighbors": {
@@ -2352,6 +2471,7 @@
         "12_32": {
             "line": "12",
             "name": {
+                "en": "Jinhai Road",
                 "zh": "金海路"
             },
             "neighbors": {
@@ -2370,6 +2490,7 @@
         "12_4": {
             "line": "12",
             "name": {
+                "en": "Donglan Road",
                 "zh": "东兰路"
             },
             "neighbors": {
@@ -2391,6 +2512,7 @@
         "12_5": {
             "line": "12",
             "name": {
+                "en": "Hongmei Road",
                 "zh": "虹梅路"
             },
             "neighbors": {
@@ -2412,6 +2534,7 @@
         "12_6": {
             "line": "12",
             "name": {
+                "en": "Hongcao Road",
                 "zh": "虹漕路"
             },
             "neighbors": {
@@ -2433,6 +2556,7 @@
         "12_7": {
             "line": "12",
             "name": {
+                "en": "Guilin Park",
                 "zh": "桂林公园"
             },
             "neighbors": {
@@ -2454,6 +2578,7 @@
         "12_8": {
             "line": "12",
             "name": {
+                "en": "Caobao Road",
                 "zh": "漕宝路"
             },
             "neighbors": {
@@ -2478,6 +2603,7 @@
         "12_9": {
             "line": "12",
             "name": {
+                "en": "Longcao Road",
                 "zh": "龙漕路"
             },
             "neighbors": {
@@ -2502,6 +2628,7 @@
         "13_1": {
             "line": "13",
             "name": {
+                "en": "Jinyun Road",
                 "zh": "金运路"
             },
             "neighbors": {
@@ -2517,6 +2644,7 @@
         "13_10": {
             "line": "13",
             "name": {
+                "en": "Changshou Road",
                 "zh": "长寿路"
             },
             "neighbors": {
@@ -2541,6 +2669,7 @@
         "13_11": {
             "line": "13",
             "name": {
+                "en": "Jiangning Road",
                 "zh": "江宁路"
             },
             "neighbors": {
@@ -2562,6 +2691,7 @@
         "13_12": {
             "line": "13",
             "name": {
+                "en": "Hanzhong Road",
                 "zh": "汉中路"
             },
             "neighbors": {
@@ -2589,6 +2719,7 @@
         "13_13": {
             "line": "13",
             "name": {
+                "en": "Shanghai Natural History Museum",
                 "zh": "自然博物馆"
             },
             "neighbors": {
@@ -2610,6 +2741,7 @@
         "13_14": {
             "line": "13",
             "name": {
+                "en": "West Nanjing Road",
                 "zh": "南京西路"
             },
             "neighbors": {
@@ -2637,6 +2769,7 @@
         "13_15": {
             "line": "13",
             "name": {
+                "en": "Middle Huaihai Road",
                 "zh": "淮海中路"
             },
             "neighbors": {
@@ -2658,6 +2791,7 @@
         "13_16": {
             "line": "13",
             "name": {
+                "en": "Xintiandi",
                 "zh": "新天地"
             },
             "neighbors": {
@@ -2682,6 +2816,7 @@
         "13_17": {
             "line": "13",
             "name": {
+                "en": "Madang Road",
                 "zh": "马当路"
             },
             "neighbors": {
@@ -2706,6 +2841,7 @@
         "13_18": {
             "line": "13",
             "name": {
+                "en": "World Expo Museum",
                 "zh": "世博会博物馆"
             },
             "neighbors": {
@@ -2727,6 +2863,7 @@
         "13_19": {
             "line": "13",
             "name": {
+                "en": "Shibo Avenue",
                 "zh": "世博大道"
             },
             "neighbors": {
@@ -2748,6 +2885,7 @@
         "13_2": {
             "line": "13",
             "name": {
+                "en": "West Jinshajiang Road",
                 "zh": "金沙江西路"
             },
             "neighbors": {
@@ -2769,6 +2907,7 @@
         "13_20": {
             "line": "13",
             "name": {
+                "en": "Changqing Road",
                 "zh": "长清路"
             },
             "neighbors": {
@@ -2793,6 +2932,7 @@
         "13_21": {
             "line": "13",
             "name": {
+                "en": "Chengshan Road",
                 "zh": "成山路"
             },
             "neighbors": {
@@ -2817,6 +2957,7 @@
         "13_22": {
             "line": "13",
             "name": {
+                "en": "Dongming Road",
                 "zh": "东明路"
             },
             "neighbors": {
@@ -2841,6 +2982,7 @@
         "13_23": {
             "line": "13",
             "name": {
+                "en": "Huapeng Road",
                 "zh": "华鹏路"
             },
             "neighbors": {
@@ -2862,6 +3004,7 @@
         "13_24": {
             "line": "13",
             "name": {
+                "en": "Xianan Road",
                 "zh": "下南路"
             },
             "neighbors": {
@@ -2883,6 +3026,7 @@
         "13_25": {
             "line": "13",
             "name": {
+                "en": "Beicai",
                 "zh": "北蔡"
             },
             "neighbors": {
@@ -2904,6 +3048,7 @@
         "13_26": {
             "line": "13",
             "name": {
+                "en": "Chenchun Road",
                 "zh": "陈春路"
             },
             "neighbors": {
@@ -2925,6 +3070,7 @@
         "13_27": {
             "line": "13",
             "name": {
+                "en": "Lianxi Road",
                 "zh": "莲溪路"
             },
             "neighbors": {
@@ -2946,6 +3092,7 @@
         "13_28": {
             "line": "13",
             "name": {
+                "en": "Middle Huaxia Road",
                 "zh": "华夏中路"
             },
             "neighbors": {
@@ -2970,6 +3117,7 @@
         "13_29": {
             "line": "13",
             "name": {
+                "en": "Zhongke Road",
                 "zh": "中科路"
             },
             "neighbors": {
@@ -2991,6 +3139,7 @@
         "13_3": {
             "line": "13",
             "name": {
+                "en": "Fengzhuang",
                 "zh": "丰庄"
             },
             "neighbors": {
@@ -3012,6 +3161,7 @@
         "13_30": {
             "line": "13",
             "name": {
+                "en": "Xuelin Road",
                 "zh": "学林路"
             },
             "neighbors": {
@@ -3033,6 +3183,7 @@
         "13_31": {
             "line": "13",
             "name": {
+                "en": "Zhangjiang Road",
                 "zh": "张江路"
             },
             "neighbors": {
@@ -3048,6 +3199,7 @@
         "13_4": {
             "line": "13",
             "name": {
+                "en": "South Qilianshan Road",
                 "zh": "祁连山南路"
             },
             "neighbors": {
@@ -3069,6 +3221,7 @@
         "13_5": {
             "line": "13",
             "name": {
+                "en": "Zhenbei Road",
                 "zh": "真北路"
             },
             "neighbors": {
@@ -3090,6 +3243,7 @@
         "13_6": {
             "line": "13",
             "name": {
+                "en": "Daduhe Road",
                 "zh": "大渡河路"
             },
             "neighbors": {
@@ -3111,6 +3265,7 @@
         "13_7": {
             "line": "13",
             "name": {
+                "en": "Jinshajiang Road",
                 "zh": "金沙江路"
             },
             "neighbors": {
@@ -3138,6 +3293,7 @@
         "13_8": {
             "line": "13",
             "name": {
+                "en": "Longde Road",
                 "zh": "隆德路"
             },
             "neighbors": {
@@ -3162,6 +3318,7 @@
         "13_9": {
             "line": "13",
             "name": {
+                "en": "Wuning Road",
                 "zh": "武宁路"
             },
             "neighbors": {
@@ -3183,6 +3340,7 @@
         "16_1": {
             "line": "16",
             "name": {
+                "en": "Longyang Road",
                 "zh": "龙阳路"
             },
             "neighbors": {
@@ -3207,6 +3365,7 @@
         "16_10": {
             "line": "16",
             "name": {
+                "en": "East Huinan",
                 "zh": "惠南东"
             },
             "neighbors": {
@@ -3228,6 +3387,7 @@
         "16_11": {
             "line": "16",
             "name": {
+                "en": "Shuyuan",
                 "zh": "书院"
             },
             "neighbors": {
@@ -3249,6 +3409,7 @@
         "16_12": {
             "line": "16",
             "name": {
+                "en": "Lingang Avenue",
                 "zh": "临港大道"
             },
             "neighbors": {
@@ -3270,6 +3431,7 @@
         "16_13": {
             "line": "16",
             "name": {
+                "en": "Dishui Lake",
                 "zh": "滴水湖"
             },
             "neighbors": {
@@ -3285,6 +3447,7 @@
         "16_2": {
             "line": "16",
             "name": {
+                "en": "Middle Huaxia Road",
                 "zh": "华夏中路"
             },
             "neighbors": {
@@ -3309,6 +3472,7 @@
         "16_3": {
             "line": "16",
             "name": {
+                "en": "Luoshan Road",
                 "zh": "罗山路"
             },
             "neighbors": {
@@ -3333,6 +3497,7 @@
         "16_4": {
             "line": "16",
             "name": {
+                "en": "East Zhoupu",
                 "zh": "周浦东"
             },
             "neighbors": {
@@ -3354,6 +3519,7 @@
         "16_5": {
             "line": "16",
             "name": {
+                "en": "Heshahangcheng",
                 "zh": "鹤沙航城"
             },
             "neighbors": {
@@ -3375,6 +3541,7 @@
         "16_6": {
             "line": "16",
             "name": {
+                "en": "East Hangtou",
                 "zh": "航头东"
             },
             "neighbors": {
@@ -3396,6 +3563,7 @@
         "16_7": {
             "line": "16",
             "name": {
+                "en": "Xinchang",
                 "zh": "新场"
             },
             "neighbors": {
@@ -3417,6 +3585,7 @@
         "16_8": {
             "line": "16",
             "name": {
+                "en": "Wild Animal Park",
                 "zh": "野生动物园"
             },
             "neighbors": {
@@ -3438,6 +3607,7 @@
         "16_9": {
             "line": "16",
             "name": {
+                "en": "Huinan",
                 "zh": "惠南"
             },
             "neighbors": {
@@ -3459,6 +3629,7 @@
         "17_1": {
             "line": "17",
             "name": {
+                "en": "Oriental Land",
                 "zh": "东方绿舟"
             },
             "neighbors": {
@@ -3474,6 +3645,7 @@
         "17_10": {
             "line": "17",
             "name": {
+                "en": "Xuying Road",
                 "zh": "徐盈路"
             },
             "neighbors": {
@@ -3495,6 +3667,7 @@
         "17_11": {
             "line": "17",
             "name": {
+                "en": "Panlong Road",
                 "zh": "蟠龙路"
             },
             "neighbors": {
@@ -3516,6 +3689,7 @@
         "17_12": {
             "line": "17",
             "name": {
+                "en": "Zhuguang Road",
                 "zh": "诸光路"
             },
             "neighbors": {
@@ -3537,6 +3711,7 @@
         "17_13": {
             "line": "17",
             "name": {
+                "en": "Hongqiao Railway Station",
                 "zh": "虹桥火车站"
             },
             "neighbors": {
@@ -3558,6 +3733,7 @@
         "17_2": {
             "line": "17",
             "name": {
+                "en": "Zhujiajiao",
                 "zh": "朱家角"
             },
             "neighbors": {
@@ -3579,6 +3755,7 @@
         "17_3": {
             "line": "17",
             "name": {
+                "en": "Dianshanhu Avenue",
                 "zh": "淀山湖大道"
             },
             "neighbors": {
@@ -3600,6 +3777,7 @@
         "17_4": {
             "line": "17",
             "name": {
+                "en": "Caoying Road",
                 "zh": "漕盈路"
             },
             "neighbors": {
@@ -3621,6 +3799,7 @@
         "17_5": {
             "line": "17",
             "name": {
+                "en": "Qingpu Xincheng",
                 "zh": "青浦新城"
             },
             "neighbors": {
@@ -3642,6 +3821,7 @@
         "17_6": {
             "line": "17",
             "name": {
+                "en": "Huijin Road",
                 "zh": "汇金路"
             },
             "neighbors": {
@@ -3663,6 +3843,7 @@
         "17_7": {
             "line": "17",
             "name": {
+                "en": "Zhaoxiang",
                 "zh": "赵巷"
             },
             "neighbors": {
@@ -3684,6 +3865,7 @@
         "17_8": {
             "line": "17",
             "name": {
+                "en": "Middle Jiasong Road",
                 "zh": "嘉松中路"
             },
             "neighbors": {
@@ -3705,6 +3887,7 @@
         "17_9": {
             "line": "17",
             "name": {
+                "en": "Xujingbeicheng",
                 "zh": "徐泾北城"
             },
             "neighbors": {
@@ -3726,6 +3909,7 @@
         "1_1": {
             "line": "1",
             "name": {
+                "en": "Fujin Road",
                 "zh": "富锦路"
             },
             "neighbors": {
@@ -3741,6 +3925,7 @@
         "1_10": {
             "line": "1",
             "name": {
+                "en": "Shanghai Circus World",
                 "zh": "上海马戏城"
             },
             "neighbors": {
@@ -3762,6 +3947,7 @@
         "1_11": {
             "line": "1",
             "name": {
+                "en": "Yanchang Road",
                 "zh": "延长路"
             },
             "neighbors": {
@@ -3783,6 +3969,7 @@
         "1_12": {
             "line": "1",
             "name": {
+                "en": "North Zhongshan Road",
                 "zh": "中山北路"
             },
             "neighbors": {
@@ -3804,6 +3991,7 @@
         "1_13": {
             "line": "1",
             "name": {
+                "en": "Shanghai Railway Station",
                 "zh": "上海火车站"
             },
             "neighbors": {
@@ -3831,6 +4019,7 @@
         "1_14": {
             "line": "1",
             "name": {
+                "en": "Hanzhong Road",
                 "zh": "汉中路"
             },
             "neighbors": {
@@ -3858,6 +4047,7 @@
         "1_15": {
             "line": "1",
             "name": {
+                "en": "Xinzha Road",
                 "zh": "新闸路"
             },
             "neighbors": {
@@ -3879,6 +4069,7 @@
         "1_16": {
             "line": "1",
             "name": {
+                "en": "People's Square",
                 "zh": "人民广场"
             },
             "neighbors": {
@@ -3906,6 +4097,7 @@
         "1_17": {
             "line": "1",
             "name": {
+                "en": "South Huangpi Road",
                 "zh": "黄陂南路"
             },
             "neighbors": {
@@ -3927,6 +4119,7 @@
         "1_18": {
             "line": "1",
             "name": {
+                "en": "South Shaanxi Road",
                 "zh": "陕西南路"
             },
             "neighbors": {
@@ -3954,6 +4147,7 @@
         "1_19": {
             "line": "1",
             "name": {
+                "en": "Changshu Road",
                 "zh": "常熟路"
             },
             "neighbors": {
@@ -3978,6 +4172,7 @@
         "1_2": {
             "line": "1",
             "name": {
+                "en": "West Youyi Road",
                 "zh": "友谊西路"
             },
             "neighbors": {
@@ -3999,6 +4194,7 @@
         "1_20": {
             "line": "1",
             "name": {
+                "en": "Hengshan Road",
                 "zh": "衡山路"
             },
             "neighbors": {
@@ -4020,6 +4216,7 @@
         "1_21": {
             "line": "1",
             "name": {
+                "en": "Xujiahui",
                 "zh": "徐家汇"
             },
             "neighbors": {
@@ -4047,6 +4244,7 @@
         "1_22": {
             "line": "1",
             "name": {
+                "en": "Shanghai Indoor Stadium",
                 "zh": "上海体育馆"
             },
             "neighbors": {
@@ -4071,6 +4269,7 @@
         "1_23": {
             "line": "1",
             "name": {
+                "en": "Caobao Road",
                 "zh": "漕宝路"
             },
             "neighbors": {
@@ -4095,6 +4294,7 @@
         "1_24": {
             "line": "1",
             "name": {
+                "en": "Shanghai South Railway Station",
                 "zh": "上海南站"
             },
             "neighbors": {
@@ -4122,6 +4322,7 @@
         "1_25": {
             "line": "1",
             "name": {
+                "en": "Jinjiang Park",
                 "zh": "锦江乐园"
             },
             "neighbors": {
@@ -4143,6 +4344,7 @@
         "1_26": {
             "line": "1",
             "name": {
+                "en": "Lianhua Road",
                 "zh": "莲花路"
             },
             "neighbors": {
@@ -4164,6 +4366,7 @@
         "1_27": {
             "line": "1",
             "name": {
+                "en": "Waihuanlu",
                 "zh": "外环路"
             },
             "neighbors": {
@@ -4185,6 +4388,7 @@
         "1_28": {
             "line": "1",
             "name": {
+                "en": "Xinzhuang",
                 "zh": "莘庄"
             },
             "neighbors": {
@@ -4203,6 +4407,7 @@
         "1_3": {
             "line": "1",
             "name": {
+                "en": "Bao'an Highway",
                 "zh": "宝安公路"
             },
             "neighbors": {
@@ -4224,6 +4429,7 @@
         "1_4": {
             "line": "1",
             "name": {
+                "en": "Gongfu Xincun",
                 "zh": "共富新村"
             },
             "neighbors": {
@@ -4245,6 +4451,7 @@
         "1_5": {
             "line": "1",
             "name": {
+                "en": "Hulan Road",
                 "zh": "呼兰路"
             },
             "neighbors": {
@@ -4266,6 +4473,7 @@
         "1_6": {
             "line": "1",
             "name": {
+                "en": "Tonghe Xincun",
                 "zh": "通河新村"
             },
             "neighbors": {
@@ -4287,6 +4495,7 @@
         "1_7": {
             "line": "1",
             "name": {
+                "en": "Gongkang Road",
                 "zh": "共康路"
             },
             "neighbors": {
@@ -4308,6 +4517,7 @@
         "1_8": {
             "line": "1",
             "name": {
+                "en": "Pengpu Xincun",
                 "zh": "彭浦新村"
             },
             "neighbors": {
@@ -4329,6 +4539,7 @@
         "1_9": {
             "line": "1",
             "name": {
+                "en": "Wenshui Road",
                 "zh": "汶水路"
             },
             "neighbors": {
@@ -4350,6 +4561,7 @@
         "2/1_1": {
             "line": "2/1",
             "name": {
+                "en": "Guanglan Road",
                 "zh": "广兰路"
             },
             "neighbors": {
@@ -4368,6 +4580,7 @@
         "2/1_2": {
             "line": "2/1",
             "name": {
+                "en": "Tangzhen",
                 "zh": "唐镇"
             },
             "neighbors": {
@@ -4389,6 +4602,7 @@
         "2/1_3": {
             "line": "2/1",
             "name": {
+                "en": "Middle Chuangxin Road",
                 "zh": "创新中路"
             },
             "neighbors": {
@@ -4410,6 +4624,7 @@
         "2/1_4": {
             "line": "2/1",
             "name": {
+                "en": "East Huaxia Road",
                 "zh": "华夏东路"
             },
             "neighbors": {
@@ -4431,6 +4646,7 @@
         "2/1_5": {
             "line": "2/1",
             "name": {
+                "en": "Chuansha",
                 "zh": "川沙"
             },
             "neighbors": {
@@ -4452,6 +4668,7 @@
         "2/1_6": {
             "line": "2/1",
             "name": {
+                "en": "Lingkong Road",
                 "zh": "凌空路"
             },
             "neighbors": {
@@ -4473,6 +4690,7 @@
         "2/1_7": {
             "line": "2/1",
             "name": {
+                "en": "Yuandong Avenue",
                 "zh": "远东大道"
             },
             "neighbors": {
@@ -4494,6 +4712,7 @@
         "2/1_8": {
             "line": "2/1",
             "name": {
+                "en": "Haitiansan Road",
                 "zh": "海天三路"
             },
             "neighbors": {
@@ -4515,6 +4734,7 @@
         "2/1_9": {
             "line": "2/1",
             "name": {
+                "en": "Pudong International Airport",
                 "zh": "浦东国际机场"
             },
             "neighbors": {
@@ -4533,6 +4753,7 @@
         "2_1": {
             "line": "2",
             "name": {
+                "en": "East Xujing",
                 "zh": "徐泾东"
             },
             "neighbors": {
@@ -4548,6 +4769,7 @@
         "2_10": {
             "line": "2",
             "name": {
+                "en": "Jing'an Temple",
                 "zh": "静安寺"
             },
             "neighbors": {
@@ -4572,6 +4794,7 @@
         "2_11": {
             "line": "2",
             "name": {
+                "en": "West Nanjing Road",
                 "zh": "南京西路"
             },
             "neighbors": {
@@ -4599,6 +4822,7 @@
         "2_12": {
             "line": "2",
             "name": {
+                "en": "People's Square",
                 "zh": "人民广场"
             },
             "neighbors": {
@@ -4626,6 +4850,7 @@
         "2_13": {
             "line": "2",
             "name": {
+                "en": "East Nanjing Road",
                 "zh": "南京东路"
             },
             "neighbors": {
@@ -4650,6 +4875,7 @@
         "2_14": {
             "line": "2",
             "name": {
+                "en": "Lujiazui",
                 "zh": "陆家嘴"
             },
             "neighbors": {
@@ -4671,6 +4897,7 @@
         "2_15": {
             "line": "2",
             "name": {
+                "en": "Dongchang Road",
                 "zh": "东昌路"
             },
             "neighbors": {
@@ -4692,6 +4919,7 @@
         "2_16": {
             "line": "2",
             "name": {
+                "en": "Century Avenue",
                 "zh": "世纪大道"
             },
             "neighbors": {
@@ -4722,6 +4950,7 @@
         "2_17": {
             "line": "2",
             "name": {
+                "en": "Shanghai Science and Technology Museum",
                 "zh": "上海科技馆"
             },
             "neighbors": {
@@ -4743,6 +4972,7 @@
         "2_18": {
             "line": "2",
             "name": {
+                "en": "Century Park",
                 "zh": "世纪公园"
             },
             "neighbors": {
@@ -4764,6 +4994,7 @@
         "2_19": {
             "line": "2",
             "name": {
+                "en": "Longyang Road",
                 "zh": "龙阳路"
             },
             "neighbors": {
@@ -4794,6 +5025,7 @@
         "2_2": {
             "line": "2",
             "name": {
+                "en": "Hongqiao Railway Station",
                 "zh": "虹桥火车站"
             },
             "neighbors": {
@@ -4821,6 +5053,7 @@
         "2_20": {
             "line": "2",
             "name": {
+                "en": "Zhangjiang Hi-Tech Park",
                 "zh": "张江高科"
             },
             "neighbors": {
@@ -4845,6 +5078,7 @@
         "2_21": {
             "line": "2",
             "name": {
+                "en": "Jinke Road",
                 "zh": "金科路"
             },
             "neighbors": {
@@ -4866,6 +5100,7 @@
         "2_22": {
             "line": "2",
             "name": {
+                "en": "Guanglan Road",
                 "zh": "广兰路"
             },
             "neighbors": {
@@ -4884,6 +5119,7 @@
         "2_3": {
             "line": "2",
             "name": {
+                "en": "Hongqiao Airport Terminal 2",
                 "zh": "虹桥二号航站楼"
             },
             "neighbors": {
@@ -4908,6 +5144,7 @@
         "2_4": {
             "line": "2",
             "name": {
+                "en": "Songhong Road",
                 "zh": "淞虹路"
             },
             "neighbors": {
@@ -4929,6 +5166,7 @@
         "2_5": {
             "line": "2",
             "name": {
+                "en": "Beixinjing",
                 "zh": "北新泾"
             },
             "neighbors": {
@@ -4950,6 +5188,7 @@
         "2_6": {
             "line": "2",
             "name": {
+                "en": "Weining Road",
                 "zh": "威宁路"
             },
             "neighbors": {
@@ -4971,6 +5210,7 @@
         "2_7": {
             "line": "2",
             "name": {
+                "en": "Loushanguan Road",
                 "zh": "娄山关路"
             },
             "neighbors": {
@@ -4992,6 +5232,7 @@
         "2_8": {
             "line": "2",
             "name": {
+                "en": "Zhongshan Park",
                 "zh": "中山公园"
             },
             "neighbors": {
@@ -5019,6 +5260,7 @@
         "2_9": {
             "line": "2",
             "name": {
+                "en": "Jiangsu Road",
                 "zh": "江苏路"
             },
             "neighbors": {
@@ -5043,6 +5285,7 @@
         "3_1": {
             "line": "3",
             "name": {
+                "en": "North Jiangyang Road",
                 "zh": "江杨北路"
             },
             "neighbors": {
@@ -5058,6 +5301,7 @@
         "3_10": {
             "line": "3",
             "name": {
+                "en": "West Yingao Road",
                 "zh": "殷高西路"
             },
             "neighbors": {
@@ -5079,6 +5323,7 @@
         "3_11": {
             "line": "3",
             "name": {
+                "en": "Jiangwan Town",
                 "zh": "江湾镇"
             },
             "neighbors": {
@@ -5100,6 +5345,7 @@
         "3_12": {
             "line": "3",
             "name": {
+                "en": "Dabaishu",
                 "zh": "大柏树"
             },
             "neighbors": {
@@ -5121,6 +5367,7 @@
         "3_13": {
             "line": "3",
             "name": {
+                "en": "Chifeng Road",
                 "zh": "赤峰路"
             },
             "neighbors": {
@@ -5142,6 +5389,7 @@
         "3_14": {
             "line": "3",
             "name": {
+                "en": "Hongkou Football Stadium",
                 "zh": "虹口足球场"
             },
             "neighbors": {
@@ -5166,6 +5414,7 @@
         "3_15": {
             "line": "3",
             "name": {
+                "en": "Dongbaoxing Road",
                 "zh": "东宝兴路"
             },
             "neighbors": {
@@ -5187,6 +5436,7 @@
         "3_16": {
             "line": "3",
             "name": {
+                "en": "Baoshan Road",
                 "zh": "宝山路"
             },
             "neighbors": {
@@ -5211,6 +5461,7 @@
         "3_17": {
             "line": "3",
             "name": {
+                "en": "Shanghai Railway Station",
                 "zh": "上海火车站"
             },
             "neighbors": {
@@ -5238,6 +5489,7 @@
         "3_18": {
             "line": "3",
             "name": {
+                "en": "Zhongtan Road",
                 "zh": "中潭路"
             },
             "neighbors": {
@@ -5262,6 +5514,7 @@
         "3_19": {
             "line": "3",
             "name": {
+                "en": "Zhenping Road",
                 "zh": "镇坪路"
             },
             "neighbors": {
@@ -5289,6 +5542,7 @@
         "3_2": {
             "line": "3",
             "name": {
+                "en": "Tieli Road",
                 "zh": "铁力路"
             },
             "neighbors": {
@@ -5310,6 +5564,7 @@
         "3_20": {
             "line": "3",
             "name": {
+                "en": "Caoyang Road",
                 "zh": "曹杨路"
             },
             "neighbors": {
@@ -5337,6 +5592,7 @@
         "3_21": {
             "line": "3",
             "name": {
+                "en": "Jinshajiang Road",
                 "zh": "金沙江路"
             },
             "neighbors": {
@@ -5364,6 +5620,7 @@
         "3_22": {
             "line": "3",
             "name": {
+                "en": "Zhongshan Park",
                 "zh": "中山公园"
             },
             "neighbors": {
@@ -5391,6 +5648,7 @@
         "3_23": {
             "line": "3",
             "name": {
+                "en": "West Yan'an Road",
                 "zh": "延安西路"
             },
             "neighbors": {
@@ -5415,6 +5673,7 @@
         "3_24": {
             "line": "3",
             "name": {
+                "en": "Hongqiao Road",
                 "zh": "虹桥路"
             },
             "neighbors": {
@@ -5442,6 +5701,7 @@
         "3_25": {
             "line": "3",
             "name": {
+                "en": "Yishan Road",
                 "zh": "宜山路"
             },
             "neighbors": {
@@ -5469,6 +5729,7 @@
         "3_26": {
             "line": "3",
             "name": {
+                "en": "Caoxi Road",
                 "zh": "漕溪路"
             },
             "neighbors": {
@@ -5490,6 +5751,7 @@
         "3_27": {
             "line": "3",
             "name": {
+                "en": "Longcao Road",
                 "zh": "龙漕路"
             },
             "neighbors": {
@@ -5514,6 +5776,7 @@
         "3_28": {
             "line": "3",
             "name": {
+                "en": "Shilong Road",
                 "zh": "石龙路"
             },
             "neighbors": {
@@ -5535,6 +5798,7 @@
         "3_29": {
             "line": "3",
             "name": {
+                "en": "Shanghai South Railway Station",
                 "zh": "上海南站"
             },
             "neighbors": {
@@ -5556,6 +5820,7 @@
         "3_3": {
             "line": "3",
             "name": {
+                "en": "Youyi Road",
                 "zh": "友谊路"
             },
             "neighbors": {
@@ -5577,6 +5842,7 @@
         "3_4": {
             "line": "3",
             "name": {
+                "en": "Baoyang Road",
                 "zh": "宝杨路"
             },
             "neighbors": {
@@ -5598,6 +5864,7 @@
         "3_5": {
             "line": "3",
             "name": {
+                "en": "Shuichan Road",
                 "zh": "水产路"
             },
             "neighbors": {
@@ -5619,6 +5886,7 @@
         "3_6": {
             "line": "3",
             "name": {
+                "en": "Songbin Road",
                 "zh": "淞滨路"
             },
             "neighbors": {
@@ -5640,6 +5908,7 @@
         "3_7": {
             "line": "3",
             "name": {
+                "en": "Zhanghuabang",
                 "zh": "张华浜"
             },
             "neighbors": {
@@ -5661,6 +5930,7 @@
         "3_8": {
             "line": "3",
             "name": {
+                "en": "Songfa Road",
                 "zh": "淞发路"
             },
             "neighbors": {
@@ -5682,6 +5952,7 @@
         "3_9": {
             "line": "3",
             "name": {
+                "en": "South Changjiang Road",
                 "zh": "长江南路"
             },
             "neighbors": {
@@ -5703,6 +5974,7 @@
         "4_1": {
             "line": "4",
             "name": {
+                "en": "Yishan Road",
                 "zh": "宜山路"
             },
             "neighbors": {
@@ -5730,6 +6002,7 @@
         "4_10": {
             "line": "4",
             "name": {
+                "en": "Lancun Road",
                 "zh": "蓝村路"
             },
             "neighbors": {
@@ -5754,6 +6027,7 @@
         "4_11": {
             "line": "4",
             "name": {
+                "en": "Pudian Road",
                 "zh": "浦电路"
             },
             "neighbors": {
@@ -5778,6 +6052,7 @@
         "4_12": {
             "line": "4",
             "name": {
+                "en": "Century Avenue",
                 "zh": "世纪大道"
             },
             "neighbors": {
@@ -5808,6 +6083,7 @@
         "4_13": {
             "line": "4",
             "name": {
+                "en": "Pudong Avenue",
                 "zh": "浦东大道"
             },
             "neighbors": {
@@ -5829,6 +6105,7 @@
         "4_14": {
             "line": "4",
             "name": {
+                "en": "Yangshupu Road",
                 "zh": "杨树浦路"
             },
             "neighbors": {
@@ -5850,6 +6127,7 @@
         "4_15": {
             "line": "4",
             "name": {
+                "en": "Dalian Road",
                 "zh": "大连路"
             },
             "neighbors": {
@@ -5874,6 +6152,7 @@
         "4_16": {
             "line": "4",
             "name": {
+                "en": "Linping Road",
                 "zh": "临平路"
             },
             "neighbors": {
@@ -5895,6 +6174,7 @@
         "4_17": {
             "line": "4",
             "name": {
+                "en": "Hailun Road",
                 "zh": "海伦路"
             },
             "neighbors": {
@@ -5919,6 +6199,7 @@
         "4_18": {
             "line": "4",
             "name": {
+                "en": "Baoshan Road",
                 "zh": "宝山路"
             },
             "neighbors": {
@@ -5943,6 +6224,7 @@
         "4_19": {
             "line": "4",
             "name": {
+                "en": "Shanghai Railway Station",
                 "zh": "上海火车站"
             },
             "neighbors": {
@@ -5970,6 +6252,7 @@
         "4_2": {
             "line": "4",
             "name": {
+                "en": "Shanghai Indoor Stadium",
                 "zh": "上海体育馆"
             },
             "neighbors": {
@@ -5994,6 +6277,7 @@
         "4_20": {
             "line": "4",
             "name": {
+                "en": "Zhongtan Road",
                 "zh": "中潭路"
             },
             "neighbors": {
@@ -6018,6 +6302,7 @@
         "4_21": {
             "line": "4",
             "name": {
+                "en": "Zhenping Road",
                 "zh": "镇坪路"
             },
             "neighbors": {
@@ -6045,6 +6330,7 @@
         "4_22": {
             "line": "4",
             "name": {
+                "en": "Caoyang Road",
                 "zh": "曹杨路"
             },
             "neighbors": {
@@ -6072,6 +6358,7 @@
         "4_23": {
             "line": "4",
             "name": {
+                "en": "Jinshajiang Road",
                 "zh": "金沙江路"
             },
             "neighbors": {
@@ -6099,6 +6386,7 @@
         "4_24": {
             "line": "4",
             "name": {
+                "en": "Zhongshan Park",
                 "zh": "中山公园"
             },
             "neighbors": {
@@ -6126,6 +6414,7 @@
         "4_25": {
             "line": "4",
             "name": {
+                "en": "West Yan'an Road",
                 "zh": "延安西路"
             },
             "neighbors": {
@@ -6150,6 +6439,7 @@
         "4_26": {
             "line": "4",
             "name": {
+                "en": "Hongqiao Road",
                 "zh": "虹桥路"
             },
             "neighbors": {
@@ -6177,6 +6467,7 @@
         "4_3": {
             "line": "4",
             "name": {
+                "en": "Shanghai Stadium",
                 "zh": "上海体育场"
             },
             "neighbors": {
@@ -6198,6 +6489,7 @@
         "4_4": {
             "line": "4",
             "name": {
+                "en": "Dong'an Road",
                 "zh": "东安路"
             },
             "neighbors": {
@@ -6222,6 +6514,7 @@
         "4_5": {
             "line": "4",
             "name": {
+                "en": "Damuqiao Road",
                 "zh": "大木桥路"
             },
             "neighbors": {
@@ -6246,6 +6539,7 @@
         "4_6": {
             "line": "4",
             "name": {
+                "en": "Luban Road",
                 "zh": "鲁班路"
             },
             "neighbors": {
@@ -6267,6 +6561,7 @@
         "4_7": {
             "line": "4",
             "name": {
+                "en": "South Xizang Road",
                 "zh": "西藏南路"
             },
             "neighbors": {
@@ -6291,6 +6586,7 @@
         "4_8": {
             "line": "4",
             "name": {
+                "en": "Nanpu Bridge",
                 "zh": "南浦大桥"
             },
             "neighbors": {
@@ -6312,6 +6608,7 @@
         "4_9": {
             "line": "4",
             "name": {
+                "en": "Tangqiao",
                 "zh": "塘桥"
             },
             "neighbors": {
@@ -6333,6 +6630,7 @@
         "5/1_1": {
             "line": "5/1",
             "name": {
+                "en": "Dongchuan Road",
                 "zh": "东川路"
             },
             "neighbors": {
@@ -6351,6 +6649,7 @@
         "5/1_2": {
             "line": "5/1",
             "name": {
+                "en": "Jinping Road",
                 "zh": "金平路"
             },
             "neighbors": {
@@ -6372,6 +6671,7 @@
         "5/1_3": {
             "line": "5/1",
             "name": {
+                "en": "Huaning Road",
                 "zh": "华宁路"
             },
             "neighbors": {
@@ -6393,6 +6693,7 @@
         "5/1_4": {
             "line": "5/1",
             "name": {
+                "en": "Wenjing Road",
                 "zh": "文井路"
             },
             "neighbors": {
@@ -6414,6 +6715,7 @@
         "5/1_5": {
             "line": "5/1",
             "name": {
+                "en": "Minhang Development Zone",
                 "zh": "闵行开发区"
             },
             "neighbors": {
@@ -6429,6 +6731,7 @@
         "5_1": {
             "line": "5",
             "name": {
+                "en": "Xinzhuang",
                 "zh": "莘庄"
             },
             "neighbors": {
@@ -6447,6 +6750,7 @@
         "5_10": {
             "line": "5",
             "name": {
+                "en": "Xiaotang",
                 "zh": "萧塘"
             },
             "neighbors": {
@@ -6468,6 +6772,7 @@
         "5_11": {
             "line": "5",
             "name": {
+                "en": "Fengpu Avenue",
                 "zh": "奉浦大道"
             },
             "neighbors": {
@@ -6489,6 +6794,7 @@
         "5_12": {
             "line": "5",
             "name": {
+                "en": "Huanchengdong Road",
                 "zh": "环城东路"
             },
             "neighbors": {
@@ -6510,6 +6816,7 @@
         "5_13": {
             "line": "5",
             "name": {
+                "en": "Wangyuan Road",
                 "zh": "望园路"
             },
             "neighbors": {
@@ -6531,6 +6838,7 @@
         "5_14": {
             "line": "5",
             "name": {
+                "en": "Jinhai Lake",
                 "zh": "金海湖"
             },
             "neighbors": {
@@ -6552,6 +6860,7 @@
         "5_15": {
             "line": "5",
             "name": {
+                "en": "Fengxian Xincheng",
                 "zh": "奉贤新城"
             },
             "neighbors": {
@@ -6567,6 +6876,7 @@
         "5_2": {
             "line": "5",
             "name": {
+                "en": "Chunshen Road",
                 "zh": "春申路"
             },
             "neighbors": {
@@ -6588,6 +6898,7 @@
         "5_3": {
             "line": "5",
             "name": {
+                "en": "Yindu Road",
                 "zh": "银都路"
             },
             "neighbors": {
@@ -6609,6 +6920,7 @@
         "5_4": {
             "line": "5",
             "name": {
+                "en": "Zhuanqiao",
                 "zh": "颛桥"
             },
             "neighbors": {
@@ -6630,6 +6942,7 @@
         "5_5": {
             "line": "5",
             "name": {
+                "en": "Beiqiao",
                 "zh": "北桥"
             },
             "neighbors": {
@@ -6651,6 +6964,7 @@
         "5_6": {
             "line": "5",
             "name": {
+                "en": "Jianchuan Road",
                 "zh": "剑川路"
             },
             "neighbors": {
@@ -6672,6 +6986,7 @@
         "5_7": {
             "line": "5",
             "name": {
+                "en": "Dongchuan Road",
                 "zh": "东川路"
             },
             "neighbors": {
@@ -6696,6 +7011,7 @@
         "5_8": {
             "line": "5",
             "name": {
+                "en": "Jiangchuan Road",
                 "zh": "江川路"
             },
             "neighbors": {
@@ -6717,6 +7033,7 @@
         "5_9": {
             "line": "5",
             "name": {
+                "en": "Xidu",
                 "zh": "西渡"
             },
             "neighbors": {
@@ -6738,6 +7055,7 @@
         "6_1": {
             "line": "6",
             "name": {
+                "en": "Gangcheng Road",
                 "zh": "港城路"
             },
             "neighbors": {
@@ -6753,6 +7071,7 @@
         "6_10": {
             "line": "6",
             "name": {
+                "en": "Boxing Road",
                 "zh": "博兴路"
             },
             "neighbors": {
@@ -6774,6 +7093,7 @@
         "6_11": {
             "line": "6",
             "name": {
+                "en": "Jinqiao Road",
                 "zh": "金桥路"
             },
             "neighbors": {
@@ -6795,6 +7115,7 @@
         "6_12": {
             "line": "6",
             "name": {
+                "en": "Yunshan Road",
                 "zh": "云山路"
             },
             "neighbors": {
@@ -6816,6 +7137,7 @@
         "6_13": {
             "line": "6",
             "name": {
+                "en": "Deping Road",
                 "zh": "德平路"
             },
             "neighbors": {
@@ -6837,6 +7159,7 @@
         "6_14": {
             "line": "6",
             "name": {
+                "en": "Beiyangjing Road",
                 "zh": "北洋泾路"
             },
             "neighbors": {
@@ -6858,6 +7181,7 @@
         "6_15": {
             "line": "6",
             "name": {
+                "en": "Minsheng Road",
                 "zh": "民生路"
             },
             "neighbors": {
@@ -6879,6 +7203,7 @@
         "6_16": {
             "line": "6",
             "name": {
+                "en": "Yuanshen Stadium",
                 "zh": "源深体育中心"
             },
             "neighbors": {
@@ -6900,6 +7225,7 @@
         "6_17": {
             "line": "6",
             "name": {
+                "en": "Century Avenue",
                 "zh": "世纪大道"
             },
             "neighbors": {
@@ -6930,6 +7256,7 @@
         "6_18": {
             "line": "6",
             "name": {
+                "en": "Pudian Road",
                 "zh": "浦电路"
             },
             "neighbors": {
@@ -6954,6 +7281,7 @@
         "6_19": {
             "line": "6",
             "name": {
+                "en": "Lancun Road",
                 "zh": "蓝村路"
             },
             "neighbors": {
@@ -6978,6 +7306,7 @@
         "6_2": {
             "line": "6",
             "name": {
+                "en": "North Waigaoqiao Free Trade Zone",
                 "zh": "外高桥保税区北"
             },
             "neighbors": {
@@ -6999,6 +7328,7 @@
         "6_20": {
             "line": "6",
             "name": {
+                "en": "Shanghai Children's Medical Center",
                 "zh": "上海儿童医学中心"
             },
             "neighbors": {
@@ -7020,6 +7350,7 @@
         "6_21": {
             "line": "6",
             "name": {
+                "en": "Linyi Xincun",
                 "zh": "临沂新村"
             },
             "neighbors": {
@@ -7041,6 +7372,7 @@
         "6_22": {
             "line": "6",
             "name": {
+                "en": "West Gaoke Road",
                 "zh": "高科西路"
             },
             "neighbors": {
@@ -7065,6 +7397,7 @@
         "6_23": {
             "line": "6",
             "name": {
+                "en": "Dongming Road",
                 "zh": "东明路"
             },
             "neighbors": {
@@ -7089,6 +7422,7 @@
         "6_24": {
             "line": "6",
             "name": {
+                "en": "Gaoqing Road",
                 "zh": "高青路"
             },
             "neighbors": {
@@ -7110,6 +7444,7 @@
         "6_25": {
             "line": "6",
             "name": {
+                "en": "West Huaxia Road",
                 "zh": "华夏西路"
             },
             "neighbors": {
@@ -7131,6 +7466,7 @@
         "6_26": {
             "line": "6",
             "name": {
+                "en": "Shangnan Road",
                 "zh": "上南路"
             },
             "neighbors": {
@@ -7152,6 +7488,7 @@
         "6_27": {
             "line": "6",
             "name": {
+                "en": "South Lingyan Road",
                 "zh": "灵岩南路"
             },
             "neighbors": {
@@ -7173,6 +7510,7 @@
         "6_28": {
             "line": "6",
             "name": {
+                "en": "Oriental Sports Center",
                 "zh": "东方体育中心"
             },
             "neighbors": {
@@ -7194,6 +7532,7 @@
         "6_3": {
             "line": "6",
             "name": {
+                "en": "Hangjin Road",
                 "zh": "航津路"
             },
             "neighbors": {
@@ -7215,6 +7554,7 @@
         "6_4": {
             "line": "6",
             "name": {
+                "en": "South Waigaoqiao Free Trade Zone",
                 "zh": "外高桥保税区南"
             },
             "neighbors": {
@@ -7236,6 +7576,7 @@
         "6_5": {
             "line": "6",
             "name": {
+                "en": "Zhouhai Road",
                 "zh": "洲海路"
             },
             "neighbors": {
@@ -7257,6 +7598,7 @@
         "6_6": {
             "line": "6",
             "name": {
+                "en": "Wuzhou Avenue",
                 "zh": "五洲大道"
             },
             "neighbors": {
@@ -7278,6 +7620,7 @@
         "6_7": {
             "line": "6",
             "name": {
+                "en": "Dongjing Road",
                 "zh": "东靖路"
             },
             "neighbors": {
@@ -7299,6 +7642,7 @@
         "6_8": {
             "line": "6",
             "name": {
+                "en": "Jufeng Road",
                 "zh": "巨峰路"
             },
             "neighbors": {
@@ -7323,6 +7667,7 @@
         "6_9": {
             "line": "6",
             "name": {
+                "en": "Wulian Road",
                 "zh": "五莲路"
             },
             "neighbors": {
@@ -7344,6 +7689,7 @@
         "7_1": {
             "line": "7",
             "name": {
+                "en": "Meilan Lake",
                 "zh": "美兰湖"
             },
             "neighbors": {
@@ -7359,6 +7705,7 @@
         "7_10": {
             "line": "7",
             "name": {
+                "en": "Changzhong Road",
                 "zh": "场中路"
             },
             "neighbors": {
@@ -7380,6 +7727,7 @@
         "7_11": {
             "line": "7",
             "name": {
+                "en": "Dachang Town",
                 "zh": "大场镇"
             },
             "neighbors": {
@@ -7401,6 +7749,7 @@
         "7_12": {
             "line": "7",
             "name": {
+                "en": "Xingzhi Road",
                 "zh": "行知路"
             },
             "neighbors": {
@@ -7422,6 +7771,7 @@
         "7_13": {
             "line": "7",
             "name": {
+                "en": "Dahuasan Road",
                 "zh": "大华三路"
             },
             "neighbors": {
@@ -7443,6 +7793,7 @@
         "7_14": {
             "line": "7",
             "name": {
+                "en": "Xincun Road",
                 "zh": "新村路"
             },
             "neighbors": {
@@ -7464,6 +7815,7 @@
         "7_15": {
             "line": "7",
             "name": {
+                "en": "Langao Road",
                 "zh": "岚皋路"
             },
             "neighbors": {
@@ -7485,6 +7837,7 @@
         "7_16": {
             "line": "7",
             "name": {
+                "en": "Zhenping Road",
                 "zh": "镇坪路"
             },
             "neighbors": {
@@ -7512,6 +7865,7 @@
         "7_17": {
             "line": "7",
             "name": {
+                "en": "Changshou Road",
                 "zh": "长寿路"
             },
             "neighbors": {
@@ -7536,6 +7890,7 @@
         "7_18": {
             "line": "7",
             "name": {
+                "en": "Changping Road",
                 "zh": "昌平路"
             },
             "neighbors": {
@@ -7557,6 +7912,7 @@
         "7_19": {
             "line": "7",
             "name": {
+                "en": "Jing'an Temple",
                 "zh": "静安寺"
             },
             "neighbors": {
@@ -7581,6 +7937,7 @@
         "7_2": {
             "line": "7",
             "name": {
+                "en": "Luonan Xincun",
                 "zh": "罗南新村"
             },
             "neighbors": {
@@ -7602,6 +7959,7 @@
         "7_20": {
             "line": "7",
             "name": {
+                "en": "Changshu Road",
                 "zh": "常熟路"
             },
             "neighbors": {
@@ -7626,6 +7984,7 @@
         "7_21": {
             "line": "7",
             "name": {
+                "en": "Zhaojiabang Road",
                 "zh": "肇嘉浜路"
             },
             "neighbors": {
@@ -7650,6 +8009,7 @@
         "7_22": {
             "line": "7",
             "name": {
+                "en": "Dong'an Road",
                 "zh": "东安路"
             },
             "neighbors": {
@@ -7674,6 +8034,7 @@
         "7_23": {
             "line": "7",
             "name": {
+                "en": "Middle Longhua Road",
                 "zh": "龙华中路"
             },
             "neighbors": {
@@ -7698,6 +8059,7 @@
         "7_24": {
             "line": "7",
             "name": {
+                "en": "Houtan",
                 "zh": "后滩"
             },
             "neighbors": {
@@ -7719,6 +8081,7 @@
         "7_25": {
             "line": "7",
             "name": {
+                "en": "Changqing Road",
                 "zh": "长清路"
             },
             "neighbors": {
@@ -7743,6 +8106,7 @@
         "7_26": {
             "line": "7",
             "name": {
+                "en": "Yaohua Road",
                 "zh": "耀华路"
             },
             "neighbors": {
@@ -7767,6 +8131,7 @@
         "7_27": {
             "line": "7",
             "name": {
+                "en": "Yuntai Road",
                 "zh": "云台路"
             },
             "neighbors": {
@@ -7788,6 +8153,7 @@
         "7_28": {
             "line": "7",
             "name": {
+                "en": "West Gaoke Road",
                 "zh": "高科西路"
             },
             "neighbors": {
@@ -7812,6 +8178,7 @@
         "7_29": {
             "line": "7",
             "name": {
+                "en": "South Yanggao Road",
                 "zh": "杨高南路"
             },
             "neighbors": {
@@ -7833,6 +8200,7 @@
         "7_3": {
             "line": "7",
             "name": {
+                "en": "Panguang Road",
                 "zh": "潘广路"
             },
             "neighbors": {
@@ -7854,6 +8222,7 @@
         "7_30": {
             "line": "7",
             "name": {
+                "en": "Jinxiu Road",
                 "zh": "锦绣路"
             },
             "neighbors": {
@@ -7875,6 +8244,7 @@
         "7_31": {
             "line": "7",
             "name": {
+                "en": "Fanghua Road",
                 "zh": "芳华路"
             },
             "neighbors": {
@@ -7896,6 +8266,7 @@
         "7_32": {
             "line": "7",
             "name": {
+                "en": "Longyang Road",
                 "zh": "龙阳路"
             },
             "neighbors": {
@@ -7926,6 +8297,7 @@
         "7_33": {
             "line": "7",
             "name": {
+                "en": "Huamu Road",
                 "zh": "花木路"
             },
             "neighbors": {
@@ -7941,6 +8313,7 @@
         "7_4": {
             "line": "7",
             "name": {
+                "en": "Liuhang",
                 "zh": "刘行"
             },
             "neighbors": {
@@ -7962,6 +8335,7 @@
         "7_5": {
             "line": "7",
             "name": {
+                "en": "Gucun Park",
                 "zh": "顾村公园"
             },
             "neighbors": {
@@ -7983,6 +8357,7 @@
         "7_6": {
             "line": "7",
             "name": {
+                "en": "Qihua Road",
                 "zh": "祁华路"
             },
             "neighbors": {
@@ -8004,6 +8379,7 @@
         "7_7": {
             "line": "7",
             "name": {
+                "en": "Shanghai University",
                 "zh": "上海大学"
             },
             "neighbors": {
@@ -8025,6 +8401,7 @@
         "7_8": {
             "line": "7",
             "name": {
+                "en": "Nanchen Road",
                 "zh": "南陈路"
             },
             "neighbors": {
@@ -8046,6 +8423,7 @@
         "7_9": {
             "line": "7",
             "name": {
+                "en": "Shangda Road",
                 "zh": "上大路"
             },
             "neighbors": {
@@ -8067,6 +8445,7 @@
         "8_1": {
             "line": "8",
             "name": {
+                "en": "Shiguang Road",
                 "zh": "市光路"
             },
             "neighbors": {
@@ -8082,6 +8461,7 @@
         "8_10": {
             "line": "8",
             "name": {
+                "en": "Quyang Road",
                 "zh": "曲阳路"
             },
             "neighbors": {
@@ -8103,6 +8483,7 @@
         "8_11": {
             "line": "8",
             "name": {
+                "en": "Hongkou Football Stadium",
                 "zh": "虹口足球场"
             },
             "neighbors": {
@@ -8127,6 +8508,7 @@
         "8_12": {
             "line": "8",
             "name": {
+                "en": "North Xizang Road",
                 "zh": "西藏北路"
             },
             "neighbors": {
@@ -8148,6 +8530,7 @@
         "8_13": {
             "line": "8",
             "name": {
+                "en": "Zhongxing Road",
                 "zh": "中兴路"
             },
             "neighbors": {
@@ -8169,6 +8552,7 @@
         "8_14": {
             "line": "8",
             "name": {
+                "en": "Qufu Road",
                 "zh": "曲阜路"
             },
             "neighbors": {
@@ -8193,6 +8577,7 @@
         "8_15": {
             "line": "8",
             "name": {
+                "en": "People's Square",
                 "zh": "人民广场"
             },
             "neighbors": {
@@ -8220,6 +8605,7 @@
         "8_16": {
             "line": "8",
             "name": {
+                "en": "Dashijie",
                 "zh": "大世界"
             },
             "neighbors": {
@@ -8241,6 +8627,7 @@
         "8_17": {
             "line": "8",
             "name": {
+                "en": "Laoximen",
                 "zh": "老西门"
             },
             "neighbors": {
@@ -8265,6 +8652,7 @@
         "8_18": {
             "line": "8",
             "name": {
+                "en": "Lujiabang Road",
                 "zh": "陆家浜路"
             },
             "neighbors": {
@@ -8289,6 +8677,7 @@
         "8_19": {
             "line": "8",
             "name": {
+                "en": "South Xizang Road",
                 "zh": "西藏南路"
             },
             "neighbors": {
@@ -8313,6 +8702,7 @@
         "8_2": {
             "line": "8",
             "name": {
+                "en": "Nenjiang Road",
                 "zh": "嫩江路"
             },
             "neighbors": {
@@ -8334,6 +8724,7 @@
         "8_20": {
             "line": "8",
             "name": {
+                "en": "China Art Museum",
                 "zh": "中华艺术宫"
             },
             "neighbors": {
@@ -8355,6 +8746,7 @@
         "8_21": {
             "line": "8",
             "name": {
+                "en": "Yaohua Road",
                 "zh": "耀华路"
             },
             "neighbors": {
@@ -8379,6 +8771,7 @@
         "8_22": {
             "line": "8",
             "name": {
+                "en": "Chengshan Road",
                 "zh": "成山路"
             },
             "neighbors": {
@@ -8403,6 +8796,7 @@
         "8_23": {
             "line": "8",
             "name": {
+                "en": "Yangsi",
                 "zh": "杨思"
             },
             "neighbors": {
@@ -8424,6 +8818,7 @@
         "8_24": {
             "line": "8",
             "name": {
+                "en": "Oriental Sports Center",
                 "zh": "东方体育中心"
             },
             "neighbors": {
@@ -8451,6 +8846,7 @@
         "8_25": {
             "line": "8",
             "name": {
+                "en": "Lingzhao Xincun",
                 "zh": "凌兆新村"
             },
             "neighbors": {
@@ -8472,6 +8868,7 @@
         "8_26": {
             "line": "8",
             "name": {
+                "en": "Luheng Road",
                 "zh": "芦恒路"
             },
             "neighbors": {
@@ -8493,6 +8890,7 @@
         "8_27": {
             "line": "8",
             "name": {
+                "en": "Pujiang Town",
                 "zh": "浦江镇"
             },
             "neighbors": {
@@ -8514,6 +8912,7 @@
         "8_28": {
             "line": "8",
             "name": {
+                "en": "Jiangyue Road",
                 "zh": "江月路"
             },
             "neighbors": {
@@ -8535,6 +8934,7 @@
         "8_29": {
             "line": "8",
             "name": {
+                "en": "Lianhang Road",
                 "zh": "联航路"
             },
             "neighbors": {
@@ -8556,6 +8956,7 @@
         "8_3": {
             "line": "8",
             "name": {
+                "en": "Xiangyin Road",
                 "zh": "翔殷路"
             },
             "neighbors": {
@@ -8577,6 +8978,7 @@
         "8_30": {
             "line": "8",
             "name": {
+                "en": "Shendu Highway",
                 "zh": "沈杜公路"
             },
             "neighbors": {
@@ -8595,6 +8997,7 @@
         "8_4": {
             "line": "8",
             "name": {
+                "en": "Huangxing Park",
                 "zh": "黄兴公园"
             },
             "neighbors": {
@@ -8616,6 +9019,7 @@
         "8_5": {
             "line": "8",
             "name": {
+                "en": "Middle Yanji Road",
                 "zh": "延吉中路"
             },
             "neighbors": {
@@ -8637,6 +9041,7 @@
         "8_6": {
             "line": "8",
             "name": {
+                "en": "Huangxing Road",
                 "zh": "黄兴路"
             },
             "neighbors": {
@@ -8658,6 +9063,7 @@
         "8_7": {
             "line": "8",
             "name": {
+                "en": "Jiangpu Road",
                 "zh": "江浦路"
             },
             "neighbors": {
@@ -8679,6 +9085,7 @@
         "8_8": {
             "line": "8",
             "name": {
+                "en": "Anshan Xincun",
                 "zh": "鞍山新村"
             },
             "neighbors": {
@@ -8700,6 +9107,7 @@
         "8_9": {
             "line": "8",
             "name": {
+                "en": "Siping Road",
                 "zh": "四平路"
             },
             "neighbors": {
@@ -8724,6 +9132,7 @@
         "9_1": {
             "line": "9",
             "name": {
+                "en": "Songjiang South Railway Station",
                 "zh": "松江南站"
             },
             "neighbors": {
@@ -8739,6 +9148,7 @@
         "9_10": {
             "line": "9",
             "name": {
+                "en": "Qibao",
                 "zh": "七宝"
             },
             "neighbors": {
@@ -8760,6 +9170,7 @@
         "9_11": {
             "line": "9",
             "name": {
+                "en": "Xingzhong Road",
                 "zh": "星中路"
             },
             "neighbors": {
@@ -8781,6 +9192,7 @@
         "9_12": {
             "line": "9",
             "name": {
+                "en": "Hechuan Road",
                 "zh": "合川路"
             },
             "neighbors": {
@@ -8802,6 +9214,7 @@
         "9_13": {
             "line": "9",
             "name": {
+                "en": "Caohejing Hi-Tech Park",
                 "zh": "漕河泾开发区"
             },
             "neighbors": {
@@ -8823,6 +9236,7 @@
         "9_14": {
             "line": "9",
             "name": {
+                "en": "Guilin Road",
                 "zh": "桂林路"
             },
             "neighbors": {
@@ -8844,6 +9258,7 @@
         "9_15": {
             "line": "9",
             "name": {
+                "en": "Yishan Road",
                 "zh": "宜山路"
             },
             "neighbors": {
@@ -8871,6 +9286,7 @@
         "9_16": {
             "line": "9",
             "name": {
+                "en": "Xujiahui",
                 "zh": "徐家汇"
             },
             "neighbors": {
@@ -8898,6 +9314,7 @@
         "9_17": {
             "line": "9",
             "name": {
+                "en": "Zhaojiabang Road",
                 "zh": "肇嘉浜路"
             },
             "neighbors": {
@@ -8922,6 +9339,7 @@
         "9_18": {
             "line": "9",
             "name": {
+                "en": "Jiashan Road",
                 "zh": "嘉善路"
             },
             "neighbors": {
@@ -8946,6 +9364,7 @@
         "9_19": {
             "line": "9",
             "name": {
+                "en": "Dapuqiao",
                 "zh": "打浦桥"
             },
             "neighbors": {
@@ -8967,6 +9386,7 @@
         "9_2": {
             "line": "9",
             "name": {
+                "en": "Zuibaichi Park",
                 "zh": "醉白池"
             },
             "neighbors": {
@@ -8988,6 +9408,7 @@
         "9_20": {
             "line": "9",
             "name": {
+                "en": "Madang Road",
                 "zh": "马当路"
             },
             "neighbors": {
@@ -9012,6 +9433,7 @@
         "9_21": {
             "line": "9",
             "name": {
+                "en": "Lujiabang Road",
                 "zh": "陆家浜路"
             },
             "neighbors": {
@@ -9036,6 +9458,7 @@
         "9_22": {
             "line": "9",
             "name": {
+                "en": "Xiaonanmen",
                 "zh": "小南门"
             },
             "neighbors": {
@@ -9057,6 +9480,7 @@
         "9_23": {
             "line": "9",
             "name": {
+                "en": "Shangcheng Road",
                 "zh": "商城路"
             },
             "neighbors": {
@@ -9078,6 +9502,7 @@
         "9_24": {
             "line": "9",
             "name": {
+                "en": "Century Avenue",
                 "zh": "世纪大道"
             },
             "neighbors": {
@@ -9108,6 +9533,7 @@
         "9_25": {
             "line": "9",
             "name": {
+                "en": "Middle Yanggao Road",
                 "zh": "杨高中路"
             },
             "neighbors": {
@@ -9129,6 +9555,7 @@
         "9_26": {
             "line": "9",
             "name": {
+                "en": "Fangdian Road",
                 "zh": "芳甸路"
             },
             "neighbors": {
@@ -9150,6 +9577,7 @@
         "9_27": {
             "line": "9",
             "name": {
+                "en": "Lantian Road",
                 "zh": "蓝天路"
             },
             "neighbors": {
@@ -9171,6 +9599,7 @@
         "9_28": {
             "line": "9",
             "name": {
+                "en": "Taierzhuang Road",
                 "zh": "台儿庄路"
             },
             "neighbors": {
@@ -9192,6 +9621,7 @@
         "9_29": {
             "line": "9",
             "name": {
+                "en": "Jinqiao",
                 "zh": "金桥"
             },
             "neighbors": {
@@ -9213,6 +9643,7 @@
         "9_3": {
             "line": "9",
             "name": {
+                "en": "Songjiang Sports Center",
                 "zh": "松江体育中心"
             },
             "neighbors": {
@@ -9234,6 +9665,7 @@
         "9_30": {
             "line": "9",
             "name": {
+                "en": "Jinji Road",
                 "zh": "金吉路"
             },
             "neighbors": {
@@ -9255,6 +9687,7 @@
         "9_31": {
             "line": "9",
             "name": {
+                "en": "Jinhai Road",
                 "zh": "金海路"
             },
             "neighbors": {
@@ -9279,6 +9712,7 @@
         "9_32": {
             "line": "9",
             "name": {
+                "en": "Gutang Road",
                 "zh": "顾唐路"
             },
             "neighbors": {
@@ -9300,6 +9734,7 @@
         "9_33": {
             "line": "9",
             "name": {
+                "en": "Minlei Road",
                 "zh": "民雷路"
             },
             "neighbors": {
@@ -9321,6 +9756,7 @@
         "9_34": {
             "line": "9",
             "name": {
+                "en": "Caolu",
                 "zh": "曹路"
             },
             "neighbors": {
@@ -9336,6 +9772,7 @@
         "9_4": {
             "line": "9",
             "name": {
+                "en": "Songjiang University Town",
                 "zh": "松江大学城"
             },
             "neighbors": {
@@ -9357,6 +9794,7 @@
         "9_5": {
             "line": "9",
             "name": {
+                "en": "Dongjing",
                 "zh": "洞泾"
             },
             "neighbors": {
@@ -9378,6 +9816,7 @@
         "9_6": {
             "line": "9",
             "name": {
+                "en": "Sheshan",
                 "zh": "佘山"
             },
             "neighbors": {
@@ -9399,6 +9838,7 @@
         "9_7": {
             "line": "9",
             "name": {
+                "en": "Sijing",
                 "zh": "泗泾"
             },
             "neighbors": {
@@ -9420,6 +9860,7 @@
         "9_8": {
             "line": "9",
             "name": {
+                "en": "Jiuting",
                 "zh": "九亭"
             },
             "neighbors": {
@@ -9441,6 +9882,7 @@
         "9_9": {
             "line": "9",
             "name": {
+                "en": "Zhongchun Road",
                 "zh": "中春路"
             },
             "neighbors": {
@@ -9462,6 +9904,7 @@
         "张_1": {
             "line": "张",
             "name": {
+                "en": "Zhangjiang Hi-Tech Park Station",
                 "zh": "张江地铁站"
             },
             "neighbors": {
@@ -9480,6 +9923,7 @@
         "张_10": {
             "line": "张",
             "name": {
+                "en": "Zhangjiang Middle School",
                 "zh": "张江中学"
             },
             "neighbors": {
@@ -9501,6 +9945,7 @@
         "张_11": {
             "line": "张",
             "name": {
+                "en": "Guanglan Road Zuchongzhi Road Station",
                 "zh": "广兰路祖冲之路"
             },
             "neighbors": {
@@ -9522,6 +9967,7 @@
         "张_12": {
             "line": "张",
             "name": {
+                "en": "Guanglan Road Dangui Road Station",
                 "zh": "广兰路丹桂路"
             },
             "neighbors": {
@@ -9543,6 +9989,7 @@
         "张_13": {
             "line": "张",
             "name": {
+                "en": "Dangui Road Qingtong Road Station",
                 "zh": "丹桂路青桐路"
             },
             "neighbors": {
@@ -9564,6 +10011,7 @@
         "张_14": {
             "line": "张",
             "name": {
+                "en": "Dangui Road Zhangdong Road Station",
                 "zh": "丹桂路张东路"
             },
             "neighbors": {
@@ -9585,6 +10033,7 @@
         "张_15": {
             "line": "张",
             "name": {
+                "en": "Zhangdong Road Jinqiu Road Station",
                 "zh": "张东路金秋路"
             },
             "neighbors": {
@@ -9600,6 +10049,7 @@
         "张_2": {
             "line": "张",
             "name": {
+                "en": "Bibo Road Gaoke Road Station",
                 "zh": "碧波路高科路"
             },
             "neighbors": {
@@ -9621,6 +10071,7 @@
         "张_3": {
             "line": "张",
             "name": {
+                "en": "Huatuo Road Daerwen Road Station",
                 "zh": "华佗路达尔文路"
             },
             "neighbors": {
@@ -9642,6 +10093,7 @@
         "张_4": {
             "line": "张",
             "name": {
+                "en": "Huatuo Road Keyuan Road Station",
                 "zh": "华佗路科苑路"
             },
             "neighbors": {
@@ -9663,6 +10115,7 @@
         "张_5": {
             "line": "张",
             "name": {
+                "en": "Cailun Road Jinke Road Station",
                 "zh": "蔡伦路金科路"
             },
             "neighbors": {
@@ -9684,6 +10137,7 @@
         "张_6": {
             "line": "张",
             "name": {
+                "en": "Cailun Road Halei Road Station",
                 "zh": "蔡伦路哈雷路"
             },
             "neighbors": {
@@ -9705,6 +10159,7 @@
         "张_7": {
             "line": "张",
             "name": {
+                "en": "Gebaini Road Libing Road Station",
                 "zh": "哥白尼路李冰路"
             },
             "neighbors": {
@@ -9726,6 +10181,7 @@
         "张_8": {
             "line": "张",
             "name": {
+                "en": "Ziwei Road Gaosi Road Station",
                 "zh": "紫薇路高斯路"
             },
             "neighbors": {
@@ -9747,6 +10203,7 @@
         "张_9": {
             "line": "张",
             "name": {
+                "en": "Gaosi Road Zhangjiang Road Station",
                 "zh": "高斯路张江路"
             },
             "neighbors": {
@@ -9768,6 +10225,7 @@
         "浦_1": {
             "line": "浦",
             "name": {
+                "en": "Shendu Highway",
                 "zh": "沈杜公路"
             },
             "neighbors": {
@@ -9786,6 +10244,7 @@
         "浦_2": {
             "line": "浦",
             "name": {
+                "en": "Sanlu Highway",
                 "zh": "三鲁公路"
             },
             "neighbors": {
@@ -9807,6 +10266,7 @@
         "浦_3": {
             "line": "浦",
             "name": {
+                "en": "Minrui Road",
                 "zh": "闵瑞路"
             },
             "neighbors": {
@@ -9828,6 +10288,7 @@
         "浦_4": {
             "line": "浦",
             "name": {
+                "en": "Puhang Road",
                 "zh": "浦航路"
             },
             "neighbors": {
@@ -9849,6 +10310,7 @@
         "浦_5": {
             "line": "浦",
             "name": {
+                "en": "Dongchengyi Road",
                 "zh": "东城一路"
             },
             "neighbors": {
@@ -9870,6 +10332,7 @@
         "浦_6": {
             "line": "浦",
             "name": {
+                "en": "Huizhen Road",
                 "zh": "汇臻路"
             },
             "neighbors": {
@@ -9885,6 +10348,7 @@
         "磁_1": {
             "line": "磁",
             "name": {
+                "en": "Longyang Road",
                 "zh": "龙阳路"
             },
             "neighbors": {
@@ -9909,6 +10373,7 @@
         "磁_2": {
             "line": "磁",
             "name": {
+                "en": "Pudong International Airport",
                 "zh": "浦东国际机场"
             },
             "neighbors": {
@@ -9927,6 +10392,7 @@
         "金_1": {
             "line": "金",
             "name": {
+                "en": "Shanghai South Railway Station",
                 "zh": "上海南站"
             },
             "neighbors": {
@@ -9948,6 +10414,7 @@
         "金_2": {
             "line": "金",
             "name": {
+                "en": "Chunshen",
                 "zh": "春申"
             },
             "neighbors": {
@@ -9969,6 +10436,7 @@
         "金_3": {
             "line": "金",
             "name": {
+                "en": "Xinqiao",
                 "zh": "新桥"
             },
             "neighbors": {
@@ -9990,6 +10458,7 @@
         "金_4": {
             "line": "金",
             "name": {
+                "en": "Chedun",
                 "zh": "车墩"
             },
             "neighbors": {
@@ -10011,6 +10480,7 @@
         "金_5": {
             "line": "金",
             "name": {
+                "en": "Yexie",
                 "zh": "叶榭"
             },
             "neighbors": {
@@ -10032,6 +10502,7 @@
         "金_6": {
             "line": "金",
             "name": {
+                "en": "Tinglin",
                 "zh": "亭林"
             },
             "neighbors": {
@@ -10053,6 +10524,7 @@
         "金_7": {
             "line": "金",
             "name": {
+                "en": "Jinshan Industrial Park",
                 "zh": "金山园区"
             },
             "neighbors": {
@@ -10074,6 +10546,7 @@
         "金_8": {
             "line": "金",
             "name": {
+                "en": "Jinshanwei",
                 "zh": "金山卫"
             },
             "neighbors": {
@@ -10089,15 +10562,19 @@
     },
     "Systems": {
         "Metro": {
+            "en": "Metro",
             "zh": "Metro"
         },
         "张江电车": {
+            "en": "Zhangjiang Tram",
             "zh": "张江电车"
         },
         "磁悬浮": {
+            "en": "Maglev",
             "zh": "磁悬浮"
         },
         "金山铁路": {
+            "en": "Jinshan Railway",
             "zh": "金山铁路"
         }
     }
