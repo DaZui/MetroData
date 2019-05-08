@@ -95,7 +95,7 @@
                 "4_1"
             ],
             "name": {
-                "zh": "四号线大兴线"
+                "zh": "四号线-大兴线"
             },
             "shortname": "4"
         },
@@ -175,50 +175,6 @@
                 "zh": "亦庄线"
             },
             "shortname": "亦"
-        },
-        "副": {
-            "color": "#000000",
-            "direction": [
-                "副_4",
-                "副_1"
-            ],
-            "name": {
-                "zh": "城市副中心线"
-            },
-            "shortname": "副"
-        },
-        "延": {
-            "color": "#000000",
-            "direction": [
-                "延_5",
-                "延_1"
-            ],
-            "name": {
-                "zh": "S2 线"
-            },
-            "shortname": "延"
-        },
-        "延/1": {
-            "color": "#000000",
-            "direction": [
-                "延/1_4",
-                "延/1_1"
-            ],
-            "name": {
-                "zh": "S2 线"
-            },
-            "shortname": "延"
-        },
-        "怀": {
-            "color": "#000000",
-            "direction": [
-                "怀_4",
-                "怀_1"
-            ],
-            "name": {
-                "zh": "怀柔－密云线"
-            },
-            "shortname": "怀"
         },
         "房": {
             "color": "#DC6016",
@@ -1662,15 +1618,6 @@
                 },
                 "8_5": {
                     "type": "walk-in"
-                },
-                "延/1_1": {
-                    "type": "walk-transfer"
-                },
-                "延_1": {
-                    "type": "walk-transfer"
-                },
-                "怀_1": {
-                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -3435,9 +3382,6 @@
                     "line": "2",
                     "system": "Metro",
                     "type": "train"
-                },
-                "副_2": {
-                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -5790,9 +5734,6 @@
                 },
                 "9_5": {
                     "type": "walk-in"
-                },
-                "副_1": {
-                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -6765,15 +6706,6 @@
                     "line": "8",
                     "system": "Metro",
                     "type": "train"
-                },
-                "延/1_1": {
-                    "type": "walk-transfer"
-                },
-                "延_1": {
-                    "type": "walk-transfer"
-                },
-                "怀_1": {
-                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -7050,9 +6982,6 @@
                     "line": "9",
                     "system": "Metro",
                     "type": "train"
-                },
-                "副_1": {
-                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -7413,372 +7342,6 @@
                 }
             },
             "system": "Metro"
-        },
-        "副_1": {
-            "line": "副",
-            "name": {
-                "zh": "北京西站"
-            },
-            "neighbors": {
-                "7_1": {
-                    "type": "walk-transfer"
-                },
-                "9_5": {
-                    "type": "walk-transfer"
-                },
-                "副_2": {
-                    "direction": "副_4",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "副_2": {
-            "line": "副",
-            "name": {
-                "zh": "北京站"
-            },
-            "neighbors": {
-                "2_10": {
-                    "type": "walk-transfer"
-                },
-                "副_1": {
-                    "direction": "副_1",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "副_3": {
-                    "direction": "副_4",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "副_3": {
-            "line": "副",
-            "name": {
-                "zh": "北京东"
-            },
-            "neighbors": {
-                "副_2": {
-                    "direction": "副_1",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "副_4": {
-                    "direction": "副_4",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "副_4": {
-            "line": "副",
-            "name": {
-                "zh": "通州"
-            },
-            "neighbors": {
-                "副_3": {
-                    "direction": "副_1",
-                    "line": "副",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延/1_1": {
-            "line": "延/1",
-            "name": {
-                "zh": "黄土店"
-            },
-            "neighbors": {
-                "13_9": {
-                    "type": "walk-transfer"
-                },
-                "8_5": {
-                    "type": "walk-transfer"
-                },
-                "延/1_2": {
-                    "direction": "延/1_4",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_1": {
-                    "type": "walk-in"
-                },
-                "怀_1": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延/1_2": {
-            "line": "延/1",
-            "name": {
-                "zh": "南口"
-            },
-            "neighbors": {
-                "延/1_1": {
-                    "direction": "延/1_1",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延/1_3": {
-                    "direction": "延/1_4",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_2": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延/1_3": {
-            "line": "延/1",
-            "name": {
-                "zh": "八达岭"
-            },
-            "neighbors": {
-                "延/1_2": {
-                    "direction": "延/1_1",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延/1_4": {
-                    "direction": "延/1_4",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_3": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延/1_4": {
-            "line": "延/1",
-            "name": {
-                "zh": "延庆"
-            },
-            "neighbors": {
-                "延/1_3": {
-                    "direction": "延/1_1",
-                    "line": "延/1",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延_1": {
-            "line": "延",
-            "name": {
-                "zh": "黄土店"
-            },
-            "neighbors": {
-                "13_9": {
-                    "type": "walk-transfer"
-                },
-                "8_5": {
-                    "type": "walk-transfer"
-                },
-                "延/1_1": {
-                    "type": "walk-in"
-                },
-                "延_2": {
-                    "direction": "延_5",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "怀_1": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延_2": {
-            "line": "延",
-            "name": {
-                "zh": "南口"
-            },
-            "neighbors": {
-                "延/1_2": {
-                    "type": "walk-in"
-                },
-                "延_1": {
-                    "direction": "延_1",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_3": {
-                    "direction": "延_5",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延_3": {
-            "line": "延",
-            "name": {
-                "zh": "八达岭"
-            },
-            "neighbors": {
-                "延/1_3": {
-                    "type": "walk-in"
-                },
-                "延_2": {
-                    "direction": "延_1",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_4": {
-                    "direction": "延_5",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延_4": {
-            "line": "延",
-            "name": {
-                "zh": "康庄"
-            },
-            "neighbors": {
-                "延_3": {
-                    "direction": "延_1",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "延_5": {
-                    "direction": "延_5",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "延_5": {
-            "line": "延",
-            "name": {
-                "zh": "沙城"
-            },
-            "neighbors": {
-                "延_4": {
-                    "direction": "延_1",
-                    "line": "延",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "怀_1": {
-            "line": "怀",
-            "name": {
-                "zh": "黄土店"
-            },
-            "neighbors": {
-                "13_9": {
-                    "type": "walk-transfer"
-                },
-                "8_5": {
-                    "type": "walk-transfer"
-                },
-                "延/1_1": {
-                    "type": "walk-in"
-                },
-                "延_1": {
-                    "type": "walk-in"
-                },
-                "怀_2": {
-                    "direction": "怀_4",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "怀_2": {
-            "line": "怀",
-            "name": {
-                "zh": "昌平北"
-            },
-            "neighbors": {
-                "怀_1": {
-                    "direction": "怀_1",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "怀_3": {
-                    "direction": "怀_4",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "怀_3": {
-            "line": "怀",
-            "name": {
-                "zh": "范各庄"
-            },
-            "neighbors": {
-                "怀_2": {
-                    "direction": "怀_1",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                },
-                "怀_4": {
-                    "direction": "怀_4",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
-        },
-        "怀_4": {
-            "line": "怀",
-            "name": {
-                "zh": "怀柔北"
-            },
-            "neighbors": {
-                "怀_3": {
-                    "direction": "怀_1",
-                    "line": "怀",
-                    "system": "市郊铁路",
-                    "type": "train"
-                }
-            },
-            "system": "市郊铁路"
         },
         "房_1": {
             "line": "房",
@@ -9128,9 +8691,6 @@
     "Systems": {
         "Metro": {
             "zh": "Metro"
-        },
-        "市郊铁路": {
-            "zh": "市郊铁路"
         },
         "机场快线": {
             "zh": "机场快线"
