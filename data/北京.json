@@ -25,7 +25,7 @@
         "13": {
             "color": "#F6DA40",
             "direction": [
-                "13_16",
+                "13_17",
                 "13_1"
             ],
             "name": {
@@ -44,11 +44,11 @@
             },
             "shortname": "14"
         },
-        "14/1": {
+        "14_": {
             "color": "#CC9A8E",
             "direction": [
-                "14/1_21",
-                "14/1_1"
+                "14__21",
+                "14__1"
             ],
             "name": {
                 "zh": "十四号线"
@@ -124,7 +124,7 @@
         "7": {
             "color": "#FFC66E",
             "direction": [
-                "7_20",
+                "7_29",
                 "7_1"
             ],
             "name": {
@@ -143,11 +143,11 @@
             },
             "shortname": "8"
         },
-        "8/1": {
+        "8_": {
             "color": "#009878",
             "direction": [
-                "8/1_12",
-                "8/1_1"
+                "8__12",
+                "8__1"
             ],
             "name": {
                 "zh": "八号线"
@@ -168,13 +168,24 @@
         "亦": {
             "color": "#D6006E",
             "direction": [
-                "亦_13",
+                "亦_14",
                 "亦_1"
             ],
             "name": {
                 "zh": "亦庄线"
             },
             "shortname": "亦"
+        },
+        "大": {
+            "color": "#A292B3",
+            "direction": [
+                "大_3",
+                ""
+            ],
+            "name": {
+                "zh": "大兴机场线"
+            },
+            "shortname": "大"
         },
         "房": {
             "color": "#DC6016",
@@ -198,28 +209,6 @@
             },
             "shortname": "昌"
         },
-        "机": {
-            "color": "#A292B3",
-            "direction": [
-                "机_4",
-                ""
-            ],
-            "name": {
-                "zh": "机场快线"
-            },
-            "shortname": "机"
-        },
-        "机/1": {
-            "color": "#A292B3",
-            "direction": [
-                "机/1_4",
-                ""
-            ],
-            "name": {
-                "zh": "机场快线"
-            },
-            "shortname": "机"
-        },
         "燕": {
             "color": "#DC6016",
             "direction": [
@@ -234,7 +223,7 @@
         "通": {
             "color": "#A8353A",
             "direction": [
-                "通_13",
+                "通_14",
                 "通_1"
             ],
             "name": {
@@ -263,6 +252,28 @@
                 "zh": "门头沟线"
             },
             "shortname": "门"
+        },
+        "首": {
+            "color": "#A292B3",
+            "direction": [
+                "首_4",
+                ""
+            ],
+            "name": {
+                "zh": "首都机场线"
+            },
+            "shortname": "首"
+        },
+        "首_": {
+            "color": "#A292B3",
+            "direction": [
+                "首__4",
+                ""
+            ],
+            "name": {
+                "zh": "首都机场线"
+            },
+            "shortname": "首"
         }
     },
     "Stations": {
@@ -353,7 +364,7 @@
                     "system": "Metro",
                     "type": "train"
                 },
-                "13_13": {
+                "13_14": {
                     "type": "walk-in"
                 }
             },
@@ -398,10 +409,10 @@
                     "system": "Metro",
                     "type": "train"
                 },
-                "机/1_3": {
+                "首_2": {
                     "type": "walk-transfer"
                 },
-                "机_2": {
+                "首__3": {
                     "type": "walk-transfer"
                 }
             },
@@ -577,6 +588,9 @@
                     "line": "10",
                     "system": "Metro",
                     "type": "train"
+                },
+                "7_12": {
+                    "type": "walk-in"
                 }
             },
             "system": "Metro"
@@ -641,7 +655,7 @@
                     "system": "Metro",
                     "type": "train"
                 },
-                "14/1_6": {
+                "14__6": {
                     "type": "walk-in"
                 }
             },
@@ -844,6 +858,9 @@
                     "line": "10",
                     "system": "Metro",
                     "type": "train"
+                },
+                "大_1": {
+                    "type": "walk-transfer"
                 }
             },
             "system": "Metro"
@@ -1272,7 +1289,7 @@
             },
             "neighbors": {
                 "13_2": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1289,11 +1306,11 @@
         "13_10": {
             "line": "13",
             "name": {
-                "zh": "立水桥"
+                "zh": "霍营"
             },
             "neighbors": {
                 "13_11": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1304,7 +1321,7 @@
                     "system": "Metro",
                     "type": "train"
                 },
-                "5_4": {
+                "8_5": {
                     "type": "walk-in"
                 }
             },
@@ -1313,7 +1330,7 @@
         "13_11": {
             "line": "13",
             "name": {
-                "zh": "北苑"
+                "zh": "立水桥"
             },
             "neighbors": {
                 "13_10": {
@@ -1323,10 +1340,13 @@
                     "type": "train"
                 },
                 "13_12": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
+                },
+                "5_4": {
+                    "type": "walk-in"
                 }
             },
             "system": "Metro"
@@ -1334,7 +1354,7 @@
         "13_12": {
             "line": "13",
             "name": {
-                "zh": "望京西"
+                "zh": "北苑"
             },
             "neighbors": {
                 "13_11": {
@@ -1344,7 +1364,28 @@
                     "type": "train"
                 },
                 "13_13": {
-                    "direction": "13_16",
+                    "direction": "13_17",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "13_13": {
+            "line": "13",
+            "name": {
+                "zh": "望京西"
+            },
+            "neighbors": {
+                "13_12": {
+                    "direction": "13_1",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "13_14": {
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1355,7 +1396,7 @@
             },
             "system": "Metro"
         },
-        "13_13": {
+        "13_14": {
             "line": "13",
             "name": {
                 "zh": "芍药居"
@@ -1364,27 +1405,6 @@
                 "10_12": {
                     "type": "walk-in"
                 },
-                "13_12": {
-                    "direction": "13_1",
-                    "line": "13",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "13_14": {
-                    "direction": "13_16",
-                    "line": "13",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "13_14": {
-            "line": "13",
-            "name": {
-                "zh": "光熙门"
-            },
-            "neighbors": {
                 "13_13": {
                     "direction": "13_1",
                     "line": "13",
@@ -1392,7 +1412,7 @@
                     "type": "train"
                 },
                 "13_15": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1403,7 +1423,7 @@
         "13_15": {
             "line": "13",
             "name": {
-                "zh": "柳芳"
+                "zh": "光熙门"
             },
             "neighbors": {
                 "13_14": {
@@ -1413,7 +1433,7 @@
                     "type": "train"
                 },
                 "13_16": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1424,7 +1444,7 @@
         "13_16": {
             "line": "13",
             "name": {
-                "zh": "东直门"
+                "zh": "柳芳"
             },
             "neighbors": {
                 "13_15": {
@@ -1433,13 +1453,34 @@
                     "system": "Metro",
                     "type": "train"
                 },
+                "13_17": {
+                    "direction": "13_17",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "13_17": {
+            "line": "13",
+            "name": {
+                "zh": "东直门"
+            },
+            "neighbors": {
+                "13_16": {
+                    "direction": "13_1",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                },
                 "2_6": {
                     "type": "walk-in"
                 },
-                "机/1_4": {
+                "首_1": {
                     "type": "walk-transfer"
                 },
-                "机_1": {
+                "首__4": {
                     "type": "walk-transfer"
                 }
             },
@@ -1458,7 +1499,7 @@
                     "type": "train"
                 },
                 "13_3": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1482,7 +1523,7 @@
                     "type": "train"
                 },
                 "13_4": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1503,7 +1544,7 @@
                     "type": "train"
                 },
                 "13_5": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1524,7 +1565,7 @@
                     "type": "train"
                 },
                 "13_6": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1535,7 +1576,7 @@
         "13_6": {
             "line": "13",
             "name": {
-                "zh": "西二旗"
+                "zh": "清河"
             },
             "neighbors": {
                 "13_5": {
@@ -1545,7 +1586,28 @@
                     "type": "train"
                 },
                 "13_7": {
-                    "direction": "13_16",
+                    "direction": "13_17",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "13_7": {
+            "line": "13",
+            "name": {
+                "zh": "西二旗"
+            },
+            "neighbors": {
+                "13_6": {
+                    "direction": "13_1",
+                    "line": "13",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "13_8": {
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1556,31 +1618,10 @@
             },
             "system": "Metro"
         },
-        "13_7": {
-            "line": "13",
-            "name": {
-                "zh": "龙泽"
-            },
-            "neighbors": {
-                "13_6": {
-                    "direction": "13_1",
-                    "line": "13",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "13_8": {
-                    "direction": "13_16",
-                    "line": "13",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
         "13_8": {
             "line": "13",
             "name": {
-                "zh": "回龙观"
+                "zh": "龙泽"
             },
             "neighbors": {
                 "13_7": {
@@ -1590,7 +1631,7 @@
                     "type": "train"
                 },
                 "13_9": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1601,11 +1642,11 @@
         "13_9": {
             "line": "13",
             "name": {
-                "zh": "霍营"
+                "zh": "回龙观"
             },
             "neighbors": {
                 "13_10": {
-                    "direction": "13_16",
+                    "direction": "13_17",
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
@@ -1615,462 +1656,6 @@
                     "line": "13",
                     "system": "Metro",
                     "type": "train"
-                },
-                "8_5": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_1": {
-            "line": "14/1",
-            "name": {
-                "zh": "北京南站"
-            },
-            "neighbors": {
-                "14/1_2": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "4_21": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_10": {
-            "line": "14/1",
-            "name": {
-                "zh": "大望路"
-            },
-            "neighbors": {
-                "14/1_11": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_9": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "1_21": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_11": {
-            "line": "14/1",
-            "name": {
-                "zh": "金台路"
-            },
-            "neighbors": {
-                "14/1_10": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_12": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "6_19": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_12": {
-            "line": "14/1",
-            "name": {
-                "zh": "朝阳公园"
-            },
-            "neighbors": {
-                "14/1_11": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_13": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_13": {
-            "line": "14/1",
-            "name": {
-                "zh": "枣营"
-            },
-            "neighbors": {
-                "14/1_12": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_14": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_14": {
-            "line": "14/1",
-            "name": {
-                "zh": "东风北桥"
-            },
-            "neighbors": {
-                "14/1_13": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_15": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_15": {
-            "line": "14/1",
-            "name": {
-                "zh": "将台"
-            },
-            "neighbors": {
-                "14/1_14": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_16": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_16": {
-            "line": "14/1",
-            "name": {
-                "zh": "望京南"
-            },
-            "neighbors": {
-                "14/1_15": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_17": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_17": {
-            "line": "14/1",
-            "name": {
-                "zh": "阜通"
-            },
-            "neighbors": {
-                "14/1_16": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_18": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_18": {
-            "line": "14/1",
-            "name": {
-                "zh": "望京"
-            },
-            "neighbors": {
-                "14/1_17": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_19": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "15_9": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_19": {
-            "line": "14/1",
-            "name": {
-                "zh": "东湖渠"
-            },
-            "neighbors": {
-                "14/1_18": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_20": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_2": {
-            "line": "14/1",
-            "name": {
-                "zh": "永定门外"
-            },
-            "neighbors": {
-                "14/1_1": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_3": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_3": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_20": {
-            "line": "14/1",
-            "name": {
-                "zh": "来广营"
-            },
-            "neighbors": {
-                "14/1_19": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_21": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_21": {
-            "line": "14/1",
-            "name": {
-                "zh": "善各庄"
-            },
-            "neighbors": {
-                "14/1_20": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_3": {
-            "line": "14/1",
-            "name": {
-                "zh": "景泰"
-            },
-            "neighbors": {
-                "14/1_2": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_4": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_4": {
-            "line": "14/1",
-            "name": {
-                "zh": "蒲黄榆"
-            },
-            "neighbors": {
-                "14/1_3": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_5": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "5_21": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_5": {
-            "line": "14/1",
-            "name": {
-                "zh": "方庄"
-            },
-            "neighbors": {
-                "14/1_4": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_6": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_6": {
-            "line": "14/1",
-            "name": {
-                "zh": "十里河"
-            },
-            "neighbors": {
-                "10_24": {
-                    "type": "walk-in"
-                },
-                "14/1_5": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_7": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_7": {
-            "line": "14/1",
-            "name": {
-                "zh": "北工大西门"
-            },
-            "neighbors": {
-                "14/1_6": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_8": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_8": {
-            "line": "14/1",
-            "name": {
-                "zh": "平乐园"
-            },
-            "neighbors": {
-                "14/1_7": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_9": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "14/1_9": {
-            "line": "14/1",
-            "name": {
-                "zh": "九龙山"
-            },
-            "neighbors": {
-                "14/1_10": {
-                    "direction": "14/1_21",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "14/1_8": {
-                    "direction": "14/1_1",
-                    "line": "14/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "7_12": {
-                    "type": "walk-in"
                 }
             },
             "system": "Metro"
@@ -2212,6 +1797,459 @@
                     "line": "14",
                     "system": "Metro",
                     "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__1": {
+            "line": "14_",
+            "name": {
+                "zh": "北京南站"
+            },
+            "neighbors": {
+                "14__2": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "4_21": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__10": {
+            "line": "14_",
+            "name": {
+                "zh": "大望路"
+            },
+            "neighbors": {
+                "14__11": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__9": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "1_21": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__11": {
+            "line": "14_",
+            "name": {
+                "zh": "金台路"
+            },
+            "neighbors": {
+                "14__10": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__12": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "6_19": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__12": {
+            "line": "14_",
+            "name": {
+                "zh": "朝阳公园"
+            },
+            "neighbors": {
+                "14__11": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__13": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__13": {
+            "line": "14_",
+            "name": {
+                "zh": "枣营"
+            },
+            "neighbors": {
+                "14__12": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__14": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__14": {
+            "line": "14_",
+            "name": {
+                "zh": "东风北桥"
+            },
+            "neighbors": {
+                "14__13": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__15": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__15": {
+            "line": "14_",
+            "name": {
+                "zh": "将台"
+            },
+            "neighbors": {
+                "14__14": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__16": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__16": {
+            "line": "14_",
+            "name": {
+                "zh": "望京南"
+            },
+            "neighbors": {
+                "14__15": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__17": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__17": {
+            "line": "14_",
+            "name": {
+                "zh": "阜通"
+            },
+            "neighbors": {
+                "14__16": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__18": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__18": {
+            "line": "14_",
+            "name": {
+                "zh": "望京"
+            },
+            "neighbors": {
+                "14__17": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__19": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "15_9": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__19": {
+            "line": "14_",
+            "name": {
+                "zh": "东湖渠"
+            },
+            "neighbors": {
+                "14__18": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__20": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__2": {
+            "line": "14_",
+            "name": {
+                "zh": "永定门外"
+            },
+            "neighbors": {
+                "14__1": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__3": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__3": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__20": {
+            "line": "14_",
+            "name": {
+                "zh": "来广营"
+            },
+            "neighbors": {
+                "14__19": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__21": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__21": {
+            "line": "14_",
+            "name": {
+                "zh": "善各庄"
+            },
+            "neighbors": {
+                "14__20": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__3": {
+            "line": "14_",
+            "name": {
+                "zh": "景泰"
+            },
+            "neighbors": {
+                "14__2": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__4": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__4": {
+            "line": "14_",
+            "name": {
+                "zh": "蒲黄榆"
+            },
+            "neighbors": {
+                "14__3": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__5": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "5_21": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__5": {
+            "line": "14_",
+            "name": {
+                "zh": "方庄"
+            },
+            "neighbors": {
+                "14__4": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__6": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__6": {
+            "line": "14_",
+            "name": {
+                "zh": "十里河"
+            },
+            "neighbors": {
+                "10_24": {
+                    "type": "walk-in"
+                },
+                "14__5": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__7": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__7": {
+            "line": "14_",
+            "name": {
+                "zh": "北工大西门"
+            },
+            "neighbors": {
+                "14__6": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__8": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__8": {
+            "line": "14_",
+            "name": {
+                "zh": "平乐园"
+            },
+            "neighbors": {
+                "14__7": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__9": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "14__9": {
+            "line": "14_",
+            "name": {
+                "zh": "九龙山"
+            },
+            "neighbors": {
+                "14__10": {
+                    "direction": "14__21",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "14__8": {
+                    "direction": "14__1",
+                    "line": "14_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_13": {
+                    "type": "walk-in"
                 }
             },
             "system": "Metro"
@@ -2594,7 +2632,7 @@
                 "zh": "望京西"
             },
             "neighbors": {
-                "13_12": {
+                "13_13": {
                     "type": "walk-in"
                 },
                 "15_7": {
@@ -2618,7 +2656,7 @@
                 "zh": "望京"
             },
             "neighbors": {
-                "14/1_18": {
+                "14__18": {
                     "type": "walk-in"
                 },
                 "15_10": {
@@ -3125,7 +3163,7 @@
                 "zh": "大望路"
             },
             "neighbors": {
-                "14/1_10": {
+                "14__10": {
                     "type": "walk-in"
                 },
                 "1_20": {
@@ -3662,7 +3700,7 @@
                 "zh": "东直门"
             },
             "neighbors": {
-                "13_16": {
+                "13_17": {
                     "type": "walk-in"
                 },
                 "2_5": {
@@ -3677,10 +3715,10 @@
                     "system": "Metro",
                     "type": "train"
                 },
-                "机/1_4": {
+                "首_1": {
                     "type": "walk-transfer"
                 },
-                "机_1": {
+                "首__4": {
                     "type": "walk-transfer"
                 }
             },
@@ -4049,7 +4087,7 @@
                 "zh": "北京南站"
             },
             "neighbors": {
-                "14/1_1": {
+                "14__1": {
                     "type": "walk-in"
                 },
                 "4_20": {
@@ -4814,7 +4852,7 @@
                 "zh": "蒲黄榆"
             },
             "neighbors": {
-                "14/1_4": {
+                "14__4": {
                     "type": "walk-in"
                 },
                 "5_20": {
@@ -4901,7 +4939,7 @@
                 "zh": "立水桥"
             },
             "neighbors": {
-                "13_10": {
+                "13_11": {
                     "type": "walk-in"
                 },
                 "5_3": {
@@ -5261,7 +5299,7 @@
                 "zh": "金台路"
             },
             "neighbors": {
-                "14/1_11": {
+                "14__11": {
                     "type": "walk-in"
                 },
                 "6_18": {
@@ -5727,7 +5765,7 @@
             },
             "neighbors": {
                 "7_2": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5745,7 +5783,7 @@
             },
             "neighbors": {
                 "7_11": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5772,7 +5810,7 @@
                     "type": "train"
                 },
                 "7_12": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5783,10 +5821,10 @@
         "7_12": {
             "line": "7",
             "name": {
-                "zh": "九龙山"
+                "zh": "双井"
             },
             "neighbors": {
-                "14/1_9": {
+                "10_21": {
                     "type": "walk-in"
                 },
                 "7_11": {
@@ -5796,7 +5834,7 @@
                     "type": "train"
                 },
                 "7_13": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5807,9 +5845,12 @@
         "7_13": {
             "line": "7",
             "name": {
-                "zh": "大郊亭"
+                "zh": "九龙山"
             },
             "neighbors": {
+                "14__9": {
+                    "type": "walk-in"
+                },
                 "7_12": {
                     "direction": "7_1",
                     "line": "7",
@@ -5817,7 +5858,7 @@
                     "type": "train"
                 },
                 "7_14": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5828,7 +5869,7 @@
         "7_14": {
             "line": "7",
             "name": {
-                "zh": "百子湾"
+                "zh": "大郊亭"
             },
             "neighbors": {
                 "7_13": {
@@ -5838,7 +5879,7 @@
                     "type": "train"
                 },
                 "7_15": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5849,7 +5890,7 @@
         "7_15": {
             "line": "7",
             "name": {
-                "zh": "化工"
+                "zh": "百子湾"
             },
             "neighbors": {
                 "7_14": {
@@ -5859,7 +5900,7 @@
                     "type": "train"
                 },
                 "7_16": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5870,7 +5911,7 @@
         "7_16": {
             "line": "7",
             "name": {
-                "zh": "南楼梓庄"
+                "zh": "化工"
             },
             "neighbors": {
                 "7_15": {
@@ -5880,7 +5921,7 @@
                     "type": "train"
                 },
                 "7_17": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5891,7 +5932,7 @@
         "7_17": {
             "line": "7",
             "name": {
-                "zh": "欢乐谷景区"
+                "zh": "南楼梓庄"
             },
             "neighbors": {
                 "7_16": {
@@ -5901,7 +5942,7 @@
                     "type": "train"
                 },
                 "7_18": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5912,7 +5953,7 @@
         "7_18": {
             "line": "7",
             "name": {
-                "zh": "垡头"
+                "zh": "欢乐谷景区"
             },
             "neighbors": {
                 "7_17": {
@@ -5922,7 +5963,7 @@
                     "type": "train"
                 },
                 "7_19": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5933,7 +5974,7 @@
         "7_19": {
             "line": "7",
             "name": {
-                "zh": "双合"
+                "zh": "垡头"
             },
             "neighbors": {
                 "7_18": {
@@ -5943,7 +5984,7 @@
                     "type": "train"
                 },
                 "7_20": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5964,7 +6005,7 @@
                     "type": "train"
                 },
                 "7_3": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -5975,7 +6016,7 @@
         "7_20": {
             "line": "7",
             "name": {
-                "zh": "焦化厂"
+                "zh": "双合"
             },
             "neighbors": {
                 "7_19": {
@@ -5983,6 +6024,198 @@
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
+                },
+                "7_21": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_21": {
+            "line": "7",
+            "name": {
+                "zh": "焦化厂"
+            },
+            "neighbors": {
+                "7_20": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_22": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_22": {
+            "line": "7",
+            "name": {
+                "zh": "黄厂"
+            },
+            "neighbors": {
+                "7_21": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_23": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_23": {
+            "line": "7",
+            "name": {
+                "zh": "郎辛庄"
+            },
+            "neighbors": {
+                "7_22": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_24": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_24": {
+            "line": "7",
+            "name": {
+                "zh": "黑庄户"
+            },
+            "neighbors": {
+                "7_23": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_25": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_25": {
+            "line": "7",
+            "name": {
+                "zh": "万盛西"
+            },
+            "neighbors": {
+                "7_24": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_26": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_26": {
+            "line": "7",
+            "name": {
+                "zh": "万盛东"
+            },
+            "neighbors": {
+                "7_25": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_27": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_27": {
+            "line": "7",
+            "name": {
+                "zh": "群芳"
+            },
+            "neighbors": {
+                "7_26": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_28": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_28": {
+            "line": "7",
+            "name": {
+                "zh": "高楼金"
+            },
+            "neighbors": {
+                "7_27": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "7_29": {
+                    "direction": "7_29",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "7_29": {
+            "line": "7",
+            "name": {
+                "zh": "花庄"
+            },
+            "neighbors": {
+                "7_28": {
+                    "direction": "7_1",
+                    "line": "7",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "通_14": {
+                    "type": "walk-in"
                 }
             },
             "system": "Metro"
@@ -6000,7 +6233,7 @@
                     "type": "train"
                 },
                 "7_4": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6021,7 +6254,7 @@
                     "type": "train"
                 },
                 "7_5": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6045,7 +6278,7 @@
                     "type": "train"
                 },
                 "7_6": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6066,7 +6299,7 @@
                     "type": "train"
                 },
                 "7_7": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6087,12 +6320,12 @@
                     "type": "train"
                 },
                 "7_8": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
                 },
-                "8/1_1": {
+                "8__1": {
                     "type": "walk-in"
                 }
             },
@@ -6111,7 +6344,7 @@
                     "type": "train"
                 },
                 "7_9": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6129,7 +6362,7 @@
                     "type": "walk-in"
                 },
                 "7_10": {
-                    "direction": "7_20",
+                    "direction": "7_29",
                     "line": "7",
                     "system": "Metro",
                     "type": "train"
@@ -6137,252 +6370,6 @@
                 "7_8": {
                     "direction": "7_1",
                     "line": "7",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_1": {
-            "line": "8/1",
-            "name": {
-                "zh": "珠市口"
-            },
-            "neighbors": {
-                "7_7": {
-                    "type": "walk-in"
-                },
-                "8/1_2": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_10": {
-            "line": "8/1",
-            "name": {
-                "zh": "五福堂"
-            },
-            "neighbors": {
-                "8/1_11": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_9": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_11": {
-            "line": "8/1",
-            "name": {
-                "zh": "德茂"
-            },
-            "neighbors": {
-                "8/1_10": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_12": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_12": {
-            "line": "8/1",
-            "name": {
-                "zh": "瀛海"
-            },
-            "neighbors": {
-                "8/1_11": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_2": {
-            "line": "8/1",
-            "name": {
-                "zh": "天桥"
-            },
-            "neighbors": {
-                "8/1_1": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_3": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_3": {
-            "line": "8/1",
-            "name": {
-                "zh": "永定门外"
-            },
-            "neighbors": {
-                "14/1_2": {
-                    "type": "walk-in"
-                },
-                "8/1_2": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_4": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_4": {
-            "line": "8/1",
-            "name": {
-                "zh": "木樨园"
-            },
-            "neighbors": {
-                "8/1_3": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_5": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_5": {
-            "line": "8/1",
-            "name": {
-                "zh": "海户屯"
-            },
-            "neighbors": {
-                "8/1_4": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_6": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_6": {
-            "line": "8/1",
-            "name": {
-                "zh": "大红门南"
-            },
-            "neighbors": {
-                "8/1_5": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_7": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_7": {
-            "line": "8/1",
-            "name": {
-                "zh": "和义"
-            },
-            "neighbors": {
-                "8/1_6": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_8": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_8": {
-            "line": "8/1",
-            "name": {
-                "zh": "东高地"
-            },
-            "neighbors": {
-                "8/1_7": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_9": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                }
-            },
-            "system": "Metro"
-        },
-        "8/1_9": {
-            "line": "8/1",
-            "name": {
-                "zh": "火箭万源"
-            },
-            "neighbors": {
-                "8/1_10": {
-                    "direction": "8/1_12",
-                    "line": "8/1",
-                    "system": "Metro",
-                    "type": "train"
-                },
-                "8/1_8": {
-                    "direction": "8/1_1",
-                    "line": "8/1",
                     "system": "Metro",
                     "type": "train"
                 }
@@ -6692,7 +6679,7 @@
                 "zh": "霍营"
             },
             "neighbors": {
-                "13_9": {
+                "13_10": {
                     "type": "walk-in"
                 },
                 "8_4": {
@@ -6788,6 +6775,252 @@
                 "8_8": {
                     "direction": "8_1",
                     "line": "8",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__1": {
+            "line": "8_",
+            "name": {
+                "zh": "珠市口"
+            },
+            "neighbors": {
+                "7_7": {
+                    "type": "walk-in"
+                },
+                "8__2": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__10": {
+            "line": "8_",
+            "name": {
+                "zh": "五福堂"
+            },
+            "neighbors": {
+                "8__11": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__9": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__11": {
+            "line": "8_",
+            "name": {
+                "zh": "德茂"
+            },
+            "neighbors": {
+                "8__10": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__12": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__12": {
+            "line": "8_",
+            "name": {
+                "zh": "瀛海"
+            },
+            "neighbors": {
+                "8__11": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__2": {
+            "line": "8_",
+            "name": {
+                "zh": "天桥"
+            },
+            "neighbors": {
+                "8__1": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__3": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__3": {
+            "line": "8_",
+            "name": {
+                "zh": "永定门外"
+            },
+            "neighbors": {
+                "14__2": {
+                    "type": "walk-in"
+                },
+                "8__2": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__4": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__4": {
+            "line": "8_",
+            "name": {
+                "zh": "木樨园"
+            },
+            "neighbors": {
+                "8__3": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__5": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__5": {
+            "line": "8_",
+            "name": {
+                "zh": "海户屯"
+            },
+            "neighbors": {
+                "8__4": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__6": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__6": {
+            "line": "8_",
+            "name": {
+                "zh": "大红门南"
+            },
+            "neighbors": {
+                "8__5": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__7": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__7": {
+            "line": "8_",
+            "name": {
+                "zh": "和义"
+            },
+            "neighbors": {
+                "8__6": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__8": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__8": {
+            "line": "8_",
+            "name": {
+                "zh": "东高地"
+            },
+            "neighbors": {
+                "8__7": {
+                    "direction": "8__1",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__9": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "8__9": {
+            "line": "8_",
+            "name": {
+                "zh": "火箭万源"
+            },
+            "neighbors": {
+                "8__10": {
+                    "direction": "8__12",
+                    "line": "8_",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "8__8": {
+                    "direction": "8__1",
+                    "line": "8_",
                     "system": "Metro",
                     "type": "train"
                 }
@@ -7089,7 +7322,7 @@
                     "type": "walk-in"
                 },
                 "亦_2": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7104,7 +7337,7 @@
             },
             "neighbors": {
                 "亦_11": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7131,7 +7364,7 @@
                     "type": "train"
                 },
                 "亦_12": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7152,7 +7385,7 @@
                     "type": "train"
                 },
                 "亦_13": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7167,6 +7400,27 @@
             },
             "neighbors": {
                 "亦_12": {
+                    "direction": "亦_1",
+                    "line": "亦",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "亦_14": {
+                    "direction": "亦_14",
+                    "line": "亦",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "亦_14": {
+            "line": "亦",
+            "name": {
+                "zh": "亦庄火车站"
+            },
+            "neighbors": {
+                "亦_13": {
                     "direction": "亦_1",
                     "line": "亦",
                     "system": "Metro",
@@ -7188,7 +7442,7 @@
                     "type": "train"
                 },
                 "亦_3": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7209,7 +7463,7 @@
                     "type": "train"
                 },
                 "亦_4": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7230,7 +7484,7 @@
                     "type": "train"
                 },
                 "亦_5": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7251,7 +7505,7 @@
                     "type": "train"
                 },
                 "亦_6": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7272,7 +7526,7 @@
                     "type": "train"
                 },
                 "亦_7": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7293,7 +7547,7 @@
                     "type": "train"
                 },
                 "亦_8": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7314,7 +7568,7 @@
                     "type": "train"
                 },
                 "亦_9": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7329,7 +7583,7 @@
             },
             "neighbors": {
                 "亦_10": {
-                    "direction": "亦_13",
+                    "direction": "亦_14",
                     "line": "亦",
                     "system": "Metro",
                     "type": "train"
@@ -7342,6 +7596,47 @@
                 }
             },
             "system": "Metro"
+        },
+        "大_1": {
+            "line": "大",
+            "name": {
+                "zh": "草桥"
+            },
+            "neighbors": {
+                "10_32": {
+                    "type": "walk-transfer"
+                },
+                "大_2": {
+                    "direction": "大_3",
+                    "line": "大",
+                    "system": "大兴机场线",
+                    "type": "train"
+                }
+            },
+            "system": "大兴机场线"
+        },
+        "大_2": {
+            "line": "大",
+            "name": {
+                "zh": "大兴新城"
+            },
+            "neighbors": {
+                "大_3": {
+                    "direction": "大_3",
+                    "line": "大",
+                    "system": "大兴机场线",
+                    "type": "train"
+                }
+            },
+            "system": "大兴机场线"
+        },
+        "大_3": {
+            "line": "大",
+            "name": {
+                "zh": "大兴机场"
+            },
+            "neighbors": {},
+            "system": "大兴机场线"
         },
         "房_1": {
             "line": "房",
@@ -7655,7 +7950,7 @@
                 "zh": "西二旗"
             },
             "neighbors": {
-                "13_6": {
+                "13_7": {
                     "type": "walk-in"
                 },
                 "昌_11": {
@@ -7834,156 +8129,6 @@
                 }
             },
             "system": "Metro"
-        },
-        "机/1_1": {
-            "line": "机/1",
-            "name": {
-                "zh": "三号航站楼"
-            },
-            "neighbors": {
-                "机/1_2": {
-                    "direction": "机/1_4",
-                    "line": "机/1",
-                    "system": "机场快线",
-                    "type": "train"
-                },
-                "机_3": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机/1_2": {
-            "line": "机/1",
-            "name": {
-                "zh": "二号航站楼"
-            },
-            "neighbors": {
-                "机/1_3": {
-                    "direction": "机/1_4",
-                    "line": "机/1",
-                    "system": "机场快线",
-                    "type": "train"
-                },
-                "机_4": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机/1_3": {
-            "line": "机/1",
-            "name": {
-                "zh": "三元桥"
-            },
-            "neighbors": {
-                "10_14": {
-                    "type": "walk-transfer"
-                },
-                "机/1_4": {
-                    "direction": "机/1_4",
-                    "line": "机/1",
-                    "system": "机场快线",
-                    "type": "train"
-                },
-                "机_2": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机/1_4": {
-            "line": "机/1",
-            "name": {
-                "zh": "东直门"
-            },
-            "neighbors": {
-                "13_16": {
-                    "type": "walk-transfer"
-                },
-                "2_6": {
-                    "type": "walk-transfer"
-                },
-                "机_1": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机_1": {
-            "line": "机",
-            "name": {
-                "zh": "东直门"
-            },
-            "neighbors": {
-                "13_16": {
-                    "type": "walk-transfer"
-                },
-                "2_6": {
-                    "type": "walk-transfer"
-                },
-                "机/1_4": {
-                    "type": "walk-in"
-                },
-                "机_2": {
-                    "direction": "机_4",
-                    "line": "机",
-                    "system": "机场快线",
-                    "type": "train"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机_2": {
-            "line": "机",
-            "name": {
-                "zh": "三元桥"
-            },
-            "neighbors": {
-                "10_14": {
-                    "type": "walk-transfer"
-                },
-                "机/1_3": {
-                    "type": "walk-in"
-                },
-                "机_3": {
-                    "direction": "机_4",
-                    "line": "机",
-                    "system": "机场快线",
-                    "type": "train"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机_3": {
-            "line": "机",
-            "name": {
-                "zh": "三号航站楼"
-            },
-            "neighbors": {
-                "机/1_1": {
-                    "type": "walk-in"
-                },
-                "机_4": {
-                    "direction": "机_4",
-                    "line": "机",
-                    "system": "机场快线",
-                    "type": "train"
-                }
-            },
-            "system": "机场快线"
-        },
-        "机_4": {
-            "line": "机",
-            "name": {
-                "zh": "二号航站楼"
-            },
-            "neighbors": {
-                "机/1_2": {
-                    "type": "walk-in"
-                }
-            },
-            "system": "机场快线"
         },
         "燕_1": {
             "line": "燕",
@@ -8175,7 +8320,7 @@
                     "type": "walk-in"
                 },
                 "通_2": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8190,7 +8335,7 @@
             },
             "neighbors": {
                 "通_11": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8217,7 +8362,7 @@
                     "type": "train"
                 },
                 "通_12": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8238,7 +8383,7 @@
                     "type": "train"
                 },
                 "通_13": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8253,6 +8398,30 @@
             },
             "neighbors": {
                 "通_12": {
+                    "direction": "通_1",
+                    "line": "通",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "通_14": {
+                    "direction": "通_14",
+                    "line": "通",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "通_14": {
+            "line": "通",
+            "name": {
+                "zh": "花庄"
+            },
+            "neighbors": {
+                "7_29": {
+                    "type": "walk-in"
+                },
+                "通_13": {
                     "direction": "通_1",
                     "line": "通",
                     "system": "Metro",
@@ -8277,7 +8446,7 @@
                     "type": "train"
                 },
                 "通_3": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8298,7 +8467,7 @@
                     "type": "train"
                 },
                 "通_4": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8319,7 +8488,7 @@
                     "type": "train"
                 },
                 "通_5": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8340,7 +8509,7 @@
                     "type": "train"
                 },
                 "通_6": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8361,7 +8530,7 @@
                     "type": "train"
                 },
                 "通_7": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8382,7 +8551,7 @@
                     "type": "train"
                 },
                 "通_8": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8403,7 +8572,7 @@
                     "type": "train"
                 },
                 "通_9": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8418,7 +8587,7 @@
             },
             "neighbors": {
                 "通_10": {
-                    "direction": "通_13",
+                    "direction": "通_14",
                     "line": "通",
                     "system": "Metro",
                     "type": "train"
@@ -8686,17 +8855,170 @@
                 }
             },
             "system": "Metro"
+        },
+        "首_1": {
+            "line": "首",
+            "name": {
+                "zh": "东直门"
+            },
+            "neighbors": {
+                "13_17": {
+                    "type": "walk-transfer"
+                },
+                "2_6": {
+                    "type": "walk-transfer"
+                },
+                "首_2": {
+                    "direction": "首_4",
+                    "line": "首",
+                    "system": "首都机场线",
+                    "type": "train"
+                },
+                "首__4": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首_2": {
+            "line": "首",
+            "name": {
+                "zh": "三元桥"
+            },
+            "neighbors": {
+                "10_14": {
+                    "type": "walk-transfer"
+                },
+                "首_3": {
+                    "direction": "首_4",
+                    "line": "首",
+                    "system": "首都机场线",
+                    "type": "train"
+                },
+                "首__3": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首_3": {
+            "line": "首",
+            "name": {
+                "zh": "三号航站楼"
+            },
+            "neighbors": {
+                "首_4": {
+                    "direction": "首_4",
+                    "line": "首",
+                    "system": "首都机场线",
+                    "type": "train"
+                },
+                "首__1": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首_4": {
+            "line": "首",
+            "name": {
+                "zh": "二号航站楼"
+            },
+            "neighbors": {
+                "首__2": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首__1": {
+            "line": "首_",
+            "name": {
+                "zh": "三号航站楼"
+            },
+            "neighbors": {
+                "首_3": {
+                    "type": "walk-in"
+                },
+                "首__2": {
+                    "direction": "首__4",
+                    "line": "首_",
+                    "system": "首都机场线",
+                    "type": "train"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首__2": {
+            "line": "首_",
+            "name": {
+                "zh": "二号航站楼"
+            },
+            "neighbors": {
+                "首_4": {
+                    "type": "walk-in"
+                },
+                "首__3": {
+                    "direction": "首__4",
+                    "line": "首_",
+                    "system": "首都机场线",
+                    "type": "train"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首__3": {
+            "line": "首_",
+            "name": {
+                "zh": "三元桥"
+            },
+            "neighbors": {
+                "10_14": {
+                    "type": "walk-transfer"
+                },
+                "首_2": {
+                    "type": "walk-in"
+                },
+                "首__4": {
+                    "direction": "首__4",
+                    "line": "首_",
+                    "system": "首都机场线",
+                    "type": "train"
+                }
+            },
+            "system": "首都机场线"
+        },
+        "首__4": {
+            "line": "首_",
+            "name": {
+                "zh": "东直门"
+            },
+            "neighbors": {
+                "13_17": {
+                    "type": "walk-transfer"
+                },
+                "2_6": {
+                    "type": "walk-transfer"
+                },
+                "首_1": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "首都机场线"
         }
     },
     "Systems": {
         "Metro": {
             "zh": "Metro"
         },
-        "机场快线": {
-            "zh": "机场快线"
+        "大兴机场线": {
+            "zh": "大兴机场线"
         },
         "西郊有轨电车": {
             "zh": "西郊有轨电车"
+        },
+        "首都机场线": {
+            "zh": "首都机场线"
         }
     }
 }
