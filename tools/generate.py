@@ -21,7 +21,7 @@ for line in origin["Lines"]:
         line_id = line["Name"]
 
     while line_id in genete["Lines"]:
-        line_id = line_id + "/1"
+        line_id = line_id + "_"
 
     genete["Lines"][line_id] = {
         "name": {

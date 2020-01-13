@@ -1,0 +1,606 @@
+{
+    "Lines": {
+        "ERL": {
+            "color": "#61B4E4",
+            "direction": [
+                "ERL_12",
+                "ERL_1"
+            ],
+            "name": {
+"zh": "東鐵綫",
+                "en": "East Rail Line"
+            },
+            "shortname": "ERL"
+        },
+        "ERL/1": {
+            "color": "#61B4E4",
+            "direction": [
+                "ERL/1_12",
+                "ERL/1_1"
+            ],
+            "name": {
+"zh": "東鐵綫",
+                "en": "East Rail Line"
+            },
+            "shortname": "ERL"
+        }
+    },
+    "Stations": {
+        "ERL/1_1": {
+            "line": "ERL/1",
+            "name": {
+"zh": "落馬洲",
+                "en": "Lok Ma Chau"
+            },
+            "neighbors": {
+                "ERL/1_2": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_10": {
+            "line": "ERL/1",
+            "name": {
+"zh": "九龍塘",
+                "en": "Kowloon Tong"
+            },
+            "neighbors": {
+                "ERL/1_11": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_9": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_10": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_11": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Mongkok East", 
+"zh": "旺角東"
+            },
+            "neighbors": {
+                "ERL/1_10": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_12": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_11": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_12": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Hung Hom", 
+"zh": "紅磡"
+            },
+            "neighbors": {
+                "ERL/1_11": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_12": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_2": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Sheung Shui", 
+"zh": "上水"
+            },
+            "neighbors": {
+                "ERL/1_1": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_3": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_2": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_3": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Fanling", 
+"zh": "粉嶺"
+            },
+            "neighbors": {
+                "ERL/1_2": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_4": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_3": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_4": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Tai Wo", 
+"zh": "太和"
+            },
+            "neighbors": {
+                "ERL/1_3": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_5": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_4": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_5": {
+            "line": "ERL/1",
+            "name": {
+                "en": "Tai Po Market", 
+"zh": "大埔墟"
+            },
+            "neighbors": {
+                "ERL/1_4": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_6": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_5": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_6": {
+            "line": "ERL/1",
+            "name": {
+                "en": "University", 
+"zh": "大學"
+            },
+            "neighbors": {
+                "ERL/1_5": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_7": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_6": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_7": {
+            "line": "ERL/1",
+            "name": {
+                "en": "", 
+"zh": "火炭"
+            },
+            "neighbors": {
+                "ERL/1_6": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_8": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_7": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_8": {
+            "line": "ERL/1",
+            "name": {
+                "en": "", 
+"zh": "沙田"
+            },
+            "neighbors": {
+                "ERL/1_7": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_9": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_8": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL/1_9": {
+            "line": "ERL/1",
+            "name": {
+                "en": "", 
+"zh": "大圍"
+            },
+            "neighbors": {
+                "ERL/1_10": {
+                    "direction": "ERL/1_12",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL/1_8": {
+                    "direction": "ERL/1_1",
+                    "line": "ERL/1",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_9": {
+                    "type": "walk-in"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_1": {
+            "line": "ERL",
+            "name": {
+                "en": "Lo Wu", 
+"zh": "羅湖"
+            },
+            "neighbors": {
+                "ERL_2": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_10": {
+            "line": "ERL",
+            "name": {
+                "en": "", 
+"zh": "九龍塘"
+            },
+            "neighbors": {
+                "ERL/1_10": {
+                    "type": "walk-in"
+                },
+                "ERL_11": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_9": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_11": {
+            "line": "ERL",
+            "name": {
+                "en": "Mongkok East", 
+"zh": "旺角東"
+            },
+            "neighbors": {
+                "ERL/1_11": {
+                    "type": "walk-in"
+                },
+                "ERL_10": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_12": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_12": {
+            "line": "ERL",
+            "name": {
+                "en": "Hung Hom", 
+"zh": "紅磡"
+            },
+            "neighbors": {
+                "ERL/1_12": {
+                    "type": "walk-in"
+                },
+                "ERL_11": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_2": {
+            "line": "ERL",
+            "name": {
+                "en": "Sheung Shui", 
+"zh": "上水"
+            },
+            "neighbors": {
+                "ERL/1_2": {
+                    "type": "walk-in"
+                },
+                "ERL_1": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_3": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_3": {
+            "line": "ERL",
+            "name": {
+                "en": "Fanling", 
+"zh": "粉嶺"
+            },
+            "neighbors": {
+                "ERL/1_3": {
+                    "type": "walk-in"
+                },
+                "ERL_2": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_4": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_4": {
+            "line": "ERL",
+            "name": {
+                "en": "Tai Wo", 
+"zh": "太和"
+            },
+            "neighbors": {
+                "ERL/1_4": {
+                    "type": "walk-in"
+                },
+                "ERL_3": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_5": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_5": {
+            "line": "ERL",
+            "name": {
+                "en": "Tai Po Market", 
+"zh": "大埔墟"
+            },
+            "neighbors": {
+                "ERL/1_5": {
+                    "type": "walk-in"
+                },
+                "ERL_4": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_6": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_6": {
+            "line": "ERL",
+            "name": {
+                "en": "University", 
+"zh": "大學"
+            },
+            "neighbors": {
+                "ERL/1_6": {
+                    "type": "walk-in"
+                },
+                "ERL_5": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_7": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_7": {
+            "line": "ERL",
+            "name": {
+                "en": "", 
+"zh": "火炭"
+            },
+            "neighbors": {
+                "ERL/1_7": {
+                    "type": "walk-in"
+                },
+                "ERL_6": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_8": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_8": {
+            "line": "ERL",
+            "name": {
+                "en": "", 
+"zh": "沙田"
+            },
+            "neighbors": {
+                "ERL/1_8": {
+                    "type": "walk-in"
+                },
+                "ERL_7": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_9": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        },
+        "ERL_9": {
+            "line": "ERL",
+            "name": {
+                "en": "Tai Wai", 
+"zh": "大圍"
+            },
+            "neighbors": {
+                "ERL/1_9": {
+                    "type": "walk-in"
+                },
+                "ERL_10": {
+                    "direction": "ERL_12",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                },
+                "ERL_8": {
+                    "direction": "ERL_1",
+                    "line": "ERL",
+                    "system": "Metro",
+                    "type": "train"
+                }
+            },
+            "system": "Metro"
+        }
+    },
+    "Systems": {
+        "Metro": {
+            "en": "MTR Urban Lines", 
+            "zh": "港铁市区线"
+        }
+    }
+}
