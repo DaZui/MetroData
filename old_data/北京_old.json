@@ -129,7 +129,6 @@
   }, {
     "Name": "大兴机场线",
     "ShortName": "大",
-    "Single": true,
     "Color": "#A292B3",
     "System": "大兴机场线",
     "Stations": ["草桥", "大兴新城", "大兴机场"]

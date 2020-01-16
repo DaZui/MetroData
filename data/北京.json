@@ -180,7 +180,7 @@
             "color": "#A292B3",
             "direction": [
                 "大_3",
-                ""
+                "大_1"
             ],
             "name": {
                 "zh": "大兴机场线"
@@ -7621,6 +7621,12 @@
                 "zh": "大兴新城"
             },
             "neighbors": {
+                "大_1": {
+                    "direction": "大_1",
+                    "line": "大",
+                    "system": "大兴机场线",
+                    "type": "train"
+                },
                 "大_3": {
                     "direction": "大_3",
                     "line": "大",
@@ -7635,7 +7641,14 @@
             "name": {
                 "zh": "大兴机场"
             },
-            "neighbors": {},
+            "neighbors": {
+                "大_2": {
+                    "direction": "大_1",
+                    "line": "大",
+                    "system": "大兴机场线",
+                    "type": "train"
+                }
+            },
             "system": "大兴机场线"
         },
         "房_1": {
