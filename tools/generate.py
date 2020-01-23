@@ -1,7 +1,8 @@
 import json
-location = input()
-origin = json.load(
-    open('old_data/{0}_old.json'.format(location), encoding="utf-8"))
+
+location = input("请输入城市：")
+with open("old_data/{0}_old.json".format(location), encoding="utf-8") as w:
+    origin = json.load(w)
 genete = {"Stations": {}, "Lines": {}, "Systems": {}}
 if "Attention" in origin:
     genete["Attention"] = origin["Attention"]
@@ -24,11 +25,9 @@ for line in origin["Lines"]:
         line_id = line_id + "_"
 
     genete["Lines"][line_id] = {
-        "name": {
-            "zh": line["Name"]
-        },
+        "name": {"zh": line["Name"]},
         "color": line["Color"],
-        "shortname": line["ShortName"] if "ShortName" in line else line["Name"]
+        "shortname": line.get("ShortName", line["Name"]),
     }
     if "Ring" in line:
         if line["Ring"] == 1:
@@ -46,9 +45,7 @@ for line in origin["Lines"]:
 
     genete["Lines"][line_id]["direction"] = direction
     system = line["System"] if "System" in line else "Metro"
-    genete["Systems"][system] = {
-        "zh": system
-    }
+    genete["Systems"][system] = {"zh": system}
     stations = line["Stations"]
     num_of_stations = len(stations)
     for i in range(num_of_stations):
@@ -64,14 +61,14 @@ for line in origin["Lines"]:
                 "type": "train",
                 "direction": direction[0],
                 "line": line_id,
-                "system": system
+                "system": system,
             }
         if i - 1 >= 0 and "Single" not in line:
             temp["neighbors"][generateStationID(line_id, stat_id - 1)] = {
                 "type": "train",
                 "direction": direction[1],
                 "line": line_id,
-                "system": system
+                "system": system,
             }
         if "Ring" in line:
             if i == num_of_stations - 1:
@@ -79,15 +76,17 @@ for line in origin["Lines"]:
                     "type": "train",
                     "direction": direction[0],
                     "line": line_id,
-                    "system": system
+                    "system": system,
                 }
 
             if i == 0:
-                temp["neighbors"][generateStationID(line_id, num_of_stations)] = {
+                temp["neighbors"][
+                    generateStationID(line_id, num_of_stations)
+                ] = {
                     "type": "train",
                     "line": line_id,
                     "direction": direction[1],
-                    "system": system
+                    "system": system,
                 }
         station_name = stations[i]
         if station_name not in visited_stations:
@@ -97,17 +96,32 @@ for line in origin["Lines"]:
 for station in visited_stations:
     for station1_id in visited_stations[station]:
         for station2_id in visited_stations[station]:
-            if station1_id != station2_id:
-                station_name = genete["Stations"][station1_id]["name"]["zh"]
-                line1_name, line2_name = map(lambda x: genete["Lines"][x.split("_")[0]]["name"]["zh"], (station1_id, station2_id))
-                if ("VirtualTransfers" in origin and
-                    ([station_name, line1_name, line2_name] in origin["VirtualTransfers"] or
-                     [station_name, line2_name, line1_name] in origin["VirtualTransfers"])):
-                    genete["Stations"][station1_id]["neighbors"][station2_id] = { "type": "walk-out" }
-                elif genete["Stations"][station1_id]["system"] != genete["Stations"][station2_id]["system"]:
-                    genete["Stations"][station1_id]["neighbors"][station2_id] = { "type": "walk-transfer" }
-                else:
-                    genete["Stations"][station1_id]["neighbors"][station2_id] = { "type": "walk-in" }
+            if station1_id == station2_id:
+                continue
+            station_name = genete["Stations"][station1_id]["name"]["zh"]
+            line1_name, line2_name = map(
+                lambda x: genete["Lines"][x.split("_")[0]]["name"]["zh"],
+                (station1_id, station2_id),
+            )
+            if "VirtualTransfers" in origin and (
+                [station_name, line1_name, line2_name] in origin["VirtualTransfers"]
+                or [station_name, line2_name, line1_name]
+                in origin["VirtualTransfers"]
+            ):
+                genete["Stations"][station1_id]["neighbors"][station2_id] = {
+                    "type": "walk-out"
+                }
+            elif (
+                genete["Stations"][station1_id]["system"]
+                != genete["Stations"][station2_id]["system"]
+            ):
+                genete["Stations"][station1_id]["neighbors"][station2_id] = {
+                    "type": "walk-transfer"
+                }
+            else:
+                genete["Stations"][station1_id]["neighbors"][station2_id] = {
+                    "type": "walk-in"
+                }
 if "Connection" in origin:
     for p in origin["Connection"]:
         if len(p) == 4:
@@ -115,19 +129,31 @@ if "Connection" in origin:
             station1_ids = []
             station2_ids = []
             for station_id in genete["Stations"]:
-                if genete["Stations"][station_id]["name"]["zh"] == station1 and genete["Stations"][station_id]["system"] == system:
+                if (
+                    genete["Stations"][station_id]["name"]["zh"] == station1
+                    and genete["Stations"][station_id]["system"] == system
+                ):
                     station1_ids.append(station_id)
 
-                if genete["Stations"][station_id]["name"]["zh"] == station2 and genete["Stations"][station_id]["system"] == system:
+                if (
+                    genete["Stations"][station_id]["name"]["zh"] == station2
+                    and genete["Stations"][station_id]["system"] == system
+                ):
                     station2_ids.append(station_id)
         if len(p) == 5:
             station1, station2, connectiontype, system1, system2 = p
             station1_ids, station2_ids = [], []
             for station_id in genete["Stations"]:
-                if genete["Stations"][station_id]["name"]["zh"] == station1 and genete["Stations"][station_id]["system"] in system1:
+                if (
+                    genete["Stations"][station_id]["name"]["zh"] == station1
+                    and genete["Stations"][station_id]["system"] in system1
+                ):
                     station1_ids.append(station_id)
 
-                if genete["Stations"][station_id]["name"]["zh"] == station2 and genete["Stations"][station_id]["system"] in system2:
+                if (
+                    genete["Stations"][station_id]["name"]["zh"] == station2
+                    and genete["Stations"][station_id]["system"] in system2
+                ):
                     station2_ids.append(station_id)
 
         for station1_id in station1_ids:
@@ -139,9 +165,5 @@ if "Connection" in origin:
                     "type": connectiontype
                 }
 
-json.dump(
-    genete, open("data/{0}.json".format(location), "w", encoding="utf-8"),
-    ensure_ascii=False,
-    sort_keys=True,
-    indent=4
-)
+with open("data/{0}.json".format(location), "w", encoding="utf-8") as w:
+    json.dump(genete, w)
