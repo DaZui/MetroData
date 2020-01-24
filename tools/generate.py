@@ -27,6 +27,7 @@ for line in origin["Lines"]:
     genete["Lines"][line_id] = {
         "name": {"zh": line["Name"]},
         "color": line["Color"],
+        "system": line["System"],
         "shortname": line.get("ShortName", line["Name"]),
     }
     if "Ring" in line:
@@ -44,7 +45,7 @@ for line in origin["Lines"]:
             direction = [last_stop_id, first_stop_id]
 
     genete["Lines"][line_id]["direction"] = direction
-    system = line["System"] if "System" in line else "Metro"
+    system = line["System"] if "System" in line else "地铁"
     genete["Systems"][system] = {"zh": system}
     stations = line["Stations"]
     num_of_stations = len(stations)
