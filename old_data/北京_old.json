@@ -1,7 +1,7 @@
 {
   "Lines": [
     {
-      "Color": "#A8353A",
+      "Color": "#A4343A",
       "Name": "一号线",
       "ShortName": "1",
       "Stations": [
@@ -32,7 +32,29 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#004A88",
+      "Color": "#A4343A",
+      "Name": "八通线",
+      "ShortName": "通",
+      "Stations": [
+        "四惠",
+        "四惠东",
+        "高碑店",
+        "传媒大学",
+        "双桥",
+        "管庄",
+        "八里桥",
+        "通州北苑",
+        "果园",
+        "九棵树",
+        "梨园",
+        "临河里",
+        "土桥",
+        "花庄"
+      ],
+      "System": "北京地铁"
+    },
+    {
+      "Color": "#004B87",
       "Name": "二号线",
       "Ring": -1,
       "ShortName": "2",
@@ -59,8 +81,8 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#008996",
-      "Name": "四号线-大兴线",
+      "Color": "#008C95",
+      "Name": "四号线大兴线",
       "ShortName": "4",
       "Stations": [
         "安河桥北",
@@ -102,7 +124,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#AF0061",
+      "Color": "#AA0061",
       "Name": "五号线",
       "ShortName": "5",
       "Stations": [
@@ -133,7 +155,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#B78500",
+      "Color": "#B58500",
       "Name": "六号线",
       "ShortName": "6",
       "Stations": [
@@ -173,7 +195,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#FFC66E",
+      "Color": "#FFC56E",
       "Name": "七号线",
       "ShortName": "7",
       "Stations": [
@@ -210,7 +232,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#009878",
+      "Color": "#009B77",
       "Name": "八号线",
       "ShortName": "8",
       "Stations": [
@@ -237,7 +259,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#009878",
+      "Color": "#009B77",
       "Name": "八号线",
       "ShortName": "8",
       "Stations": [
@@ -257,7 +279,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#94D600",
+      "Color": "#97D700",
       "Name": "九号线",
       "ShortName": "9",
       "Stations": [
@@ -278,7 +300,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#008FBF",
+      "Color": "#0092BC",
       "Name": "十号线",
       "Ring": -1,
       "ShortName": "10",
@@ -332,7 +354,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#F6DA40",
+      "Color": "#F4DA40",
       "Name": "十三号线",
       "ShortName": "13",
       "Stations": [
@@ -357,7 +379,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#CC9A8E",
+      "Color": "#CA9A8E",
       "Name": "十四号线",
       "ShortName": "14",
       "Stations": [
@@ -372,7 +394,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#CC9A8E",
+      "Color": "#CA9A8E",
       "Name": "十四号线",
       "ShortName": "14",
       "Stations": [
@@ -401,7 +423,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#673278",
+      "Color": "#653279",
       "Name": "十五号线",
       "ShortName": "15",
       "Stations": [
@@ -429,7 +451,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#6BA53A",
+      "Color": "#6BA539",
       "Name": "十六号线",
       "ShortName": "16",
       "Stations": [
@@ -447,29 +469,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#A8353A",
-      "Name": "八通线",
-      "ShortName": "通",
-      "Stations": [
-        "四惠",
-        "四惠东",
-        "高碑店",
-        "传媒大学",
-        "双桥",
-        "管庄",
-        "八里桥",
-        "通州北苑",
-        "果园",
-        "九棵树",
-        "梨园",
-        "临河里",
-        "土桥",
-        "花庄"
-      ],
-      "System": "北京地铁"
-    },
-    {
-      "Color": "#D6006E",
+      "Color": "#D0006F",
       "Name": "亦庄线",
       "ShortName": "亦",
       "Stations": [
@@ -491,7 +491,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#DC6016",
+      "Color": "#D86018",
       "Name": "房山线",
       "ShortName": "房",
       "Stations": [
@@ -511,7 +511,7 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#DC6016",
+      "Color": "#D86018",
       "Name": "燕房线",
       "ShortName": "燕",
       "Stations": [
@@ -528,7 +528,22 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#DE85BB",
+      "Color": "#A65A2A",
+      "Name": "地铁 S1 线",
+      "ShortName": "S1",
+      "Stations": [
+        "石厂",
+        "小园",
+        "栗园庄",
+        "上岸",
+        "桥户营",
+        "四道桥",
+        "金安桥"
+      ],
+      "System": "北京地铁"
+    },
+    {
+      "Color": "#D986BA",
       "Name": "昌平线",
       "ShortName": "昌",
       "Stations": [
@@ -548,23 +563,8 @@
       "System": "北京地铁"
     },
     {
-      "Color": "#A65A2A",
-      "Name": "门头沟线",
-      "ShortName": "门",
-      "Stations": [
-        "石厂",
-        "小园",
-        "栗园庄",
-        "上岸",
-        "桥户营",
-        "四道桥",
-        "金安桥"
-      ],
-      "System": "北京地铁"
-    },
-    {
-      "Color": "#E1261C",
-      "Name": "西郊有轨电车",
+      "Color": "#D22630",
+      "Name": "西郊线",
       "ShortName": "郊",
       "Stations": [
         "香山",
@@ -577,7 +577,7 @@
       "System": "西郊有轨电车"
     },
     {
-      "Color": "#A292B3",
+      "Color": "#A192B2",
       "Name": "首都机场线",
       "ShortName": "首",
       "Single": true,
@@ -590,7 +590,7 @@
       "System": "首都机场线"
     },
     {
-      "Color": "#A292B3",
+      "Color": "#A192B2",
       "Name": "首都机场线",
       "ShortName": "首",
       "Single": true,
@@ -603,7 +603,7 @@
       "System": "首都机场线"
     },
     {
-      "Color": "#A292B3",
+      "Color": "#0047BB",
       "Name": "大兴机场线",
       "ShortName": "大",
       "Stations": [
