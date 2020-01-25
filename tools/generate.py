@@ -28,6 +28,7 @@ for line in origin["Lines"]:
         "name": {"zh": line["Name"]},
         "color": line["Color"],
         "system": line["System"],
+        "type": line.get("Type", ""),
         "shortname": line.get("ShortName", line["Name"]),
     }
     if "Ring" in line:
