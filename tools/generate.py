@@ -6,6 +6,8 @@ with open("old_data/{0}_old.json".format(location), encoding="utf-8") as w:
 genete = {"Stations": {}, "Lines": {}, "Systems": {}}
 if "Attention" in origin:
     genete["Attention"] = origin["Attention"]
+if "Long-Distance" in origin:
+    genete["Long-Distance"] = origin["Long-Distance"]
 visited_stations = {}
 
 
