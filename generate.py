@@ -1,8 +1,9 @@
 import json
-import sys
+import os
 
-for location in sys.argv[1:]:
-    with open("old_data/{0}_old.json".format(location), encoding="utf-8") as w:
+for i in os.listdir("old_data"):
+    location, _ = i.split("_")
+    with open("old_data/" + i, encoding="utf-8") as w:
         origin = json.load(w)
     genete = {"Stations": {}, "Lines": {}, "Systems": {}}
     if "Attention" in origin:
@@ -83,7 +84,7 @@ for location in sys.argv[1:]:
                             "line": line_id,
                             "direction": direction[1],
                             "system": system,
-                        }
+                    }
             station_name = stations[i]
             if station_name not in visited_stations:
                 visited_stations[station_name] = []
@@ -107,18 +108,18 @@ for location in sys.argv[1:]:
                     genete["Stations"][station1_id]["neighbors"][
                         station2_id] = {
                             "type": "walk-out"
-                        }
+                    }
                 elif (genete["Stations"][station1_id]["system"] !=
                       genete["Stations"][station2_id]["system"]):
                     genete["Stations"][station1_id]["neighbors"][
                         station2_id] = {
                             "type": "walk-transfer"
-                        }
+                    }
                 else:
                     genete["Stations"][station1_id]["neighbors"][
                         station2_id] = {
                             "type": "walk-in"
-                        }
+                    }
     if "Connection" in origin:
         for p in origin["Connection"]:
             if len(p) == 4:
@@ -158,11 +159,11 @@ for location in sys.argv[1:]:
                     genete["Stations"][station1_id]["neighbors"][
                         station2_id] = {
                             "type": connectiontype
-                        }
+                    }
                     genete["Stations"][station2_id]["neighbors"][
                         station1_id] = {
                             "type": connectiontype
-                        }
+                    }
 
     with open("data/{0}.json".format(location), "w", encoding="utf-8") as w:
         json.dump(genete, w, separators=",:")
