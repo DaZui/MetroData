@@ -166,4 +166,4 @@ for i in os.listdir("old_data"):
                     }
 
     with open("data/{0}.json".format(location), "w", encoding="utf-8") as w:
-        json.dump(genete, w, separators=",:")
+        json.dump(genete, w, indent=4, ensure_ascii=False)
