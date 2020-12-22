@@ -1,167 +1,192 @@
 import json
 import os
 
-for i in os.listdir("old_data"):
-    location, _ = i.split("_")
-    with open("old_data/" + i, encoding="utf-8") as w:
-        origin = json.load(w)
-    genete = {"stations": {}, "lines": {}, "systems": {}}
-    if "attentions" in origin:
-        genete["attentions"] = origin["attentions"]
-    visited_stations = {}
 
-    def generateStationID(line, station_sequence):
-        return "{0}_{1}".format(line, station_sequence)
+class City:
+    def __init__(self, filename):
+        self.city = filename.split(".")[0]
+        self.used_line_id = set()
+        self.source_file_path = "old_data/{}.json".format(self.city)
+        self.target_file_path = "data/{}.json".format(self.city)
+        self.attentions = self.content.get("attentions", [])
+        self.systems = sorted(
+            list({line.get("system", "地铁") for line in self.content["lines"]}))
 
-    for line in origin["lines"]:
-        if "id" in line:
-            line_id = line["id"]
-        elif "code" in line:
-            line_id = line["code"]
-        else:
-            line_id = line["name"]
+    @property
+    def content(self):
+        with open(self.source_file_path, encoding="utf-8") as w:
+            return json.load(w)
 
-        while line_id in genete["lines"]:
-            line_id = line_id + "_"
+    class Line:
+        def __init__(self, line_data):
+            self.data = line_data
+            self.code = self.data['code']
+            self.color = self.data['color']
+            self.stations = self.data['stations']
+            self.system = self.data.get("system", "地铁")
+            self.name = self.data.get("name", self.code + " 号线")
+            self.ring = self.data.get('ring', False)
+            self.single = self.data.get('single', False)
+            self.id = "{}/{}/{}/{}".format(
+                self.system,
+                self.data.get("id", self.code),
+                self.stations[0],
+                self.stations[-1]
+            )
 
-        genete["lines"][line_id] = {
-            "name": {
-                "zh": line["name"]
-            },
-            "color": line["color"],
-            "system": line["system"],
-            "type": line.get("type", ""),
-            "code": line.get("code", line["name"]),
-        }
+        def station_id(self, station_idx):
+            return "{}_{}".format(self.id, station_idx)
 
-        direction = ["ccw", "cw"][::line["ring"]] if "ring" in line else [
-            generateStationID(line_id, len(line["stations"])),
-            "" if "single" in line else generateStationID(line_id, 1)
-        ]
+        @property
+        def directions(self):
+            if self.ring:
+                return {
+                    "逆": ["ccw", "cw"],
+                    "顺": ["cw", "ccw"]
+                }[self.ring]
+            direction = [self.station_id(len(self.stations) - 1)]
+            if not self.single:
+                direction.append(self.station_id(0))
+            return direction
 
-        genete["lines"][line_id]["direction"] = direction
-        system = line["system"] if "system" in line else "地铁"
-        genete["systems"][system] = {"zh": system}
-        stations = line["stations"]
-        num_of_stations = len(stations)
-        for i in range(num_of_stations):
-            stat_id = i + 1
-            station_id = generateStationID(line_id, stat_id)
-            temp = {}
-            temp["name"] = {"zh": stations[i]}
-            temp["line"] = line_id
-            temp["system"] = system
-            temp["neighbors"] = {}
-            if i + 1 < num_of_stations:
-                temp["neighbors"][generateStationID(line_id, stat_id + 1)] = {
-                    "type": "train",
-                    "direction": direction[0],
-                    "line": line_id,
-                    "system": system,
-                }
-            if i - 1 >= 0 and "single" not in line:
-                temp["neighbors"][generateStationID(line_id, stat_id - 1)] = {
-                    "type": "train",
-                    "direction": direction[1],
-                    "line": line_id,
-                    "system": system,
-                }
-            if "ring" in line:
-                if i == num_of_stations - 1:
-                    temp["neighbors"][generateStationID(line_id, 1)] = {
-                        "type": "train",
-                        "direction": direction[0],
-                        "line": line_id,
-                        "system": system,
-                    }
+        @property
+        def output_json(self):
+            return {
+                "code": self.code,
+                "color": self.color,
+                "name": self.name,
+                "system": self.system,
+                "direction": self.directions
+            }
 
-                if i == 0:
-                    temp["neighbors"][generateStationID(
-                        line_id, num_of_stations)] = {
-                            "type": "train",
-                            "line": line_id,
-                            "direction": direction[1],
-                            "system": system,
-                    }
-            station_name = stations[i]
-            if station_name not in visited_stations:
-                visited_stations[station_name] = []
-            visited_stations[station_name].append(station_id)
-            genete["stations"][station_id] = temp
-    for station in visited_stations:
-        for station1_id in visited_stations[station]:
-            for station2_id in visited_stations[station]:
-                if station1_id == station2_id:
-                    continue
-                station_name = genete["stations"][station1_id]["name"]["zh"]
-                line1_name, line2_name = map(
-                    lambda x: genete["lines"][x.split("_")[0]]["name"]["zh"],
-                    (station1_id, station2_id),
-                )
-                if "virtualTransfers" in origin and (
-                    [station_name, line1_name, line2_name
-                     ] in origin["virtualTransfers"]
-                        or [station_name, line2_name, line1_name
-                            ] in origin["virtualTransfers"]):
-                    genete["stations"][station1_id]["neighbors"][
-                        station2_id] = {
-                            "type": "walk-out"
-                    }
-                elif (genete["stations"][station1_id]["system"] !=
-                      genete["stations"][station2_id]["system"]):
-                    genete["stations"][station1_id]["neighbors"][
-                        station2_id] = {
-                            "type": "walk-transfer"
-                    }
-                else:
-                    genete["stations"][station1_id]["neighbors"][
-                        station2_id] = {
-                            "type": "walk-in"
-                    }
-    if "connections" in origin:
-        for p in origin["connections"]:
+        def direction_indicator(self, idx):
+            return {
+                "type": "train",
+                "direction": self.directions[idx],
+                "line": self.id,
+                "system": self.system,
+            }
+
+        def neighbors_of_a_station(self, i):
+            neighbors = {}
+            if i + 1 < len(self.stations):
+                neighbors[self.station_id(i + 1)] = self.direction_indicator(0)
+            if i - 1 >= 0 and not self.single:
+                neighbors[self.station_id(i - 1)] = self.direction_indicator(1)
+            if self.ring and i == len(self.stations) - 1:
+                neighbors[self.station_id(0)] = self.direction_indicator(0)
+            if self.ring and i == 0:
+                neighbors[self.station_id(
+                    len(self.stations) - 1)] = self.direction_indicator(1)
+
+            return {
+                "name": self.stations[i],
+                "line": self.id,
+                "system": self.system,
+                "neighbors": neighbors
+            }
+
+        @property
+        def output_stations(self):
+            return {
+                self.station_id(i): self.neighbors_of_a_station(i)
+                for i, name in enumerate(self.stations)
+            }
+
+    @property
+    def lines(self):
+        return [self.Line(x) for x in self.content["lines"]]
+
+    @property
+    def virtualTransfers(self):
+        return self.content.get('virtualTransfers', [])
+
+    @property
+    def connections(self):
+        u = []
+        for p in self.content.get('connections', []):
             if len(p) == 4:
                 station1, station2, connectiontype, system = p
-                station1_ids = []
-                station2_ids = []
-                for station_id in genete["stations"]:
-                    if (genete["stations"][station_id]["name"]["zh"]
-                            == station1
-                            and genete["stations"][station_id]["system"]
-                            == system):
-                        station1_ids.append(station_id)
+                u.append([station1, station2, connectiontype, [system], [system]])
+            elif len(p) == 5:
+                u.append(p)
+        return u
 
-                    if (genete["stations"][station_id]["name"]["zh"]
-                            == station2
-                            and genete["stations"][station_id]["system"]
-                            == system):
-                        station2_ids.append(station_id)
-            if len(p) == 5:
-                station1, station2, connectiontype, system1, system2 = p
-                station1_ids, station2_ids = [], []
-                for station_id in genete["stations"]:
-                    if (genete["stations"][station_id]["name"]["zh"]
-                            == station1
-                            and genete["stations"][station_id]["system"]
-                            in system1):
-                        station1_ids.append(station_id)
+    @property
+    def lines_output(self):
+        return {line.id: line.output_json for line in self.lines}
 
-                    if (genete["stations"][station_id]["name"]["zh"]
-                            == station2
-                            and genete["stations"][station_id]["system"]
-                            in system2):
-                        station2_ids.append(station_id)
+    @property
+    def all_stations(self):
+        visited_stations = {}
+        for line in self.lines:
+            for i, name in enumerate(line.stations):
+                visited_stations[name] = visited_stations.get(
+                    name, []) + [line.station_id(i)]
+        return visited_stations
 
-            for station1_id in station1_ids:
-                for station2_id in station2_ids:
-                    genete["stations"][station1_id]["neighbors"][
-                        station2_id] = {
-                            "type": connectiontype
-                    }
-                    genete["stations"][station2_id]["neighbors"][
-                        station1_id] = {
-                            "type": connectiontype
-                    }
+    @property
+    def stations_output(self):
+        v = {}
+        for line in self.lines:
+            for key, val in line.output_stations.items():
+                v[key] = val
 
-    with open("data/{0}.json".format(location), "w", encoding="utf-8") as w:
-        json.dump(genete, w, indent=4, ensure_ascii=False)
+        for name, ids in self.all_stations.items():
+            if len(ids) < 2:
+                continue
+
+            for id1, id2 in [(a, b) for a in ids for b in ids if a < b]:
+                def get_line_name(station_id):
+                    line_id, station_idx = station_id.split("_")
+                    return line_id
+
+                line1 = get_line_name(id1)
+                line2 = get_line_name(id2)
+
+                if (
+                    [name, line1, line2] in self.virtualTransfers or
+                    [name, line2, line1] in self.virtualTransfers
+                ):
+                    transfer_type = "walk-out"
+                elif v[id1]["system"] != v[id2]["system"]:
+                    transfer_type = "walk-transfer"
+                else:
+                    transfer_type = "walk-in"
+
+                _ = {"type": transfer_type}
+                v[id1]["neighbors"][id2] = _
+                v[id2]["neighbors"][id1] = _
+
+        for p in self.connections:
+            station1, station2, connectiontype, system1, system2 = p
+
+            def f(a, b):
+                return [
+                    station_id for station_id, _ in v.items()
+                    if _["name"] == a and _["system"] in b
+                ]
+
+            _ = {"type": connectiontype}
+            for id1 in f(station1, system1):
+                for id2 in f(station2, system2):
+                    v[id1]["neighbors"][id2] = _
+                    v[id2]["neighbors"][id1] = _
+        return v
+
+    @property
+    def output_json(self):
+        return {
+            "attentions": self.attentions,
+            "lines": self.lines_output,
+            "stations": self.stations_output,
+            "systems": self.systems
+        }
+
+    def output(self):
+        with open(self.target_file_path, "w", encoding="utf-8") as w:
+            json.dump(self.output_json, w, indent=4, ensure_ascii=False)
+
+
+for location in os.listdir("old_data"):
+    City(location).output()

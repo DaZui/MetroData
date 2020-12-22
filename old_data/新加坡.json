@@ -1,9 +1,9 @@
 {
     "lines": [
         {
+            "code": "NS",
             "color": "#D42E12",
             "name": "南北线",
-            "code": "NS",
             "stations": [
                 "裕廊东",
                 "武吉巴督",
@@ -32,13 +32,12 @@
                 "莱佛士坊",
                 "滨海湾",
                 "滨海南码头"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "EW",
             "color": "#009645",
             "name": "东西线",
-            "code": "EW",
             "stations": [
                 "巴西立",
                 "淡滨尼",
@@ -73,24 +72,22 @@
                 "大士弯",
                 "大士西路",
                 "大士连"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "CG",
             "color": "#009645",
             "name": "东西线",
-            "code": "CG",
             "stations": [
                 "丹那美拉",
                 "博览",
                 "樟宜机场"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "NE",
             "color": "#9900AA",
             "name": "东北线",
-            "code": "NE",
             "stations": [
                 "港湾",
                 "欧南园",
@@ -108,13 +105,12 @@
                 "万国",
                 "盛港",
                 "榜鹅"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "CC",
             "color": "#FA9E0D",
             "name": "环线",
-            "code": "CC",
             "stations": [
                 "多美歌",
                 "百胜",
@@ -145,24 +141,22 @@
                 "拉柏多公园",
                 "直落布兰雅",
                 "港湾"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "CE",
             "color": "#FA9E0D",
             "name": "环线",
-            "code": "CE",
             "stations": [
                 "宝门廊",
                 "海湾舫",
                 "滨海湾"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "DT",
             "color": "#005EC4",
             "name": "滨海市区线",
-            "code": "DT",
             "stations": [
                 "武吉班让",
                 "凯秀",
@@ -198,19 +192,17 @@
                 "淡滨尼东",
                 "樟宜上段",
                 "博览"
-            ],
-            "system": "MRT"
+            ]
         },
         {
+            "code": "TE",
             "color": "#9D5B25",
             "name": "汤申－东海岸线",
-            "code": "TE",
             "stations": [
                 "兀兰北",
                 "兀兰",
                 "兀兰南"
-            ],
-            "system": "MRT"
+            ]
         }
     ]
 }

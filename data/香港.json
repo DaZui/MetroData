@@ -1,2734 +1,2449 @@
 {
-    "stations": {
-        "ERL_1": {
-            "name": {
-                "zh": "羅湖"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_2": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_2": {
-            "name": {
-                "zh": "上水"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_3": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_1": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL__2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL_3": {
-            "name": {
-                "zh": "粉嶺"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_4": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_2": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_4": {
-            "name": {
-                "zh": "太和"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_5": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_3": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_5": {
-            "name": {
-                "zh": "大埔墟"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_6": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_4": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_6": {
-            "name": {
-                "zh": "大學"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_7": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_5": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL___1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL_7": {
-            "name": {
-                "zh": "火炭"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_8": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_6": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_8": {
-            "name": {
-                "zh": "沙田"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_9": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_7": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL___3": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL_9": {
-            "name": {
-                "zh": "大圍"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_10": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_8": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_9": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL_10": {
-            "name": {
-                "zh": "九龍塘"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_11": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_9": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_7": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL_11": {
-            "name": {
-                "zh": "旺角東"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_12": {
-                    "type": "train",
-                    "direction": "ERL_12",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_10": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL_12": {
-            "name": {
-                "zh": "紅磡"
-            },
-            "line": "ERL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL_11": {
-                    "type": "train",
-                    "direction": "ERL_1",
-                    "line": "ERL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_12": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL__1": {
-            "name": {
-                "zh": "落馬洲"
-            },
-            "line": "ERL_",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL__2": {
-                    "type": "train",
-                    "direction": "ERL__2",
-                    "line": "ERL_",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL__2": {
-            "name": {
-                "zh": "上水"
-            },
-            "line": "ERL_",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL__1": {
-                    "type": "train",
-                    "direction": "ERL__1",
-                    "line": "ERL_",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL___1": {
-            "name": {
-                "zh": "大學"
-            },
-            "line": "ERL__",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL___2": {
-                    "type": "train",
-                    "direction": "ERL___3",
-                    "line": "ERL__",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_6": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ERL___2": {
-            "name": {
-                "zh": "馬場"
-            },
-            "line": "ERL__",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL___3": {
-                    "type": "train",
-                    "direction": "ERL___3",
-                    "line": "ERL__",
-                    "system": "港鐵市區綫"
-                },
-                "ERL___1": {
-                    "type": "train",
-                    "direction": "ERL___1",
-                    "line": "ERL__",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ERL___3": {
-            "name": {
-                "zh": "沙田"
-            },
-            "line": "ERL__",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ERL___2": {
-                    "type": "train",
-                    "direction": "ERL___1",
-                    "line": "ERL__",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_8": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_1": {
-            "name": {
-                "zh": "黄埔"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_2": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_2": {
-            "name": {
-                "zh": "何文田"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_3": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_1": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_3": {
-            "name": {
-                "zh": "油麻地"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_4": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_2": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_12": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_4": {
-            "name": {
-                "zh": "旺角"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_5": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_3": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_11": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_5": {
-            "name": {
-                "zh": "太子"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_6": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_4": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_10": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_6": {
-            "name": {
-                "zh": "石硤尾"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_7": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_5": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_7": {
-            "name": {
-                "zh": "九龍塘"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_8": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_6": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_10": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_8": {
-            "name": {
-                "zh": "樂富"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_9": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_7": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_9": {
-            "name": {
-                "zh": "黃大仙"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_10": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_8": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_10": {
-            "name": {
-                "zh": "鑽石山"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_11": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_9": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_11": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_11": {
-            "name": {
-                "zh": "彩虹"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_12": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_10": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_12": {
-            "name": {
-                "zh": "九龍灣"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_13": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_11": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_13": {
-            "name": {
-                "zh": "牛頭角"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_14": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_12": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_14": {
-            "name": {
-                "zh": "觀塘"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_15": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_13": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_15": {
-            "name": {
-                "zh": "藍田"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_16": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_14": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "KTL_16": {
-            "name": {
-                "zh": "油塘"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_17": {
-                    "type": "train",
-                    "direction": "KTL_17",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_15": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_3": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "KTL_17": {
-            "name": {
-                "zh": "調景嶺"
-            },
-            "line": "KTL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "KTL_16": {
-                    "type": "train",
-                    "direction": "KTL_1",
-                    "line": "KTL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_4": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_1": {
-            "name": {
-                "zh": "荃灣"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_2": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_2": {
-            "name": {
-                "zh": "大窩口"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_3": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_1": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_3": {
-            "name": {
-                "zh": "葵興"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_4": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_2": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_4": {
-            "name": {
-                "zh": "葵芳"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_5": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_3": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_5": {
-            "name": {
-                "zh": "荔景"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_6": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_4": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_4": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_6": {
-            "name": {
-                "zh": "美孚"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_7": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_5": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_8": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_7": {
-            "name": {
-                "zh": "荔枝角"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_8": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_6": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_8": {
-            "name": {
-                "zh": "長沙灣"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_9": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_7": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_9": {
-            "name": {
-                "zh": "深水埗"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_10": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_8": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_10": {
-            "name": {
-                "zh": "太子"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_11": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_9": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_11": {
-            "name": {
-                "zh": "旺角"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_12": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_10": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_4": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_12": {
-            "name": {
-                "zh": "油麻地"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_13": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_11": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_3": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_13": {
-            "name": {
-                "zh": "佐敦"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_14": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_12": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TWL_14": {
-            "name": {
-                "zh": "尖沙咀"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_15": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_13": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_11": {
-                    "type": "walk-out"
-                }
-            }
-        },
-        "TWL_15": {
-            "name": {
-                "zh": "金鐘"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_16": {
-                    "type": "train",
-                    "direction": "TWL_16",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_14": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_6": {
-                    "type": "walk-in"
-                },
-                "SIL_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TWL_16": {
-            "name": {
-                "zh": "中環"
-            },
-            "line": "TWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TWL_15": {
-                    "type": "train",
-                    "direction": "TWL_1",
-                    "line": "TWL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_5": {
-                    "type": "walk-in"
-                },
-                "TCL_8": {
-                    "type": "walk-in"
-                },
-                "AEL_5": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "ISL_1": {
-            "name": {
-                "zh": "堅尼地城"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_2": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_2": {
-            "name": {
-                "zh": "香港大學"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_3": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_1": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_3": {
-            "name": {
-                "zh": "西營盤"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_4": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_2": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_4": {
-            "name": {
-                "zh": "上環"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_5": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_3": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_5": {
-            "name": {
-                "zh": "中環"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_6": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_4": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_16": {
-                    "type": "walk-in"
-                },
-                "TCL_8": {
-                    "type": "walk-in"
-                },
-                "AEL_5": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "ISL_6": {
-            "name": {
-                "zh": "金鐘"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_7": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_5": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_15": {
-                    "type": "walk-in"
-                },
-                "SIL_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ISL_7": {
-            "name": {
-                "zh": "灣仔"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_8": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_6": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_8": {
-            "name": {
-                "zh": "銅鑼灣"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_9": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_7": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_9": {
-            "name": {
-                "zh": "天后"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_10": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_8": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_10": {
-            "name": {
-                "zh": "炮臺山"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_11": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_9": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_11": {
-            "name": {
-                "zh": "北角"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_12": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_10": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ISL_12": {
-            "name": {
-                "zh": "鲗魚涌"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_13": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_11": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "ISL_13": {
-            "name": {
-                "zh": "太古"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_14": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_12": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_14": {
-            "name": {
-                "zh": "西灣河"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_15": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_13": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_15": {
-            "name": {
-                "zh": "筲箕灣"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_16": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_14": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_16": {
-            "name": {
-                "zh": "杏花邨"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_17": {
-                    "type": "train",
-                    "direction": "ISL_17",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_15": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "ISL_17": {
-            "name": {
-                "zh": "柴灣"
-            },
-            "line": "ISL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "ISL_16": {
-                    "type": "train",
-                    "direction": "ISL_1",
-                    "line": "ISL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "AEL_1": {
-            "name": {
-                "zh": "博覽館"
-            },
-            "line": "AEL",
-            "system": "機場快綫",
-            "neighbors": {
-                "AEL_2": {
-                    "type": "train",
-                    "direction": "AEL_5",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                }
-            }
-        },
-        "AEL_2": {
-            "name": {
-                "zh": "機場"
-            },
-            "line": "AEL",
-            "system": "機場快綫",
-            "neighbors": {
-                "AEL_3": {
-                    "type": "train",
-                    "direction": "AEL_5",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "AEL_1": {
-                    "type": "train",
-                    "direction": "AEL_1",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                }
-            }
-        },
-        "AEL_3": {
-            "name": {
-                "zh": "青衣"
-            },
-            "line": "AEL",
-            "system": "機場快綫",
-            "neighbors": {
-                "AEL_4": {
-                    "type": "train",
-                    "direction": "AEL_5",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "AEL_2": {
-                    "type": "train",
-                    "direction": "AEL_1",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "TCL_3": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "AEL_4": {
-            "name": {
-                "zh": "九龍"
-            },
-            "line": "AEL",
-            "system": "機場快綫",
-            "neighbors": {
-                "AEL_5": {
-                    "type": "train",
-                    "direction": "AEL_5",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "AEL_3": {
-                    "type": "train",
-                    "direction": "AEL_1",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "TCL_7": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "AEL_5": {
-            "name": {
-                "zh": "香港"
-            },
-            "line": "AEL",
-            "system": "機場快綫",
-            "neighbors": {
-                "AEL_4": {
-                    "type": "train",
-                    "direction": "AEL_1",
-                    "line": "AEL",
-                    "system": "機場快綫"
-                },
-                "TCL_8": {
-                    "type": "walk-transfer"
-                },
-                "TWL_16": {
-                    "type": "walk-transfer"
-                },
-                "ISL_5": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "TCL_1": {
-            "name": {
-                "zh": "東涌"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_2": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TCL_2": {
-            "name": {
-                "zh": "欣澳"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_3": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_1": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "DRL_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TCL_3": {
-            "name": {
-                "zh": "青衣"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_4": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_2": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "AEL_3": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "TCL_4": {
-            "name": {
-                "zh": "荔景"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_5": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_3": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TCL_5": {
-            "name": {
-                "zh": "南昌"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_6": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_4": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_9": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TCL_6": {
-            "name": {
-                "zh": "奧運"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_7": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_5": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TCL_7": {
-            "name": {
-                "zh": "九龍"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_8": {
-                    "type": "train",
-                    "direction": "TCL_8",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_6": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "AEL_4": {
-                    "type": "walk-transfer"
-                }
-            }
-        },
-        "TCL_8": {
-            "name": {
-                "zh": "香港"
-            },
-            "line": "TCL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TCL_7": {
-                    "type": "train",
-                    "direction": "TCL_1",
-                    "line": "TCL",
-                    "system": "港鐵市區綫"
-                },
-                "AEL_5": {
-                    "type": "walk-transfer"
-                },
-                "TWL_16": {
-                    "type": "walk-in"
-                },
-                "ISL_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_1": {
-            "name": {
-                "zh": "北角"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_2": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_11": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_2": {
-            "name": {
-                "zh": "鲗魚涌"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_3": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_1": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "ISL_12": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_3": {
-            "name": {
-                "zh": "油塘"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_4": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_2": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_16": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_4": {
-            "name": {
-                "zh": "調景嶺"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_5": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_3": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_17": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_5": {
-            "name": {
-                "zh": "將軍澳"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_6": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_4": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL__1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL_6": {
-            "name": {
-                "zh": "坑口"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_7": {
-                    "type": "train",
-                    "direction": "TKL_7",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_5": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TKL_7": {
-            "name": {
-                "zh": "寶琳"
-            },
-            "line": "TKL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL_6": {
-                    "type": "train",
-                    "direction": "TKL_1",
-                    "line": "TKL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "TKL__1": {
-            "name": {
-                "zh": "將軍澳"
-            },
-            "line": "TKL_",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL__2": {
-                    "type": "train",
-                    "direction": "TKL__2",
-                    "line": "TKL_",
-                    "system": "港鐵市區綫"
-                },
-                "TKL_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TKL__2": {
-            "name": {
-                "zh": "康城"
-            },
-            "line": "TKL_",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "TKL__1": {
-                    "type": "train",
-                    "direction": "TKL__1",
-                    "line": "TKL_",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_1": {
-            "name": {
-                "zh": "屯門"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_2": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_2": {
-            "name": {
-                "zh": "兆康"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_3": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_1": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_3": {
-            "name": {
-                "zh": "天水圍"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_4": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_2": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_4": {
-            "name": {
-                "zh": "朗屏"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_5": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_3": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_5": {
-            "name": {
-                "zh": "元朗"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_6": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_4": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_6": {
-            "name": {
-                "zh": "錦上路"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_7": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_5": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_7": {
-            "name": {
-                "zh": "荃灣西"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_8": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_6": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_8": {
-            "name": {
-                "zh": "美孚"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_9": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_7": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_6": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "WRL_9": {
-            "name": {
-                "zh": "南昌"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_10": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_8": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "WRL_10": {
-            "name": {
-                "zh": "柯士甸"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_11": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_9": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "WRL_11": {
-            "name": {
-                "zh": "尖東"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_12": {
-                    "type": "train",
-                    "direction": "WRL_12",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "WRL_10": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_14": {
-                    "type": "walk-out"
-                }
-            }
-        },
-        "WRL_12": {
-            "name": {
-                "zh": "紅磡"
-            },
-            "line": "WRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "WRL_11": {
-                    "type": "train",
-                    "direction": "WRL_1",
-                    "line": "WRL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_12": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EWL_1": {
-            "name": {
-                "zh": "烏溪沙"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_2": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_2": {
-            "name": {
-                "zh": "馬鞍山"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_3": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_1": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_3": {
-            "name": {
-                "zh": "恒安"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_4": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_2": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_4": {
-            "name": {
-                "zh": "大水坑"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_5": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_3": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_5": {
-            "name": {
-                "zh": "石門"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_6": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_4": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_6": {
-            "name": {
-                "zh": "第一城"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_7": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_5": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_7": {
-            "name": {
-                "zh": "沙田圍"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_8": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_6": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_8": {
-            "name": {
-                "zh": "車公廟"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_9": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_7": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_9": {
-            "name": {
-                "zh": "大圍"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_10": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_8": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "ERL_9": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EWL_10": {
-            "name": {
-                "zh": "顯徑"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_11": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_9": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "EWL_11": {
-            "name": {
-                "zh": "鑽石山"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_12": {
-                    "type": "train",
-                    "direction": "EWL_12",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "EWL_10": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                },
-                "KTL_10": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EWL_12": {
-            "name": {
-                "zh": "啟德"
-            },
-            "line": "EWL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "EWL_11": {
-                    "type": "train",
-                    "direction": "EWL_1",
-                    "line": "EWL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "DRL_1": {
-            "name": {
-                "zh": "欣澳"
-            },
-            "line": "DRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "DRL_2": {
-                    "type": "train",
-                    "direction": "DRL_2",
-                    "line": "DRL",
-                    "system": "港鐵市區綫"
-                },
-                "TCL_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DRL_2": {
-            "name": {
-                "zh": "迪士尼"
-            },
-            "line": "DRL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "DRL_1": {
-                    "type": "train",
-                    "direction": "DRL_1",
-                    "line": "DRL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "SIL_1": {
-            "name": {
-                "zh": "金鐘"
-            },
-            "line": "SIL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "SIL_2": {
-                    "type": "train",
-                    "direction": "SIL_5",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                },
-                "TWL_15": {
-                    "type": "walk-in"
-                },
-                "ISL_6": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "SIL_2": {
-            "name": {
-                "zh": "海洋公園"
-            },
-            "line": "SIL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "SIL_3": {
-                    "type": "train",
-                    "direction": "SIL_5",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                },
-                "SIL_1": {
-                    "type": "train",
-                    "direction": "SIL_1",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "SIL_3": {
-            "name": {
-                "zh": "黃竹坑"
-            },
-            "line": "SIL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "SIL_4": {
-                    "type": "train",
-                    "direction": "SIL_5",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                },
-                "SIL_2": {
-                    "type": "train",
-                    "direction": "SIL_1",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "SIL_4": {
-            "name": {
-                "zh": "利東"
-            },
-            "line": "SIL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "SIL_5": {
-                    "type": "train",
-                    "direction": "SIL_5",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                },
-                "SIL_3": {
-                    "type": "train",
-                    "direction": "SIL_1",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        },
-        "SIL_5": {
-            "name": {
-                "zh": "海怡半島"
-            },
-            "line": "SIL",
-            "system": "港鐵市區綫",
-            "neighbors": {
-                "SIL_4": {
-                    "type": "train",
-                    "direction": "SIL_1",
-                    "line": "SIL",
-                    "system": "港鐵市區綫"
-                }
-            }
-        }
-    },
+    "attentions": [],
     "lines": {
-        "ERL": {
-            "name": {
-                "zh": "東鐵綫"
-            },
-            "color": "#61B4E4",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/ERL/羅湖/紅磡": {
             "code": "ERL",
+            "color": "#61B4E4",
+            "name": "東鐵綫",
+            "system": "地铁",
             "direction": [
-                "ERL_12",
-                "ERL_1"
+                "地铁/ERL/羅湖/紅磡_11",
+                "地铁/ERL/羅湖/紅磡_0"
             ]
         },
-        "ERL_": {
-            "name": {
-                "zh": "東鐵綫"
-            },
-            "color": "#61B4E4",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/ERL/落馬洲/上水": {
             "code": "ERL",
+            "color": "#61B4E4",
+            "name": "東鐵綫",
+            "system": "地铁",
             "direction": [
-                "ERL__2",
-                "ERL__1"
+                "地铁/ERL/落馬洲/上水_1",
+                "地铁/ERL/落馬洲/上水_0"
             ]
         },
-        "ERL__": {
-            "name": {
-                "zh": "東鐵綫"
-            },
-            "color": "#61B4E4",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/ERL/大學/沙田": {
             "code": "ERL",
+            "color": "#61B4E4",
+            "name": "東鐵綫",
+            "system": "地铁",
             "direction": [
-                "ERL___3",
-                "ERL___1"
+                "地铁/ERL/大學/沙田_2",
+                "地铁/ERL/大學/沙田_0"
             ]
         },
-        "KTL": {
-            "name": {
-                "zh": "觀塘綫"
-            },
-            "color": "#00AF41",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/KTL/黄埔/調景嶺": {
             "code": "KTL",
+            "color": "#00AF41",
+            "name": "觀塘綫",
+            "system": "地铁",
             "direction": [
-                "KTL_17",
-                "KTL_1"
+                "地铁/KTL/黄埔/調景嶺_16",
+                "地铁/KTL/黄埔/調景嶺_0"
             ]
         },
-        "TWL": {
-            "name": {
-                "zh": "荃灣綫"
-            },
-            "color": "#E2231A",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/TWL/荃灣/中環": {
             "code": "TWL",
+            "color": "#E2231A",
+            "name": "荃灣綫",
+            "system": "地铁",
             "direction": [
-                "TWL_16",
-                "TWL_1"
+                "地铁/TWL/荃灣/中環_15",
+                "地铁/TWL/荃灣/中環_0"
             ]
         },
-        "ISL": {
-            "name": {
-                "zh": "港島綫"
-            },
-            "color": "#0071CE",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/ISL/堅尼地城/柴灣": {
             "code": "ISL",
+            "color": "#0071CE",
+            "name": "港島綫",
+            "system": "地铁",
             "direction": [
-                "ISL_17",
-                "ISL_1"
+                "地铁/ISL/堅尼地城/柴灣_16",
+                "地铁/ISL/堅尼地城/柴灣_0"
             ]
         },
-        "AEL": {
-            "name": {
-                "zh": "機場快綫"
-            },
-            "color": "#007078",
-            "system": "機場快綫",
-            "type": "",
+        "機場快綫/AEL/博覽館/香港": {
             "code": "AEL",
+            "color": "#007078",
+            "name": "機場快綫",
+            "system": "機場快綫",
             "direction": [
-                "AEL_5",
-                "AEL_1"
+                "機場快綫/AEL/博覽館/香港_4",
+                "機場快綫/AEL/博覽館/香港_0"
             ]
         },
-        "TCL": {
-            "name": {
-                "zh": "東涌綫"
-            },
-            "color": "#F38B00",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/TCL/東涌/香港": {
             "code": "TCL",
+            "color": "#F38B00",
+            "name": "東涌綫",
+            "system": "地铁",
             "direction": [
-                "TCL_8",
-                "TCL_1"
+                "地铁/TCL/東涌/香港_7",
+                "地铁/TCL/東涌/香港_0"
             ]
         },
-        "TKL": {
-            "name": {
-                "zh": "將軍澳綫"
-            },
-            "color": "#A35EB5",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/TKL/北角/寶琳": {
             "code": "TKL",
-            "direction": [
-                "TKL_7",
-                "TKL_1"
-            ]
-        },
-        "TKL_": {
-            "name": {
-                "zh": "將軍澳綫"
-            },
             "color": "#A35EB5",
-            "system": "港鐵市區綫",
-            "type": "",
-            "code": "TKL",
+            "name": "將軍澳綫",
+            "system": "地铁",
             "direction": [
-                "TKL__2",
-                "TKL__1"
+                "地铁/TKL/北角/寶琳_6",
+                "地铁/TKL/北角/寶琳_0"
             ]
         },
-        "WRL": {
-            "name": {
-                "zh": "西鐵綫"
-            },
-            "color": "#B6008D",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/TKL/將軍澳/康城": {
+            "code": "TKL",
+            "color": "#A35EB5",
+            "name": "將軍澳綫",
+            "system": "地铁",
+            "direction": [
+                "地铁/TKL/將軍澳/康城_1",
+                "地铁/TKL/將軍澳/康城_0"
+            ]
+        },
+        "地铁/WRL/屯門/紅磡": {
             "code": "WRL",
+            "color": "#B6008D",
+            "name": "西鐵綫",
+            "system": "地铁",
             "direction": [
-                "WRL_12",
-                "WRL_1"
+                "地铁/WRL/屯門/紅磡_11",
+                "地铁/WRL/屯門/紅磡_0"
             ]
         },
-        "EWL": {
-            "name": {
-                "zh": "屯馬綫"
-            },
-            "color": "#9A3820",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/EWL/烏溪沙/啟德": {
             "code": "EWL",
+            "color": "#9A3820",
+            "name": "屯馬綫",
+            "system": "地铁",
             "direction": [
-                "EWL_12",
-                "EWL_1"
+                "地铁/EWL/烏溪沙/啟德_11",
+                "地铁/EWL/烏溪沙/啟德_0"
             ]
         },
-        "DRL": {
-            "name": {
-                "zh": "迪士尼綫"
-            },
-            "color": "#E777CB",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/DRL/欣澳/迪士尼": {
             "code": "DRL",
+            "color": "#E777CB",
+            "name": "迪士尼綫",
+            "system": "地铁",
             "direction": [
-                "DRL_2",
-                "DRL_1"
+                "地铁/DRL/欣澳/迪士尼_1",
+                "地铁/DRL/欣澳/迪士尼_0"
             ]
         },
-        "SIL": {
-            "name": {
-                "zh": "南港島綫"
-            },
-            "color": "#B6BD00",
-            "system": "港鐵市區綫",
-            "type": "",
+        "地铁/SIL/金鐘/海怡半島": {
             "code": "SIL",
+            "color": "#B6BD00",
+            "name": "南港島綫",
+            "system": "地铁",
             "direction": [
-                "SIL_5",
-                "SIL_1"
+                "地铁/SIL/金鐘/海怡半島_4",
+                "地铁/SIL/金鐘/海怡半島_0"
             ]
         }
     },
-    "systems": {
-        "港鐵市區綫": {
-            "zh": "港鐵市區綫"
+    "stations": {
+        "地铁/ERL/羅湖/紅磡_0": {
+            "name": "羅湖",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_1": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
         },
-        "機場快綫": {
-            "zh": "機場快綫"
+        "地铁/ERL/羅湖/紅磡_1": {
+            "name": "上水",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_2": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_0": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/落馬洲/上水_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_2": {
+            "name": "粉嶺",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_3": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_1": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_3": {
+            "name": "太和",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_4": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_2": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_4": {
+            "name": "大埔墟",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_5": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_3": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_5": {
+            "name": "大學",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_6": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_4": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/大學/沙田_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_6": {
+            "name": "火炭",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_7": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_5": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_7": {
+            "name": "沙田",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_8": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_6": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/大學/沙田_2": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_8": {
+            "name": "大圍",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_9": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_7": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_8": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_9": {
+            "name": "九龍塘",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_10": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_8": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_6": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_10": {
+            "name": "旺角東",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_11": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_11",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_9": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/羅湖/紅磡_11": {
+            "name": "紅磡",
+            "line": "地铁/ERL/羅湖/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/羅湖/紅磡_10": {
+                    "type": "train",
+                    "direction": "地铁/ERL/羅湖/紅磡_0",
+                    "line": "地铁/ERL/羅湖/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_11": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/落馬洲/上水_0": {
+            "name": "落馬洲",
+            "line": "地铁/ERL/落馬洲/上水",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/落馬洲/上水_1": {
+                    "type": "train",
+                    "direction": "地铁/ERL/落馬洲/上水_1",
+                    "line": "地铁/ERL/落馬洲/上水",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/落馬洲/上水_1": {
+            "name": "上水",
+            "line": "地铁/ERL/落馬洲/上水",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/落馬洲/上水_0": {
+                    "type": "train",
+                    "direction": "地铁/ERL/落馬洲/上水_0",
+                    "line": "地铁/ERL/落馬洲/上水",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/大學/沙田_0": {
+            "name": "大學",
+            "line": "地铁/ERL/大學/沙田",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/大學/沙田_1": {
+                    "type": "train",
+                    "direction": "地铁/ERL/大學/沙田_2",
+                    "line": "地铁/ERL/大學/沙田",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_5": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ERL/大學/沙田_1": {
+            "name": "馬場",
+            "line": "地铁/ERL/大學/沙田",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/大學/沙田_2": {
+                    "type": "train",
+                    "direction": "地铁/ERL/大學/沙田_2",
+                    "line": "地铁/ERL/大學/沙田",
+                    "system": "地铁"
+                },
+                "地铁/ERL/大學/沙田_0": {
+                    "type": "train",
+                    "direction": "地铁/ERL/大學/沙田_0",
+                    "line": "地铁/ERL/大學/沙田",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ERL/大學/沙田_2": {
+            "name": "沙田",
+            "line": "地铁/ERL/大學/沙田",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ERL/大學/沙田_1": {
+                    "type": "train",
+                    "direction": "地铁/ERL/大學/沙田_0",
+                    "line": "地铁/ERL/大學/沙田",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_7": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_0": {
+            "name": "黄埔",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_1": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_1": {
+            "name": "何文田",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_2": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_0": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_2": {
+            "name": "油麻地",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_3": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_1": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_11": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_3": {
+            "name": "旺角",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_4": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_2": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_10": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_4": {
+            "name": "太子",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_5": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_3": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_9": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_5": {
+            "name": "石硤尾",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_6": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_4": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_6": {
+            "name": "九龍塘",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_7": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_5": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_9": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_7": {
+            "name": "樂富",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_8": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_6": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_8": {
+            "name": "黃大仙",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_9": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_7": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_9": {
+            "name": "鑽石山",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_10": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_8": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_10": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_10": {
+            "name": "彩虹",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_11": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_9": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_11": {
+            "name": "九龍灣",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_12": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_10": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_12": {
+            "name": "牛頭角",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_13": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_11": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_13": {
+            "name": "觀塘",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_14": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_12": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_14": {
+            "name": "藍田",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_15": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_13": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_15": {
+            "name": "油塘",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_16": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_16",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_14": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_2": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/KTL/黄埔/調景嶺_16": {
+            "name": "調景嶺",
+            "line": "地铁/KTL/黄埔/調景嶺",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/KTL/黄埔/調景嶺_15": {
+                    "type": "train",
+                    "direction": "地铁/KTL/黄埔/調景嶺_0",
+                    "line": "地铁/KTL/黄埔/調景嶺",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_3": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_0": {
+            "name": "荃灣",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_1": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_1": {
+            "name": "大窩口",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_2": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_0": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_2": {
+            "name": "葵興",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_3": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_1": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_3": {
+            "name": "葵芳",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_4": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_2": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_4": {
+            "name": "荔景",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_5": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_3": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_3": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_5": {
+            "name": "美孚",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_6": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_4": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_7": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_6": {
+            "name": "荔枝角",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_7": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_5": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_7": {
+            "name": "長沙灣",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_8": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_6": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_8": {
+            "name": "深水埗",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_9": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_7": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_9": {
+            "name": "太子",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_10": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_8": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_10": {
+            "name": "旺角",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_11": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_9": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_3": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_11": {
+            "name": "油麻地",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_12": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_10": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_2": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_12": {
+            "name": "佐敦",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_13": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_11": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_13": {
+            "name": "尖沙咀",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_14": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_12": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_10": {
+                    "type": "walk-out"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_14": {
+            "name": "金鐘",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_15": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_15",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_13": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_5": {
+                    "type": "walk-in"
+                },
+                "地铁/SIL/金鐘/海怡半島_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TWL/荃灣/中環_15": {
+            "name": "中環",
+            "line": "地铁/TWL/荃灣/中環",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TWL/荃灣/中環_14": {
+                    "type": "train",
+                    "direction": "地铁/TWL/荃灣/中環_0",
+                    "line": "地铁/TWL/荃灣/中環",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_4": {
+                    "type": "walk-in"
+                },
+                "地铁/TCL/東涌/香港_7": {
+                    "type": "walk-in"
+                },
+                "機場快綫/AEL/博覽館/香港_4": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_0": {
+            "name": "堅尼地城",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_1": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_1": {
+            "name": "香港大學",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_2": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_0": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_2": {
+            "name": "西營盤",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_3": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_1": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_3": {
+            "name": "上環",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_4": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_2": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_4": {
+            "name": "中環",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_5": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_3": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_15": {
+                    "type": "walk-in"
+                },
+                "地铁/TCL/東涌/香港_7": {
+                    "type": "walk-in"
+                },
+                "機場快綫/AEL/博覽館/香港_4": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_5": {
+            "name": "金鐘",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_6": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_4": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_14": {
+                    "type": "walk-in"
+                },
+                "地铁/SIL/金鐘/海怡半島_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_6": {
+            "name": "灣仔",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_7": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_5": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_7": {
+            "name": "銅鑼灣",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_8": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_6": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_8": {
+            "name": "天后",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_9": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_7": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_9": {
+            "name": "炮臺山",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_10": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_8": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_10": {
+            "name": "北角",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_11": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_9": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_11": {
+            "name": "鲗魚涌",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_12": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_10": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_12": {
+            "name": "太古",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_13": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_11": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_13": {
+            "name": "西灣河",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_14": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_12": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_14": {
+            "name": "筲箕灣",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_15": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_13": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_15": {
+            "name": "杏花邨",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_16": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_16",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_14": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/ISL/堅尼地城/柴灣_16": {
+            "name": "柴灣",
+            "line": "地铁/ISL/堅尼地城/柴灣",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/ISL/堅尼地城/柴灣_15": {
+                    "type": "train",
+                    "direction": "地铁/ISL/堅尼地城/柴灣_0",
+                    "line": "地铁/ISL/堅尼地城/柴灣",
+                    "system": "地铁"
+                }
+            }
+        },
+        "機場快綫/AEL/博覽館/香港_0": {
+            "name": "博覽館",
+            "line": "機場快綫/AEL/博覽館/香港",
+            "system": "機場快綫",
+            "neighbors": {
+                "機場快綫/AEL/博覽館/香港_1": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_4",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                }
+            }
+        },
+        "機場快綫/AEL/博覽館/香港_1": {
+            "name": "機場",
+            "line": "機場快綫/AEL/博覽館/香港",
+            "system": "機場快綫",
+            "neighbors": {
+                "機場快綫/AEL/博覽館/香港_2": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_4",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "機場快綫/AEL/博覽館/香港_0": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_0",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                }
+            }
+        },
+        "機場快綫/AEL/博覽館/香港_2": {
+            "name": "青衣",
+            "line": "機場快綫/AEL/博覽館/香港",
+            "system": "機場快綫",
+            "neighbors": {
+                "機場快綫/AEL/博覽館/香港_3": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_4",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "機場快綫/AEL/博覽館/香港_1": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_0",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "地铁/TCL/東涌/香港_2": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "機場快綫/AEL/博覽館/香港_3": {
+            "name": "九龍",
+            "line": "機場快綫/AEL/博覽館/香港",
+            "system": "機場快綫",
+            "neighbors": {
+                "機場快綫/AEL/博覽館/香港_4": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_4",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "機場快綫/AEL/博覽館/香港_2": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_0",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "地铁/TCL/東涌/香港_6": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "機場快綫/AEL/博覽館/香港_4": {
+            "name": "香港",
+            "line": "機場快綫/AEL/博覽館/香港",
+            "system": "機場快綫",
+            "neighbors": {
+                "機場快綫/AEL/博覽館/香港_3": {
+                    "type": "train",
+                    "direction": "機場快綫/AEL/博覽館/香港_0",
+                    "line": "機場快綫/AEL/博覽館/香港",
+                    "system": "機場快綫"
+                },
+                "地铁/TCL/東涌/香港_7": {
+                    "type": "walk-transfer"
+                },
+                "地铁/TWL/荃灣/中環_15": {
+                    "type": "walk-transfer"
+                },
+                "地铁/ISL/堅尼地城/柴灣_4": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_0": {
+            "name": "東涌",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_1": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_1": {
+            "name": "欣澳",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_2": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_0": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/DRL/欣澳/迪士尼_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_2": {
+            "name": "青衣",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_3": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_1": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "機場快綫/AEL/博覽館/香港_2": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_3": {
+            "name": "荔景",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_4": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_2": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_4": {
+            "name": "南昌",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_5": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_3": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_8": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_5": {
+            "name": "奧運",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_6": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_4": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_6": {
+            "name": "九龍",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_7": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_7",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_5": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "機場快綫/AEL/博覽館/香港_3": {
+                    "type": "walk-transfer"
+                }
+            }
+        },
+        "地铁/TCL/東涌/香港_7": {
+            "name": "香港",
+            "line": "地铁/TCL/東涌/香港",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TCL/東涌/香港_6": {
+                    "type": "train",
+                    "direction": "地铁/TCL/東涌/香港_0",
+                    "line": "地铁/TCL/東涌/香港",
+                    "system": "地铁"
+                },
+                "機場快綫/AEL/博覽館/香港_4": {
+                    "type": "walk-transfer"
+                },
+                "地铁/TWL/荃灣/中環_15": {
+                    "type": "walk-in"
+                },
+                "地铁/ISL/堅尼地城/柴灣_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_0": {
+            "name": "北角",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_1": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_10": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_1": {
+            "name": "鲗魚涌",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_2": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_0": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_11": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_2": {
+            "name": "油塘",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_3": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_1": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_15": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_3": {
+            "name": "調景嶺",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_4": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_2": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_16": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_4": {
+            "name": "將軍澳",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_5": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_3": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/將軍澳/康城_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_5": {
+            "name": "坑口",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_6": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_6",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_4": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TKL/北角/寶琳_6": {
+            "name": "寶琳",
+            "line": "地铁/TKL/北角/寶琳",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/北角/寶琳_5": {
+                    "type": "train",
+                    "direction": "地铁/TKL/北角/寶琳_0",
+                    "line": "地铁/TKL/北角/寶琳",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TKL/將軍澳/康城_0": {
+            "name": "將軍澳",
+            "line": "地铁/TKL/將軍澳/康城",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/將軍澳/康城_1": {
+                    "type": "train",
+                    "direction": "地铁/TKL/將軍澳/康城_1",
+                    "line": "地铁/TKL/將軍澳/康城",
+                    "system": "地铁"
+                },
+                "地铁/TKL/北角/寶琳_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TKL/將軍澳/康城_1": {
+            "name": "康城",
+            "line": "地铁/TKL/將軍澳/康城",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TKL/將軍澳/康城_0": {
+                    "type": "train",
+                    "direction": "地铁/TKL/將軍澳/康城_0",
+                    "line": "地铁/TKL/將軍澳/康城",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_0": {
+            "name": "屯門",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_1": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_1": {
+            "name": "兆康",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_2": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_0": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_2": {
+            "name": "天水圍",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_3": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_1": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_3": {
+            "name": "朗屏",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_4": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_2": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_4": {
+            "name": "元朗",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_5": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_3": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_5": {
+            "name": "錦上路",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_6": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_4": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_6": {
+            "name": "荃灣西",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_7": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_5": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_7": {
+            "name": "美孚",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_8": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_6": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_5": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_8": {
+            "name": "南昌",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_9": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_7": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_9": {
+            "name": "柯士甸",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_10": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_8": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_10": {
+            "name": "尖東",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_11": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_11",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/WRL/屯門/紅磡_9": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/TWL/荃灣/中環_13": {
+                    "type": "walk-out"
+                }
+            }
+        },
+        "地铁/WRL/屯門/紅磡_11": {
+            "name": "紅磡",
+            "line": "地铁/WRL/屯門/紅磡",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/WRL/屯門/紅磡_10": {
+                    "type": "train",
+                    "direction": "地铁/WRL/屯門/紅磡_0",
+                    "line": "地铁/WRL/屯門/紅磡",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_11": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_0": {
+            "name": "烏溪沙",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_1": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_1": {
+            "name": "馬鞍山",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_2": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_0": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_2": {
+            "name": "恒安",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_3": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_1": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_3": {
+            "name": "大水坑",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_4": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_2": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_4": {
+            "name": "石門",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_5": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_3": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_5": {
+            "name": "第一城",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_6": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_4": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_6": {
+            "name": "沙田圍",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_7": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_5": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_7": {
+            "name": "車公廟",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_8": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_6": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_8": {
+            "name": "大圍",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_9": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_7": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/ERL/羅湖/紅磡_8": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_9": {
+            "name": "顯徑",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_10": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_8": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_10": {
+            "name": "鑽石山",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_11": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_11",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/EWL/烏溪沙/啟德_9": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                },
+                "地铁/KTL/黄埔/調景嶺_9": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EWL/烏溪沙/啟德_11": {
+            "name": "啟德",
+            "line": "地铁/EWL/烏溪沙/啟德",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EWL/烏溪沙/啟德_10": {
+                    "type": "train",
+                    "direction": "地铁/EWL/烏溪沙/啟德_0",
+                    "line": "地铁/EWL/烏溪沙/啟德",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DRL/欣澳/迪士尼_0": {
+            "name": "欣澳",
+            "line": "地铁/DRL/欣澳/迪士尼",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DRL/欣澳/迪士尼_1": {
+                    "type": "train",
+                    "direction": "地铁/DRL/欣澳/迪士尼_1",
+                    "line": "地铁/DRL/欣澳/迪士尼",
+                    "system": "地铁"
+                },
+                "地铁/TCL/東涌/香港_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DRL/欣澳/迪士尼_1": {
+            "name": "迪士尼",
+            "line": "地铁/DRL/欣澳/迪士尼",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DRL/欣澳/迪士尼_0": {
+                    "type": "train",
+                    "direction": "地铁/DRL/欣澳/迪士尼_0",
+                    "line": "地铁/DRL/欣澳/迪士尼",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/SIL/金鐘/海怡半島_0": {
+            "name": "金鐘",
+            "line": "地铁/SIL/金鐘/海怡半島",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/SIL/金鐘/海怡半島_1": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_4",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                },
+                "地铁/ISL/堅尼地城/柴灣_5": {
+                    "type": "walk-in"
+                },
+                "地铁/TWL/荃灣/中環_14": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/SIL/金鐘/海怡半島_1": {
+            "name": "海洋公園",
+            "line": "地铁/SIL/金鐘/海怡半島",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/SIL/金鐘/海怡半島_2": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_4",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                },
+                "地铁/SIL/金鐘/海怡半島_0": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_0",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/SIL/金鐘/海怡半島_2": {
+            "name": "黃竹坑",
+            "line": "地铁/SIL/金鐘/海怡半島",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/SIL/金鐘/海怡半島_3": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_4",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                },
+                "地铁/SIL/金鐘/海怡半島_1": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_0",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/SIL/金鐘/海怡半島_3": {
+            "name": "利東",
+            "line": "地铁/SIL/金鐘/海怡半島",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/SIL/金鐘/海怡半島_4": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_4",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                },
+                "地铁/SIL/金鐘/海怡半島_2": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_0",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/SIL/金鐘/海怡半島_4": {
+            "name": "海怡半島",
+            "line": "地铁/SIL/金鐘/海怡半島",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/SIL/金鐘/海怡半島_3": {
+                    "type": "train",
+                    "direction": "地铁/SIL/金鐘/海怡半島_0",
+                    "line": "地铁/SIL/金鐘/海怡半島",
+                    "system": "地铁"
+                }
+            }
         }
-    }
+    },
+    "systems": [
+        "地铁",
+        "機場快綫"
+    ]
 }

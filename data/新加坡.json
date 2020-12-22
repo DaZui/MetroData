@@ -1,3289 +1,2968 @@
 {
-    "stations": {
-        "NS_1": {
-            "name": {
-                "zh": "裕廊东"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_2": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "EW_24": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_2": {
-            "name": {
-                "zh": "武吉巴督"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_3": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_1": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_3": {
-            "name": {
-                "zh": "武吉甘柏"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_4": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_2": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_4": {
-            "name": {
-                "zh": "蔡厝港"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_5": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_3": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_5": {
-            "name": {
-                "zh": "油池"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_6": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_4": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_6": {
-            "name": {
-                "zh": "克兰芝"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_7": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_5": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_7": {
-            "name": {
-                "zh": "马西岭"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_8": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_6": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_8": {
-            "name": {
-                "zh": "兀兰"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_9": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_7": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "TE_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_9": {
-            "name": {
-                "zh": "海军部"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_10": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_8": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_10": {
-            "name": {
-                "zh": "三巴旺"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_11": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_9": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_11": {
-            "name": {
-                "zh": "坎贝拉"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_12": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_10": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_12": {
-            "name": {
-                "zh": "义顺"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_13": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_11": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_13": {
-            "name": {
-                "zh": "卡迪"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_14": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_12": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_14": {
-            "name": {
-                "zh": "杨厝港"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_15": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_13": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_15": {
-            "name": {
-                "zh": "宏茂桥"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_16": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_14": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_16": {
-            "name": {
-                "zh": "碧山"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_17": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_15": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "CC_15": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_17": {
-            "name": {
-                "zh": "布莱德"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_18": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_16": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_18": {
-            "name": {
-                "zh": "大巴窑"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_19": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_17": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_19": {
-            "name": {
-                "zh": "诺维娜"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_20": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_18": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_20": {
-            "name": {
-                "zh": "纽顿"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_21": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_19": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "DT_10": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_21": {
-            "name": {
-                "zh": "乌节"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_22": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_20": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_22": {
-            "name": {
-                "zh": "索美塞"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_23": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_21": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NS_23": {
-            "name": {
-                "zh": "多美歌"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_24": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_22": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NE_5": {
-                    "type": "walk-in"
-                },
-                "CC_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_24": {
-            "name": {
-                "zh": "政府大厦"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_25": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_23": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "EW_13": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_25": {
-            "name": {
-                "zh": "莱佛士坊"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_26": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_24": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "EW_14": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_26": {
-            "name": {
-                "zh": "滨海湾"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_27": {
-                    "type": "train",
-                    "direction": "NS_27",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "NS_25": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                },
-                "CE_3": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NS_27": {
-            "name": {
-                "zh": "滨海南码头"
-            },
-            "line": "NS",
-            "system": "MRT",
-            "neighbors": {
-                "NS_26": {
-                    "type": "train",
-                    "direction": "NS_1",
-                    "line": "NS",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_1": {
-            "name": {
-                "zh": "巴西立"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_2": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_2": {
-            "name": {
-                "zh": "淡滨尼"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_3": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_1": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "DT_31": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_3": {
-            "name": {
-                "zh": "四美"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_4": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_2": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_4": {
-            "name": {
-                "zh": "丹那美拉"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_5": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_3": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "CG_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_5": {
-            "name": {
-                "zh": "勿洛"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_6": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_4": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_6": {
-            "name": {
-                "zh": "景万岸"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_7": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_5": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_7": {
-            "name": {
-                "zh": "友诺士"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_8": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_6": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_8": {
-            "name": {
-                "zh": "巴耶利峇"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_9": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_7": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "CC_9": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_9": {
-            "name": {
-                "zh": "阿裕尼"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_10": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_8": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_10": {
-            "name": {
-                "zh": "加冷"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_11": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_9": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_11": {
-            "name": {
-                "zh": "劳明达"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_12": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_10": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_12": {
-            "name": {
-                "zh": "武吉士"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_13": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_11": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "DT_13": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_13": {
-            "name": {
-                "zh": "政府大厦"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_14": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_12": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "NS_24": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_14": {
-            "name": {
-                "zh": "莱佛士坊"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_15": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_13": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "NS_25": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_15": {
-            "name": {
-                "zh": "丹戎巴葛"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_16": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_14": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_16": {
-            "name": {
-                "zh": "欧南园"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_17": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_15": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "NE_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_17": {
-            "name": {
-                "zh": "中峇鲁"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_18": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_16": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_18": {
-            "name": {
-                "zh": "红山"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_19": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_17": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_19": {
-            "name": {
-                "zh": "女皇镇"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_20": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_18": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_20": {
-            "name": {
-                "zh": "联邦"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_21": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_19": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_21": {
-            "name": {
-                "zh": "波那维斯达"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_22": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_20": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "CC_22": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_22": {
-            "name": {
-                "zh": "杜佛"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_23": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_21": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_23": {
-            "name": {
-                "zh": "金文泰"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_24": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_22": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_24": {
-            "name": {
-                "zh": "裕廊东"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_25": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_23": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "NS_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "EW_25": {
-            "name": {
-                "zh": "裕华园"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_26": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_24": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_26": {
-            "name": {
-                "zh": "湖畔"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_27": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_25": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_27": {
-            "name": {
-                "zh": "文礼"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_28": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_26": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_28": {
-            "name": {
-                "zh": "先驱"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_29": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_27": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_29": {
-            "name": {
-                "zh": "裕群"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_30": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_28": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_30": {
-            "name": {
-                "zh": "卡尔圈"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_31": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_29": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_31": {
-            "name": {
-                "zh": "大士弯"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_32": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_30": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_32": {
-            "name": {
-                "zh": "大士西路"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_33": {
-                    "type": "train",
-                    "direction": "EW_33",
-                    "line": "EW",
-                    "system": "MRT"
-                },
-                "EW_31": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "EW_33": {
-            "name": {
-                "zh": "大士连"
-            },
-            "line": "EW",
-            "system": "MRT",
-            "neighbors": {
-                "EW_32": {
-                    "type": "train",
-                    "direction": "EW_1",
-                    "line": "EW",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CG_1": {
-            "name": {
-                "zh": "丹那美拉"
-            },
-            "line": "CG",
-            "system": "MRT",
-            "neighbors": {
-                "CG_2": {
-                    "type": "train",
-                    "direction": "CG_3",
-                    "line": "CG",
-                    "system": "MRT"
-                },
-                "EW_4": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CG_2": {
-            "name": {
-                "zh": "博览"
-            },
-            "line": "CG",
-            "system": "MRT",
-            "neighbors": {
-                "CG_3": {
-                    "type": "train",
-                    "direction": "CG_3",
-                    "line": "CG",
-                    "system": "MRT"
-                },
-                "CG_1": {
-                    "type": "train",
-                    "direction": "CG_1",
-                    "line": "CG",
-                    "system": "MRT"
-                },
-                "DT_34": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CG_3": {
-            "name": {
-                "zh": "樟宜机场"
-            },
-            "line": "CG",
-            "system": "MRT",
-            "neighbors": {
-                "CG_2": {
-                    "type": "train",
-                    "direction": "CG_1",
-                    "line": "CG",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_1": {
-            "name": {
-                "zh": "港湾"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_2": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "CC_29": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_2": {
-            "name": {
-                "zh": "欧南园"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_3": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_1": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "EW_16": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_3": {
-            "name": {
-                "zh": "牛车水"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_4": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_2": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "DT_18": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_4": {
-            "name": {
-                "zh": "克拉码头"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_5": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_3": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_5": {
-            "name": {
-                "zh": "多美歌"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_6": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_4": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NS_23": {
-                    "type": "walk-in"
-                },
-                "CC_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_6": {
-            "name": {
-                "zh": "小印度"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_7": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_5": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "DT_11": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_7": {
-            "name": {
-                "zh": "花拉公园"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_8": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_6": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_8": {
-            "name": {
-                "zh": "文庆"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_9": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_7": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_9": {
-            "name": {
-                "zh": "波东巴西"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_10": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_8": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_10": {
-            "name": {
-                "zh": "兀里"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_11": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_9": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_11": {
-            "name": {
-                "zh": "实龙岗"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_12": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_10": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "CC_13": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "NE_12": {
-            "name": {
-                "zh": "高文"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_13": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_11": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_13": {
-            "name": {
-                "zh": "后港"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_14": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_12": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_14": {
-            "name": {
-                "zh": "万国"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_15": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_13": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_15": {
-            "name": {
-                "zh": "盛港"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_16": {
-                    "type": "train",
-                    "direction": "NE_16",
-                    "line": "NE",
-                    "system": "MRT"
-                },
-                "NE_14": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "NE_16": {
-            "name": {
-                "zh": "榜鹅"
-            },
-            "line": "NE",
-            "system": "MRT",
-            "neighbors": {
-                "NE_15": {
-                    "type": "train",
-                    "direction": "NE_1",
-                    "line": "NE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_1": {
-            "name": {
-                "zh": "多美歌"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_2": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "NS_23": {
-                    "type": "walk-in"
-                },
-                "NE_5": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_2": {
-            "name": {
-                "zh": "百胜"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_3": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_1": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_3": {
-            "name": {
-                "zh": "滨海中心"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_4": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_2": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_4": {
-            "name": {
-                "zh": "宝门廊"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_5": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_3": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CE_1": {
-                    "type": "walk-in"
-                },
-                "DT_14": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_5": {
-            "name": {
-                "zh": "尼诰大道"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_6": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_4": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_6": {
-            "name": {
-                "zh": "体育场"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_7": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_5": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_7": {
-            "name": {
-                "zh": "蒙巴登"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_8": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_6": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_8": {
-            "name": {
-                "zh": "达科达"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_9": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_7": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_9": {
-            "name": {
-                "zh": "巴耶利峇"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_10": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_8": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "EW_8": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_10": {
-            "name": {
-                "zh": "麦波申"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_11": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_9": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "DT_25": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_11": {
-            "name": {
-                "zh": "大成"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_12": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_10": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_12": {
-            "name": {
-                "zh": "巴特礼"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_13": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_11": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_13": {
-            "name": {
-                "zh": "实龙岗"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_14": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_12": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "NE_11": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_14": {
-            "name": {
-                "zh": "罗弄泉"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_15": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_13": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_15": {
-            "name": {
-                "zh": "碧山"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_16": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_14": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "NS_16": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_16": {
-            "name": {
-                "zh": "玛丽蒙"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_17": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_15": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_17": {
-            "name": {
-                "zh": "加利谷"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_18": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_16": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_18": {
-            "name": {
-                "zh": "武吉布朗"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_19": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_17": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_19": {
-            "name": {
-                "zh": "植物园"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_20": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_18": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "DT_8": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_20": {
-            "name": {
-                "zh": "花拉路"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_21": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_19": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_21": {
-            "name": {
-                "zh": "荷兰村"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_22": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_20": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_22": {
-            "name": {
-                "zh": "波那维斯达"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_23": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_21": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "EW_21": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CC_23": {
-            "name": {
-                "zh": "纬壹"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_24": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_22": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_24": {
-            "name": {
-                "zh": "肯特岗"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_25": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_23": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_25": {
-            "name": {
-                "zh": "虎豹别墅"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_26": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_24": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_26": {
-            "name": {
-                "zh": "巴西班让"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_27": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_25": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_27": {
-            "name": {
-                "zh": "拉柏多公园"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_28": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_26": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_28": {
-            "name": {
-                "zh": "直落布兰雅"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_29": {
-                    "type": "train",
-                    "direction": "CC_29",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "CC_27": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                }
-            }
-        },
-        "CC_29": {
-            "name": {
-                "zh": "港湾"
-            },
-            "line": "CC",
-            "system": "MRT",
-            "neighbors": {
-                "CC_28": {
-                    "type": "train",
-                    "direction": "CC_1",
-                    "line": "CC",
-                    "system": "MRT"
-                },
-                "NE_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CE_1": {
-            "name": {
-                "zh": "宝门廊"
-            },
-            "line": "CE",
-            "system": "MRT",
-            "neighbors": {
-                "CE_2": {
-                    "type": "train",
-                    "direction": "CE_3",
-                    "line": "CE",
-                    "system": "MRT"
-                },
-                "CC_4": {
-                    "type": "walk-in"
-                },
-                "DT_14": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CE_2": {
-            "name": {
-                "zh": "海湾舫"
-            },
-            "line": "CE",
-            "system": "MRT",
-            "neighbors": {
-                "CE_3": {
-                    "type": "train",
-                    "direction": "CE_3",
-                    "line": "CE",
-                    "system": "MRT"
-                },
-                "CE_1": {
-                    "type": "train",
-                    "direction": "CE_1",
-                    "line": "CE",
-                    "system": "MRT"
-                },
-                "DT_15": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "CE_3": {
-            "name": {
-                "zh": "滨海湾"
-            },
-            "line": "CE",
-            "system": "MRT",
-            "neighbors": {
-                "CE_2": {
-                    "type": "train",
-                    "direction": "CE_1",
-                    "line": "CE",
-                    "system": "MRT"
-                },
-                "NS_26": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_1": {
-            "name": {
-                "zh": "武吉班让"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_2": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_2": {
-            "name": {
-                "zh": "凯秀"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_3": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_1": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_3": {
-            "name": {
-                "zh": "山景"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_4": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_2": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_4": {
-            "name": {
-                "zh": "美世界"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_5": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_3": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_5": {
-            "name": {
-                "zh": "阿尔柏王园"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_6": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_4": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_6": {
-            "name": {
-                "zh": "第六道"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_7": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_5": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_7": {
-            "name": {
-                "zh": "陈嘉庚"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_8": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_6": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_8": {
-            "name": {
-                "zh": "植物园"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_9": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_7": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "CC_19": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_9": {
-            "name": {
-                "zh": "史蒂芬"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_10": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_8": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_10": {
-            "name": {
-                "zh": "纽顿"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_11": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_9": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "NS_20": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_11": {
-            "name": {
-                "zh": "小印度"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_12": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_10": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "NE_6": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_12": {
-            "name": {
-                "zh": "梧槽"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_13": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_11": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_13": {
-            "name": {
-                "zh": "武吉士"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_14": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_12": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "EW_12": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_14": {
-            "name": {
-                "zh": "宝门廊"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_15": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_13": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "CC_4": {
-                    "type": "walk-in"
-                },
-                "CE_1": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_15": {
-            "name": {
-                "zh": "海湾舫"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_16": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_14": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "CE_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_16": {
-            "name": {
-                "zh": "市中心"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_17": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_15": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_17": {
-            "name": {
-                "zh": "直落亚逸"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_18": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_16": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_18": {
-            "name": {
-                "zh": "牛车水"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_19": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_17": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "NE_3": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_19": {
-            "name": {
-                "zh": "福康宁"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_20": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_18": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_20": {
-            "name": {
-                "zh": "明古连"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_21": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_19": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_21": {
-            "name": {
-                "zh": "惹兰勿刹"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_22": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_20": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_22": {
-            "name": {
-                "zh": "明地迷亚"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_23": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_21": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_23": {
-            "name": {
-                "zh": "芽笼峇鲁"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_24": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_22": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_24": {
-            "name": {
-                "zh": "玛达"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_25": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_23": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_25": {
-            "name": {
-                "zh": "麦波申"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_26": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_24": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "CC_10": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_26": {
-            "name": {
-                "zh": "乌美"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_27": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_25": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_27": {
-            "name": {
-                "zh": "加基武吉"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_28": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_26": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_28": {
-            "name": {
-                "zh": "勿洛北"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_29": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_27": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_29": {
-            "name": {
-                "zh": "勿洛蓄水池"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_30": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_28": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_30": {
-            "name": {
-                "zh": "淡滨尼西"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_31": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_29": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_31": {
-            "name": {
-                "zh": "淡滨尼"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_32": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_30": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "EW_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "DT_32": {
-            "name": {
-                "zh": "淡滨尼东"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_33": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_31": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_33": {
-            "name": {
-                "zh": "樟宜上段"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_34": {
-                    "type": "train",
-                    "direction": "DT_34",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "DT_32": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                }
-            }
-        },
-        "DT_34": {
-            "name": {
-                "zh": "博览"
-            },
-            "line": "DT",
-            "system": "MRT",
-            "neighbors": {
-                "DT_33": {
-                    "type": "train",
-                    "direction": "DT_1",
-                    "line": "DT",
-                    "system": "MRT"
-                },
-                "CG_2": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TE_1": {
-            "name": {
-                "zh": "兀兰北"
-            },
-            "line": "TE",
-            "system": "MRT",
-            "neighbors": {
-                "TE_2": {
-                    "type": "train",
-                    "direction": "TE_3",
-                    "line": "TE",
-                    "system": "MRT"
-                }
-            }
-        },
-        "TE_2": {
-            "name": {
-                "zh": "兀兰"
-            },
-            "line": "TE",
-            "system": "MRT",
-            "neighbors": {
-                "TE_3": {
-                    "type": "train",
-                    "direction": "TE_3",
-                    "line": "TE",
-                    "system": "MRT"
-                },
-                "TE_1": {
-                    "type": "train",
-                    "direction": "TE_1",
-                    "line": "TE",
-                    "system": "MRT"
-                },
-                "NS_8": {
-                    "type": "walk-in"
-                }
-            }
-        },
-        "TE_3": {
-            "name": {
-                "zh": "兀兰南"
-            },
-            "line": "TE",
-            "system": "MRT",
-            "neighbors": {
-                "TE_2": {
-                    "type": "train",
-                    "direction": "TE_1",
-                    "line": "TE",
-                    "system": "MRT"
-                }
-            }
-        }
-    },
+    "attentions": [],
     "lines": {
-        "NS": {
-            "name": {
-                "zh": "南北线"
-            },
-            "color": "#D42E12",
-            "system": "MRT",
-            "type": "",
+        "地铁/NS/裕廊东/滨海南码头": {
             "code": "NS",
+            "color": "#D42E12",
+            "name": "南北线",
+            "system": "地铁",
             "direction": [
-                "NS_27",
-                "NS_1"
+                "地铁/NS/裕廊东/滨海南码头_26",
+                "地铁/NS/裕廊东/滨海南码头_0"
             ]
         },
-        "EW": {
-            "name": {
-                "zh": "东西线"
-            },
-            "color": "#009645",
-            "system": "MRT",
-            "type": "",
+        "地铁/EW/巴西立/大士连": {
             "code": "EW",
-            "direction": [
-                "EW_33",
-                "EW_1"
-            ]
-        },
-        "CG": {
-            "name": {
-                "zh": "东西线"
-            },
             "color": "#009645",
-            "system": "MRT",
-            "type": "",
+            "name": "东西线",
+            "system": "地铁",
+            "direction": [
+                "地铁/EW/巴西立/大士连_32",
+                "地铁/EW/巴西立/大士连_0"
+            ]
+        },
+        "地铁/CG/丹那美拉/樟宜机场": {
             "code": "CG",
+            "color": "#009645",
+            "name": "东西线",
+            "system": "地铁",
             "direction": [
-                "CG_3",
-                "CG_1"
+                "地铁/CG/丹那美拉/樟宜机场_2",
+                "地铁/CG/丹那美拉/樟宜机场_0"
             ]
         },
-        "NE": {
-            "name": {
-                "zh": "东北线"
-            },
-            "color": "#9900AA",
-            "system": "MRT",
-            "type": "",
+        "地铁/NE/港湾/榜鹅": {
             "code": "NE",
+            "color": "#9900AA",
+            "name": "东北线",
+            "system": "地铁",
             "direction": [
-                "NE_16",
-                "NE_1"
+                "地铁/NE/港湾/榜鹅_15",
+                "地铁/NE/港湾/榜鹅_0"
             ]
         },
-        "CC": {
-            "name": {
-                "zh": "环线"
-            },
-            "color": "#FA9E0D",
-            "system": "MRT",
-            "type": "",
+        "地铁/CC/多美歌/港湾": {
             "code": "CC",
-            "direction": [
-                "CC_29",
-                "CC_1"
-            ]
-        },
-        "CE": {
-            "name": {
-                "zh": "环线"
-            },
             "color": "#FA9E0D",
-            "system": "MRT",
-            "type": "",
+            "name": "环线",
+            "system": "地铁",
+            "direction": [
+                "地铁/CC/多美歌/港湾_28",
+                "地铁/CC/多美歌/港湾_0"
+            ]
+        },
+        "地铁/CE/宝门廊/滨海湾": {
             "code": "CE",
+            "color": "#FA9E0D",
+            "name": "环线",
+            "system": "地铁",
             "direction": [
-                "CE_3",
-                "CE_1"
+                "地铁/CE/宝门廊/滨海湾_2",
+                "地铁/CE/宝门廊/滨海湾_0"
             ]
         },
-        "DT": {
-            "name": {
-                "zh": "滨海市区线"
-            },
-            "color": "#005EC4",
-            "system": "MRT",
-            "type": "",
+        "地铁/DT/武吉班让/博览": {
             "code": "DT",
+            "color": "#005EC4",
+            "name": "滨海市区线",
+            "system": "地铁",
             "direction": [
-                "DT_34",
-                "DT_1"
+                "地铁/DT/武吉班让/博览_33",
+                "地铁/DT/武吉班让/博览_0"
             ]
         },
-        "TE": {
-            "name": {
-                "zh": "汤申－东海岸线"
-            },
-            "color": "#9D5B25",
-            "system": "MRT",
-            "type": "",
+        "地铁/TE/兀兰北/兀兰南": {
             "code": "TE",
+            "color": "#9D5B25",
+            "name": "汤申－东海岸线",
+            "system": "地铁",
             "direction": [
-                "TE_3",
-                "TE_1"
+                "地铁/TE/兀兰北/兀兰南_2",
+                "地铁/TE/兀兰北/兀兰南_0"
             ]
         }
     },
-    "systems": {
-        "MRT": {
-            "zh": "MRT"
+    "stations": {
+        "地铁/NS/裕廊东/滨海南码头_0": {
+            "name": "裕廊东",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_1": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_23": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_1": {
+            "name": "武吉巴督",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_2": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_0": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_2": {
+            "name": "武吉甘柏",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_3": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_1": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_3": {
+            "name": "蔡厝港",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_4": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_2": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_4": {
+            "name": "油池",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_5": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_3": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_5": {
+            "name": "克兰芝",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_6": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_4": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_6": {
+            "name": "马西岭",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_7": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_5": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_7": {
+            "name": "兀兰",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_8": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_6": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/TE/兀兰北/兀兰南_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_8": {
+            "name": "海军部",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_9": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_7": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_9": {
+            "name": "三巴旺",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_10": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_8": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_10": {
+            "name": "坎贝拉",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_11": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_9": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_11": {
+            "name": "义顺",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_12": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_10": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_12": {
+            "name": "卡迪",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_13": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_11": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_13": {
+            "name": "杨厝港",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_14": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_12": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_14": {
+            "name": "宏茂桥",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_15": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_13": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_15": {
+            "name": "碧山",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_16": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_14": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_14": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_16": {
+            "name": "布莱德",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_17": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_15": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_17": {
+            "name": "大巴窑",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_18": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_16": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_18": {
+            "name": "诺维娜",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_19": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_17": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_19": {
+            "name": "纽顿",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_20": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_18": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_9": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_20": {
+            "name": "乌节",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_21": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_19": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_21": {
+            "name": "索美塞",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_22": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_20": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_22": {
+            "name": "多美歌",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_23": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_21": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_4": {
+                    "type": "walk-in"
+                },
+                "地铁/CC/多美歌/港湾_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_23": {
+            "name": "政府大厦",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_24": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_22": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_12": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_24": {
+            "name": "莱佛士坊",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_25": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_23": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_13": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_25": {
+            "name": "滨海湾",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_26": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_26",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_24": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                },
+                "地铁/CE/宝门廊/滨海湾_2": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NS/裕廊东/滨海南码头_26": {
+            "name": "滨海南码头",
+            "line": "地铁/NS/裕廊东/滨海南码头",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NS/裕廊东/滨海南码头_25": {
+                    "type": "train",
+                    "direction": "地铁/NS/裕廊东/滨海南码头_0",
+                    "line": "地铁/NS/裕廊东/滨海南码头",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_0": {
+            "name": "巴西立",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_1": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_1": {
+            "name": "淡滨尼",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_2": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_0": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_30": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_2": {
+            "name": "四美",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_3": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_1": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_3": {
+            "name": "丹那美拉",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_4": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_2": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/CG/丹那美拉/樟宜机场_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_4": {
+            "name": "勿洛",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_5": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_3": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_5": {
+            "name": "景万岸",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_6": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_4": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_6": {
+            "name": "友诺士",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_7": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_5": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_7": {
+            "name": "巴耶利峇",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_8": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_6": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_8": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_8": {
+            "name": "阿裕尼",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_9": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_7": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_9": {
+            "name": "加冷",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_10": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_8": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_10": {
+            "name": "劳明达",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_11": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_9": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_11": {
+            "name": "武吉士",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_12": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_10": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_12": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_12": {
+            "name": "政府大厦",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_13": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_11": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_23": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_13": {
+            "name": "莱佛士坊",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_14": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_12": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_24": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_14": {
+            "name": "丹戎巴葛",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_15": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_13": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_15": {
+            "name": "欧南园",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_16": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_14": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_16": {
+            "name": "中峇鲁",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_17": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_15": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_17": {
+            "name": "红山",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_18": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_16": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_18": {
+            "name": "女皇镇",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_19": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_17": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_19": {
+            "name": "联邦",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_20": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_18": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_20": {
+            "name": "波那维斯达",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_21": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_19": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_21": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_21": {
+            "name": "杜佛",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_22": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_20": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_22": {
+            "name": "金文泰",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_23": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_21": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_23": {
+            "name": "裕廊东",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_24": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_22": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_24": {
+            "name": "裕华园",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_25": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_23": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_25": {
+            "name": "湖畔",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_26": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_24": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_26": {
+            "name": "文礼",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_27": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_25": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_27": {
+            "name": "先驱",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_28": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_26": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_28": {
+            "name": "裕群",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_29": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_27": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_29": {
+            "name": "卡尔圈",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_30": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_28": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_30": {
+            "name": "大士弯",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_31": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_29": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_31": {
+            "name": "大士西路",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_32": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_32",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_30": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/EW/巴西立/大士连_32": {
+            "name": "大士连",
+            "line": "地铁/EW/巴西立/大士连",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/EW/巴西立/大士连_31": {
+                    "type": "train",
+                    "direction": "地铁/EW/巴西立/大士连_0",
+                    "line": "地铁/EW/巴西立/大士连",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CG/丹那美拉/樟宜机场_0": {
+            "name": "丹那美拉",
+            "line": "地铁/CG/丹那美拉/樟宜机场",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CG/丹那美拉/樟宜机场_1": {
+                    "type": "train",
+                    "direction": "地铁/CG/丹那美拉/樟宜机场_2",
+                    "line": "地铁/CG/丹那美拉/樟宜机场",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_3": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CG/丹那美拉/樟宜机场_1": {
+            "name": "博览",
+            "line": "地铁/CG/丹那美拉/樟宜机场",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CG/丹那美拉/樟宜机场_2": {
+                    "type": "train",
+                    "direction": "地铁/CG/丹那美拉/樟宜机场_2",
+                    "line": "地铁/CG/丹那美拉/樟宜机场",
+                    "system": "地铁"
+                },
+                "地铁/CG/丹那美拉/樟宜机场_0": {
+                    "type": "train",
+                    "direction": "地铁/CG/丹那美拉/樟宜机场_0",
+                    "line": "地铁/CG/丹那美拉/樟宜机场",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_33": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CG/丹那美拉/樟宜机场_2": {
+            "name": "樟宜机场",
+            "line": "地铁/CG/丹那美拉/樟宜机场",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CG/丹那美拉/樟宜机场_1": {
+                    "type": "train",
+                    "direction": "地铁/CG/丹那美拉/樟宜机场_0",
+                    "line": "地铁/CG/丹那美拉/樟宜机场",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_0": {
+            "name": "港湾",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_1": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_28": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_1": {
+            "name": "欧南园",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_2": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_0": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_15": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_2": {
+            "name": "牛车水",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_3": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_1": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_17": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_3": {
+            "name": "克拉码头",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_4": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_2": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_4": {
+            "name": "多美歌",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_5": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_3": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_22": {
+                    "type": "walk-in"
+                },
+                "地铁/CC/多美歌/港湾_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_5": {
+            "name": "小印度",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_6": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_4": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_10": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_6": {
+            "name": "花拉公园",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_7": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_5": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_7": {
+            "name": "文庆",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_8": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_6": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_8": {
+            "name": "波东巴西",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_9": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_7": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_9": {
+            "name": "兀里",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_10": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_8": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_10": {
+            "name": "实龙岗",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_11": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_9": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_12": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_11": {
+            "name": "高文",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_12": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_10": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_12": {
+            "name": "后港",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_13": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_11": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_13": {
+            "name": "万国",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_14": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_12": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_14": {
+            "name": "盛港",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_15": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_15",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_13": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/NE/港湾/榜鹅_15": {
+            "name": "榜鹅",
+            "line": "地铁/NE/港湾/榜鹅",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/NE/港湾/榜鹅_14": {
+                    "type": "train",
+                    "direction": "地铁/NE/港湾/榜鹅_0",
+                    "line": "地铁/NE/港湾/榜鹅",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_0": {
+            "name": "多美歌",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_1": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_22": {
+                    "type": "walk-in"
+                },
+                "地铁/NE/港湾/榜鹅_4": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_1": {
+            "name": "百胜",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_2": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_0": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_2": {
+            "name": "滨海中心",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_3": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_1": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_3": {
+            "name": "宝门廊",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_4": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_2": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CE/宝门廊/滨海湾_0": {
+                    "type": "walk-in"
+                },
+                "地铁/DT/武吉班让/博览_13": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_4": {
+            "name": "尼诰大道",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_5": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_3": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_5": {
+            "name": "体育场",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_6": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_4": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_6": {
+            "name": "蒙巴登",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_7": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_5": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_7": {
+            "name": "达科达",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_8": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_6": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_8": {
+            "name": "巴耶利峇",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_9": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_7": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_7": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_9": {
+            "name": "麦波申",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_10": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_8": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_24": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_10": {
+            "name": "大成",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_11": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_9": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_11": {
+            "name": "巴特礼",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_12": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_10": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_12": {
+            "name": "实龙岗",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_13": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_11": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_10": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_13": {
+            "name": "罗弄泉",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_14": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_12": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_14": {
+            "name": "碧山",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_15": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_13": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_15": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_15": {
+            "name": "玛丽蒙",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_16": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_14": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_16": {
+            "name": "加利谷",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_17": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_15": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_17": {
+            "name": "武吉布朗",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_18": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_16": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_18": {
+            "name": "植物园",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_19": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_17": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_7": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_19": {
+            "name": "花拉路",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_20": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_18": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_20": {
+            "name": "荷兰村",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_21": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_19": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_21": {
+            "name": "波那维斯达",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_22": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_20": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_20": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_22": {
+            "name": "纬壹",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_23": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_21": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_23": {
+            "name": "肯特岗",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_24": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_22": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_24": {
+            "name": "虎豹别墅",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_25": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_23": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_25": {
+            "name": "巴西班让",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_26": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_24": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_26": {
+            "name": "拉柏多公园",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_27": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_25": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_27": {
+            "name": "直落布兰雅",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_28": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_28",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_26": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/CC/多美歌/港湾_28": {
+            "name": "港湾",
+            "line": "地铁/CC/多美歌/港湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CC/多美歌/港湾_27": {
+                    "type": "train",
+                    "direction": "地铁/CC/多美歌/港湾_0",
+                    "line": "地铁/CC/多美歌/港湾",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CE/宝门廊/滨海湾_0": {
+            "name": "宝门廊",
+            "line": "地铁/CE/宝门廊/滨海湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CE/宝门廊/滨海湾_1": {
+                    "type": "train",
+                    "direction": "地铁/CE/宝门廊/滨海湾_2",
+                    "line": "地铁/CE/宝门廊/滨海湾",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_3": {
+                    "type": "walk-in"
+                },
+                "地铁/DT/武吉班让/博览_13": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CE/宝门廊/滨海湾_1": {
+            "name": "海湾舫",
+            "line": "地铁/CE/宝门廊/滨海湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CE/宝门廊/滨海湾_2": {
+                    "type": "train",
+                    "direction": "地铁/CE/宝门廊/滨海湾_2",
+                    "line": "地铁/CE/宝门廊/滨海湾",
+                    "system": "地铁"
+                },
+                "地铁/CE/宝门廊/滨海湾_0": {
+                    "type": "train",
+                    "direction": "地铁/CE/宝门廊/滨海湾_0",
+                    "line": "地铁/CE/宝门廊/滨海湾",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_14": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/CE/宝门廊/滨海湾_2": {
+            "name": "滨海湾",
+            "line": "地铁/CE/宝门廊/滨海湾",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/CE/宝门廊/滨海湾_1": {
+                    "type": "train",
+                    "direction": "地铁/CE/宝门廊/滨海湾_0",
+                    "line": "地铁/CE/宝门廊/滨海湾",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_25": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_0": {
+            "name": "武吉班让",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_1": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_1": {
+            "name": "凯秀",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_2": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_0": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_2": {
+            "name": "山景",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_3": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_1": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_3": {
+            "name": "美世界",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_4": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_2": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_4": {
+            "name": "阿尔柏王园",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_5": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_3": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_5": {
+            "name": "第六道",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_6": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_4": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_6": {
+            "name": "陈嘉庚",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_7": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_5": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_7": {
+            "name": "植物园",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_8": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_6": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_18": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_8": {
+            "name": "史蒂芬",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_9": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_7": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_9": {
+            "name": "纽顿",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_10": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_8": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_19": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_10": {
+            "name": "小印度",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_11": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_9": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_5": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_11": {
+            "name": "梧槽",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_12": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_10": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_12": {
+            "name": "武吉士",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_13": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_11": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_11": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_13": {
+            "name": "宝门廊",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_14": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_12": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_3": {
+                    "type": "walk-in"
+                },
+                "地铁/CE/宝门廊/滨海湾_0": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_14": {
+            "name": "海湾舫",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_15": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_13": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/CE/宝门廊/滨海湾_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_15": {
+            "name": "市中心",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_16": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_14": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_16": {
+            "name": "直落亚逸",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_17": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_15": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_17": {
+            "name": "牛车水",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_18": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_16": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/NE/港湾/榜鹅_2": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_18": {
+            "name": "福康宁",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_19": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_17": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_19": {
+            "name": "明古连",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_20": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_18": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_20": {
+            "name": "惹兰勿刹",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_21": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_19": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_21": {
+            "name": "明地迷亚",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_22": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_20": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_22": {
+            "name": "芽笼峇鲁",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_23": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_21": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_23": {
+            "name": "玛达",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_24": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_22": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_24": {
+            "name": "麦波申",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_25": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_23": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/CC/多美歌/港湾_9": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_25": {
+            "name": "乌美",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_26": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_24": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_26": {
+            "name": "加基武吉",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_27": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_25": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_27": {
+            "name": "勿洛北",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_28": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_26": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_28": {
+            "name": "勿洛蓄水池",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_29": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_27": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_29": {
+            "name": "淡滨尼西",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_30": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_28": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_30": {
+            "name": "淡滨尼",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_31": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_29": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/EW/巴西立/大士连_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_31": {
+            "name": "淡滨尼东",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_32": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_30": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_32": {
+            "name": "樟宜上段",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_33": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_33",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/DT/武吉班让/博览_31": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/DT/武吉班让/博览_33": {
+            "name": "博览",
+            "line": "地铁/DT/武吉班让/博览",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/DT/武吉班让/博览_32": {
+                    "type": "train",
+                    "direction": "地铁/DT/武吉班让/博览_0",
+                    "line": "地铁/DT/武吉班让/博览",
+                    "system": "地铁"
+                },
+                "地铁/CG/丹那美拉/樟宜机场_1": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TE/兀兰北/兀兰南_0": {
+            "name": "兀兰北",
+            "line": "地铁/TE/兀兰北/兀兰南",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TE/兀兰北/兀兰南_1": {
+                    "type": "train",
+                    "direction": "地铁/TE/兀兰北/兀兰南_2",
+                    "line": "地铁/TE/兀兰北/兀兰南",
+                    "system": "地铁"
+                }
+            }
+        },
+        "地铁/TE/兀兰北/兀兰南_1": {
+            "name": "兀兰",
+            "line": "地铁/TE/兀兰北/兀兰南",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TE/兀兰北/兀兰南_2": {
+                    "type": "train",
+                    "direction": "地铁/TE/兀兰北/兀兰南_2",
+                    "line": "地铁/TE/兀兰北/兀兰南",
+                    "system": "地铁"
+                },
+                "地铁/TE/兀兰北/兀兰南_0": {
+                    "type": "train",
+                    "direction": "地铁/TE/兀兰北/兀兰南_0",
+                    "line": "地铁/TE/兀兰北/兀兰南",
+                    "system": "地铁"
+                },
+                "地铁/NS/裕廊东/滨海南码头_7": {
+                    "type": "walk-in"
+                }
+            }
+        },
+        "地铁/TE/兀兰北/兀兰南_2": {
+            "name": "兀兰南",
+            "line": "地铁/TE/兀兰北/兀兰南",
+            "system": "地铁",
+            "neighbors": {
+                "地铁/TE/兀兰北/兀兰南_1": {
+                    "type": "train",
+                    "direction": "地铁/TE/兀兰北/兀兰南_0",
+                    "line": "地铁/TE/兀兰北/兀兰南",
+                    "system": "地铁"
+                }
+            }
         }
-    }
+    },
+    "systems": [
+        "地铁"
+    ]
 }
