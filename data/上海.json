@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "1_1": {
             "name": {
                 "zh": "富锦路"
@@ -10318,7 +10318,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "1": {
             "name": {
                 "zh": "1 号线"
@@ -10326,7 +10326,7 @@
             "color": "#E4002B",
             "system": "上海地铁",
             "type": "",
-            "shortname": "1",
+            "code": "1",
             "direction": [
                 "1_28",
                 "1_1"
@@ -10339,7 +10339,7 @@
             "color": "#97D700",
             "system": "上海地铁",
             "type": "",
-            "shortname": "2",
+            "code": "2",
             "direction": [
                 "2_30",
                 "2_1"
@@ -10352,7 +10352,7 @@
             "color": "#FFD100",
             "system": "上海地铁",
             "type": "",
-            "shortname": "3",
+            "code": "3",
             "direction": [
                 "3_29",
                 "3_1"
@@ -10365,7 +10365,7 @@
             "color": "#5F259F",
             "system": "上海地铁",
             "type": "",
-            "shortname": "4",
+            "code": "4",
             "direction": [
                 "ccw",
                 "cw"
@@ -10378,7 +10378,7 @@
             "color": "#AC4FC6",
             "system": "上海地铁",
             "type": "",
-            "shortname": "5",
+            "code": "5",
             "direction": [
                 "5_15",
                 "5_1"
@@ -10391,7 +10391,7 @@
             "color": "#AC4FC6",
             "system": "上海地铁",
             "type": "",
-            "shortname": "5",
+            "code": "5",
             "direction": [
                 "5__5",
                 "5__1"
@@ -10404,7 +10404,7 @@
             "color": "#D71671",
             "system": "上海地铁",
             "type": "",
-            "shortname": "6",
+            "code": "6",
             "direction": [
                 "6_28",
                 "6_1"
@@ -10417,7 +10417,7 @@
             "color": "#FF6900",
             "system": "上海地铁",
             "type": "",
-            "shortname": "7",
+            "code": "7",
             "direction": [
                 "7_33",
                 "7_1"
@@ -10430,7 +10430,7 @@
             "color": "#009EDB",
             "system": "上海地铁",
             "type": "",
-            "shortname": "8",
+            "code": "8",
             "direction": [
                 "8_30",
                 "8_1"
@@ -10443,7 +10443,7 @@
             "color": "#71C5E8",
             "system": "上海地铁",
             "type": "",
-            "shortname": "9",
+            "code": "9",
             "direction": [
                 "9_34",
                 "9_1"
@@ -10456,7 +10456,7 @@
             "color": "#C1A7E2",
             "system": "上海地铁",
             "type": "",
-            "shortname": "10",
+            "code": "10",
             "direction": [
                 "10_34",
                 "10_1"
@@ -10469,7 +10469,7 @@
             "color": "#C1A7E2",
             "system": "上海地铁",
             "type": "",
-            "shortname": "10",
+            "code": "10",
             "direction": [
                 "10__4",
                 "10__1"
@@ -10482,7 +10482,7 @@
             "color": "#76232F",
             "system": "上海地铁",
             "type": "",
-            "shortname": "11",
+            "code": "11",
             "direction": [
                 "11_32",
                 "11_1"
@@ -10495,7 +10495,7 @@
             "color": "#76232F",
             "system": "上海地铁",
             "type": "",
-            "shortname": "11",
+            "code": "11",
             "direction": [
                 "11__8",
                 "11__1"
@@ -10508,7 +10508,7 @@
             "color": "#007B5F",
             "system": "上海地铁",
             "type": "",
-            "shortname": "12",
+            "code": "12",
             "direction": [
                 "12_32",
                 "12_1"
@@ -10521,7 +10521,7 @@
             "color": "#EF95CF",
             "system": "上海地铁",
             "type": "",
-            "shortname": "13",
+            "code": "13",
             "direction": [
                 "13_31",
                 "13_1"
@@ -10534,7 +10534,7 @@
             "color": "#BBA786",
             "system": "上海地铁",
             "type": "",
-            "shortname": "15",
+            "code": "15",
             "direction": [
                 "15_30",
                 "15_1"
@@ -10547,7 +10547,7 @@
             "color": "#2CD5C4",
             "system": "上海地铁",
             "type": "",
-            "shortname": "16",
+            "code": "16",
             "direction": [
                 "16_13",
                 "16_1"
@@ -10560,7 +10560,7 @@
             "color": "#B4786A",
             "system": "上海地铁",
             "type": "",
-            "shortname": "17",
+            "code": "17",
             "direction": [
                 "17_13",
                 "17_1"
@@ -10573,7 +10573,7 @@
             "color": "#D6A461",
             "system": "上海地铁",
             "type": "",
-            "shortname": "18",
+            "code": "18",
             "direction": [
                 "18_8",
                 "18_1"
@@ -10586,7 +10586,7 @@
             "color": "#008080",
             "system": "磁悬浮",
             "type": "",
-            "shortname": "磁",
+            "code": "磁",
             "direction": [
                 "磁_2",
                 "磁_1"
@@ -10599,14 +10599,14 @@
             "color": "#999999",
             "system": "上海地铁",
             "type": "",
-            "shortname": "浦",
+            "code": "浦",
             "direction": [
                 "浦_6",
                 "浦_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "上海地铁": {
             "zh": "上海地铁"
         },

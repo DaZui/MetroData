@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "1_1": {
             "name": {
                 "zh": "古城"
@@ -8989,7 +8989,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "1": {
             "name": {
                 "zh": "一号线"
@@ -8997,7 +8997,7 @@
             "color": "#A4343A",
             "system": "北京地铁",
             "type": "",
-            "shortname": "1",
+            "code": "1",
             "direction": [
                 "1_22",
                 "1_1"
@@ -9010,7 +9010,7 @@
             "color": "#A4343A",
             "system": "北京地铁",
             "type": "",
-            "shortname": "通",
+            "code": "通",
             "direction": [
                 "通_14",
                 "通_1"
@@ -9023,7 +9023,7 @@
             "color": "#004B87",
             "system": "北京地铁",
             "type": "",
-            "shortname": "2",
+            "code": "2",
             "direction": [
                 "cw",
                 "ccw"
@@ -9036,7 +9036,7 @@
             "color": "#008C95",
             "system": "北京地铁",
             "type": "",
-            "shortname": "4",
+            "code": "4",
             "direction": [
                 "4_35",
                 "4_1"
@@ -9049,7 +9049,7 @@
             "color": "#AA0061",
             "system": "北京地铁",
             "type": "",
-            "shortname": "5",
+            "code": "5",
             "direction": [
                 "5_23",
                 "5_1"
@@ -9062,7 +9062,7 @@
             "color": "#B58500",
             "system": "北京地铁",
             "type": "",
-            "shortname": "6",
+            "code": "6",
             "direction": [
                 "6_33",
                 "6_1"
@@ -9075,7 +9075,7 @@
             "color": "#FFC56E",
             "system": "北京地铁",
             "type": "",
-            "shortname": "7",
+            "code": "7",
             "direction": [
                 "7_29",
                 "7_1"
@@ -9088,7 +9088,7 @@
             "color": "#009B77",
             "system": "北京地铁",
             "type": "",
-            "shortname": "8",
+            "code": "8",
             "direction": [
                 "8_19",
                 "8_1"
@@ -9101,7 +9101,7 @@
             "color": "#009B77",
             "system": "北京地铁",
             "type": "",
-            "shortname": "8",
+            "code": "8",
             "direction": [
                 "8__12",
                 "8__1"
@@ -9114,7 +9114,7 @@
             "color": "#97D700",
             "system": "北京地铁",
             "type": "",
-            "shortname": "9",
+            "code": "9",
             "direction": [
                 "9_13",
                 "9_1"
@@ -9127,7 +9127,7 @@
             "color": "#0092BC",
             "system": "北京地铁",
             "type": "",
-            "shortname": "10",
+            "code": "10",
             "direction": [
                 "cw",
                 "ccw"
@@ -9140,7 +9140,7 @@
             "color": "#F4DA40",
             "system": "北京地铁",
             "type": "",
-            "shortname": "13",
+            "code": "13",
             "direction": [
                 "13_17",
                 "13_1"
@@ -9153,7 +9153,7 @@
             "color": "#CA9A8E",
             "system": "北京地铁",
             "type": "",
-            "shortname": "14",
+            "code": "14",
             "direction": [
                 "14_7",
                 "14_1"
@@ -9166,7 +9166,7 @@
             "color": "#CA9A8E",
             "system": "北京地铁",
             "type": "",
-            "shortname": "14",
+            "code": "14",
             "direction": [
                 "14__21",
                 "14__1"
@@ -9179,7 +9179,7 @@
             "color": "#653279",
             "system": "北京地铁",
             "type": "",
-            "shortname": "15",
+            "code": "15",
             "direction": [
                 "15_20",
                 "15_1"
@@ -9192,7 +9192,7 @@
             "color": "#6BA539",
             "system": "北京地铁",
             "type": "",
-            "shortname": "16",
+            "code": "16",
             "direction": [
                 "16_17",
                 "16_1"
@@ -9205,7 +9205,7 @@
             "color": "#D0006F",
             "system": "北京地铁",
             "type": "",
-            "shortname": "亦",
+            "code": "亦",
             "direction": [
                 "亦_14",
                 "亦_1"
@@ -9218,7 +9218,7 @@
             "color": "#D86018",
             "system": "北京地铁",
             "type": "",
-            "shortname": "房",
+            "code": "房",
             "direction": [
                 "房_16",
                 "房_1"
@@ -9231,7 +9231,7 @@
             "color": "#D86018",
             "system": "北京地铁",
             "type": "",
-            "shortname": "燕",
+            "code": "燕",
             "direction": [
                 "燕_9",
                 "燕_1"
@@ -9244,7 +9244,7 @@
             "color": "#A65A2A",
             "system": "北京地铁",
             "type": "",
-            "shortname": "S1",
+            "code": "S1",
             "direction": [
                 "S1_7",
                 "S1_1"
@@ -9257,7 +9257,7 @@
             "color": "#D986BA",
             "system": "北京地铁",
             "type": "",
-            "shortname": "昌",
+            "code": "昌",
             "direction": [
                 "昌_12",
                 "昌_1"
@@ -9270,7 +9270,7 @@
             "color": "#D22630",
             "system": "西郊有轨电车",
             "type": "",
-            "shortname": "郊",
+            "code": "郊",
             "direction": [
                 "郊_6",
                 "郊_1"
@@ -9283,7 +9283,7 @@
             "color": "#A192B2",
             "system": "首都机场线",
             "type": "",
-            "shortname": "首",
+            "code": "首",
             "direction": [
                 "首_4",
                 ""
@@ -9296,7 +9296,7 @@
             "color": "#A192B2",
             "system": "首都机场线",
             "type": "",
-            "shortname": "首",
+            "code": "首",
             "direction": [
                 "首__4",
                 ""
@@ -9309,14 +9309,14 @@
             "color": "#0047BB",
             "system": "大兴机场线",
             "type": "",
-            "shortname": "大",
+            "code": "大",
             "direction": [
                 "大_3",
                 "大_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "北京地铁": {
             "zh": "北京地铁"
         },

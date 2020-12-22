@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "ERL_1": {
             "name": {
                 "zh": "羅湖"
@@ -2539,7 +2539,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "ERL": {
             "name": {
                 "zh": "東鐵綫"
@@ -2547,7 +2547,7 @@
             "color": "#61B4E4",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "ERL",
+            "code": "ERL",
             "direction": [
                 "ERL_12",
                 "ERL_1"
@@ -2560,7 +2560,7 @@
             "color": "#61B4E4",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "ERL",
+            "code": "ERL",
             "direction": [
                 "ERL__2",
                 "ERL__1"
@@ -2573,7 +2573,7 @@
             "color": "#61B4E4",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "ERL",
+            "code": "ERL",
             "direction": [
                 "ERL___3",
                 "ERL___1"
@@ -2586,7 +2586,7 @@
             "color": "#00AF41",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "KTL",
+            "code": "KTL",
             "direction": [
                 "KTL_17",
                 "KTL_1"
@@ -2599,7 +2599,7 @@
             "color": "#E2231A",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "TWL",
+            "code": "TWL",
             "direction": [
                 "TWL_16",
                 "TWL_1"
@@ -2612,7 +2612,7 @@
             "color": "#0071CE",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "ISL",
+            "code": "ISL",
             "direction": [
                 "ISL_17",
                 "ISL_1"
@@ -2625,7 +2625,7 @@
             "color": "#007078",
             "system": "機場快綫",
             "type": "",
-            "shortname": "AEL",
+            "code": "AEL",
             "direction": [
                 "AEL_5",
                 "AEL_1"
@@ -2638,7 +2638,7 @@
             "color": "#F38B00",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "TCL",
+            "code": "TCL",
             "direction": [
                 "TCL_8",
                 "TCL_1"
@@ -2651,7 +2651,7 @@
             "color": "#A35EB5",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "TKL",
+            "code": "TKL",
             "direction": [
                 "TKL_7",
                 "TKL_1"
@@ -2664,7 +2664,7 @@
             "color": "#A35EB5",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "TKL",
+            "code": "TKL",
             "direction": [
                 "TKL__2",
                 "TKL__1"
@@ -2677,7 +2677,7 @@
             "color": "#B6008D",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "WRL",
+            "code": "WRL",
             "direction": [
                 "WRL_12",
                 "WRL_1"
@@ -2690,7 +2690,7 @@
             "color": "#9A3820",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "EWL",
+            "code": "EWL",
             "direction": [
                 "EWL_12",
                 "EWL_1"
@@ -2703,7 +2703,7 @@
             "color": "#E777CB",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "DRL",
+            "code": "DRL",
             "direction": [
                 "DRL_2",
                 "DRL_1"
@@ -2716,14 +2716,14 @@
             "color": "#B6BD00",
             "system": "港鐵市區綫",
             "type": "",
-            "shortname": "SIL",
+            "code": "SIL",
             "direction": [
                 "SIL_5",
                 "SIL_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "港鐵市區綫": {
             "zh": "港鐵市區綫"
         },

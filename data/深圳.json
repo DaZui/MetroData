@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "1_1": {
             "name": {
                 "zh": "机场东"
@@ -6043,7 +6043,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "1": {
             "name": {
                 "zh": "一号线"
@@ -6051,7 +6051,7 @@
             "color": "#00AB39",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "1",
+            "code": "1",
             "direction": [
                 "1_30",
                 "1_1"
@@ -6064,7 +6064,7 @@
             "color": "#DB6D1C",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "2-8",
+            "code": "2-8",
             "direction": [
                 "2-8_38",
                 "2-8_1"
@@ -6077,7 +6077,7 @@
             "color": "#00A2E1",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "3",
+            "code": "3",
             "direction": [
                 "3_25",
                 "3_1"
@@ -6090,7 +6090,7 @@
             "color": "#DC241F",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "4",
+            "code": "4",
             "direction": [
                 "4_23",
                 "4_1"
@@ -6103,7 +6103,7 @@
             "color": "#9950B2",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "5",
+            "code": "5",
             "direction": [
                 "5_34",
                 "5_1"
@@ -6116,7 +6116,7 @@
             "color": "#3ABCA8",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "6",
+            "code": "6",
             "direction": [
                 "6_27",
                 "6_1"
@@ -6129,7 +6129,7 @@
             "color": "#0035AD",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "7",
+            "code": "7",
             "direction": [
                 "7_27",
                 "7_1"
@@ -6142,7 +6142,7 @@
             "color": "#846E74",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "9",
+            "code": "9",
             "direction": [
                 "9_33",
                 "9_1"
@@ -6155,7 +6155,7 @@
             "color": "#F8779E",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "10",
+            "code": "10",
             "direction": [
                 "10_23",
                 "10_1"
@@ -6168,14 +6168,14 @@
             "color": "#6A1D44",
             "system": "深圳地铁",
             "type": "",
-            "shortname": "11",
+            "code": "11",
             "direction": [
                 "11_18",
                 "11_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "深圳地铁": {
             "zh": "深圳地铁"
         }

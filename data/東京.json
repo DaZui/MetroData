@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "Metro-G_1": {
             "name": {
                 "zh": "渋谷"
@@ -6918,14 +6918,8 @@
             "neighbors": {
                 "JR-JY_2": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
-                    "system": "JR 東日本"
-                },
-                "JR-JY_29": {
-                    "type": "train",
-                    "line": "JR-JY",
-                    "direction": "cw",
                     "system": "JR 東日本"
                 },
                 "Metro-M_17": {
@@ -6948,13 +6942,13 @@
             "neighbors": {
                 "JR-JY_3": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_1": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -6978,13 +6972,13 @@
             "neighbors": {
                 "JR-JY_4": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_2": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7008,13 +7002,13 @@
             "neighbors": {
                 "JR-JY_5": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_3": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7032,13 +7026,13 @@
             "neighbors": {
                 "JR-JY_6": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_4": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7062,13 +7056,13 @@
             "neighbors": {
                 "JR-JY_7": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_5": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7086,13 +7080,13 @@
             "neighbors": {
                 "JR-JY_8": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_6": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7110,13 +7104,13 @@
             "neighbors": {
                 "JR-JY_9": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_7": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7137,13 +7131,13 @@
             "neighbors": {
                 "JR-JY_10": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_8": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7161,13 +7155,13 @@
             "neighbors": {
                 "JR-JY_11": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_9": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7185,13 +7179,13 @@
             "neighbors": {
                 "JR-JY_12": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_10": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7209,13 +7203,13 @@
             "neighbors": {
                 "JR-JY_13": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_11": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 }
@@ -7230,13 +7224,13 @@
             "neighbors": {
                 "JR-JY_14": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_12": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7260,13 +7254,13 @@
             "neighbors": {
                 "JR-JY_15": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_13": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 }
@@ -7281,13 +7275,13 @@
             "neighbors": {
                 "JR-JY_16": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_14": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7305,13 +7299,13 @@
             "neighbors": {
                 "JR-JY_17": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_15": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 }
@@ -7326,13 +7320,13 @@
             "neighbors": {
                 "JR-JY_18": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_16": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7362,13 +7356,13 @@
             "neighbors": {
                 "JR-JY_19": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_17": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7389,13 +7383,13 @@
             "neighbors": {
                 "JR-JY_20": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_18": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 }
@@ -7410,13 +7404,13 @@
             "neighbors": {
                 "JR-JY_21": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_19": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7446,13 +7440,13 @@
             "neighbors": {
                 "JR-JY_22": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_20": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7470,13 +7464,13 @@
             "neighbors": {
                 "JR-JY_23": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_21": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7500,13 +7494,13 @@
             "neighbors": {
                 "JR-JY_24": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_22": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7527,13 +7521,13 @@
             "neighbors": {
                 "JR-JY_25": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_23": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 }
@@ -7548,13 +7542,13 @@
             "neighbors": {
                 "JR-JY_26": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_24": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7572,13 +7566,13 @@
             "neighbors": {
                 "JR-JY_27": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_25": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7596,13 +7590,13 @@
             "neighbors": {
                 "JR-JY_28": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_26": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7629,13 +7623,13 @@
             "neighbors": {
                 "JR-JY_29": {
                     "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_29",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
                 "JR-JY_27": {
                     "type": "train",
-                    "direction": "cw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -7659,13 +7653,7 @@
             "neighbors": {
                 "JR-JY_28": {
                     "type": "train",
-                    "direction": "cw",
-                    "line": "JR-JY",
-                    "system": "JR 東日本"
-                },
-                "JR-JY_1": {
-                    "type": "train",
-                    "direction": "ccw",
+                    "direction": "JR-JY_1",
                     "line": "JR-JY",
                     "system": "JR 東日本"
                 },
@@ -13030,7 +13018,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "Metro-G": {
             "name": {
                 "zh": "銀座線"
@@ -13038,7 +13026,7 @@
             "color": "#f39700",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "G",
+            "code": "G",
             "direction": [
                 "Metro-G_19",
                 "Metro-G_1"
@@ -13051,7 +13039,7 @@
             "color": "#e60012",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "M",
+            "code": "M",
             "direction": [
                 "Metro-M_25",
                 "Metro-M_1"
@@ -13064,7 +13052,7 @@
             "color": "#e60012",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "M",
+            "code": "M",
             "direction": [
                 "Metro-m_4",
                 "Metro-m_1"
@@ -13077,7 +13065,7 @@
             "color": "#9caeb7",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "H",
+            "code": "H",
             "direction": [
                 "Metro-H_21",
                 "Metro-H_1"
@@ -13090,7 +13078,7 @@
             "color": "#00a7db",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "T",
+            "code": "T",
             "direction": [
                 "Metro-T_23",
                 "Metro-T_1"
@@ -13103,7 +13091,7 @@
             "color": "#009944",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "C",
+            "code": "C",
             "direction": [
                 "Metro-C_20",
                 "Metro-C_1"
@@ -13116,7 +13104,7 @@
             "color": "#d7c447",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "Y",
+            "code": "Y",
             "direction": [
                 "Metro-Y_24",
                 "Metro-Y_1"
@@ -13129,7 +13117,7 @@
             "color": "#9b7cb6",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "Z",
+            "code": "Z",
             "direction": [
                 "Metro-Z_14",
                 "Metro-Z_1"
@@ -13142,7 +13130,7 @@
             "color": "#00ada9",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "N",
+            "code": "N",
             "direction": [
                 "Metro-N_19",
                 "Metro-N_1"
@@ -13155,7 +13143,7 @@
             "color": "#bb641d",
             "system": "東京メトロ",
             "type": "",
-            "shortname": "F",
+            "code": "F",
             "direction": [
                 "Metro-F_16",
                 "Metro-F_1"
@@ -13168,7 +13156,7 @@
             "color": "#e85298",
             "system": "都営地下鉄",
             "type": "",
-            "shortname": "A",
+            "code": "A",
             "direction": [
                 "Toei-A_20",
                 "Toei-A_1"
@@ -13181,7 +13169,7 @@
             "color": "#0079c2",
             "system": "都営地下鉄",
             "type": "",
-            "shortname": "I",
+            "code": "I",
             "direction": [
                 "Toei-I_27",
                 "Toei-I_1"
@@ -13194,7 +13182,7 @@
             "color": "#6cbb5a",
             "system": "都営地下鉄",
             "type": "",
-            "shortname": "S",
+            "code": "S",
             "direction": [
                 "Toei-S_21",
                 "Toei-S_1"
@@ -13207,7 +13195,7 @@
             "color": "#b6007a",
             "system": "都営地下鉄",
             "type": "",
-            "shortname": "E",
+            "code": "E",
             "direction": [
                 "Toei-E_39",
                 "Toei-E_1"
@@ -13220,10 +13208,10 @@
             "color": "#9acd32",
             "system": "JR 東日本",
             "type": "",
-            "shortname": "JY",
+            "code": "JY",
             "direction": [
-                "ccw",
-                "cw"
+                "JR-JY_29",
+                "JR-JY_1"
             ]
         },
         "JR-JB": {
@@ -13233,7 +13221,7 @@
             "color": "#ffd400",
             "system": "JR 東日本",
             "type": "",
-            "shortname": "JB",
+            "code": "JB",
             "direction": [
                 "JR-JB_39",
                 "JR-JB_1"
@@ -13246,7 +13234,7 @@
             "color": "#1479cc",
             "system": "東京モノレール",
             "type": "",
-            "shortname": "MO",
+            "code": "MO",
             "direction": [
                 "Mono-MO_11",
                 "Mono-MO_1"
@@ -13259,7 +13247,7 @@
             "color": "#f15a22",
             "system": "JR 東日本",
             "type": "",
-            "shortname": "JC",
+            "code": "JC",
             "direction": [
                 "JR-JC_32",
                 "JR-JC_1"
@@ -13272,7 +13260,7 @@
             "color": "#00b2e5",
             "system": "JR 東日本",
             "type": "",
-            "shortname": "JK",
+            "code": "JK",
             "direction": [
                 "JR-JK_46",
                 "JR-JK_1"
@@ -13285,7 +13273,7 @@
             "color": "#DA0442",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "TY",
+            "code": "TY",
             "direction": [
                 "TK-TY_21",
                 "TK-TY_1"
@@ -13298,7 +13286,7 @@
             "color": "#009cd2",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "MG",
+            "code": "MG",
             "direction": [
                 "TK-MG_13",
                 "TK-MG_1"
@@ -13311,7 +13299,7 @@
             "color": "#20a288",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "DT",
+            "code": "DT",
             "direction": [
                 "TK-DT_27",
                 "TK-DT_1"
@@ -13324,7 +13312,7 @@
             "color": "#f18c43",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "OM",
+            "code": "OM",
             "direction": [
                 "TK-OM_16",
                 "TK-OM_1"
@@ -13337,7 +13325,7 @@
             "color": "#DA0442",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "IK",
+            "code": "IK",
             "direction": [
                 "TK-IK_15",
                 "TK-IK_1"
@@ -13350,7 +13338,7 @@
             "color": "#ee86a7",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "TM",
+            "code": "TM",
             "direction": [
                 "TK-TM_7",
                 "TK-TM_1"
@@ -13363,7 +13351,7 @@
             "color": "#0068b7",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "KD",
+            "code": "KD",
             "direction": [
                 "TK-KD_3",
                 "TK-KD_1"
@@ -13376,14 +13364,14 @@
             "color": "#fcc70d",
             "system": "東京急行電鉄",
             "type": "",
-            "shortname": "SG",
+            "code": "SG",
             "direction": [
                 "TK-SG_10",
                 "TK-SG_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "東京メトロ": {
             "zh": "東京メトロ"
         },
@@ -13400,7 +13388,7 @@
             "zh": "東京急行電鉄"
         }
     },
-    "Attention": [
+    "attentions": [
         "持单程车票的旅客，如需出站换乘，请在 30 分钟内，使用橙色闸机完成换乘。"
     ]
 }

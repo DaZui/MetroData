@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "NS_1": {
             "name": {
                 "zh": "裕廊东"
@@ -3175,7 +3175,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "NS": {
             "name": {
                 "zh": "南北线"
@@ -3183,7 +3183,7 @@
             "color": "#D42E12",
             "system": "MRT",
             "type": "",
-            "shortname": "NS",
+            "code": "NS",
             "direction": [
                 "NS_27",
                 "NS_1"
@@ -3196,7 +3196,7 @@
             "color": "#009645",
             "system": "MRT",
             "type": "",
-            "shortname": "EW",
+            "code": "EW",
             "direction": [
                 "EW_33",
                 "EW_1"
@@ -3209,7 +3209,7 @@
             "color": "#009645",
             "system": "MRT",
             "type": "",
-            "shortname": "CG",
+            "code": "CG",
             "direction": [
                 "CG_3",
                 "CG_1"
@@ -3222,7 +3222,7 @@
             "color": "#9900AA",
             "system": "MRT",
             "type": "",
-            "shortname": "NE",
+            "code": "NE",
             "direction": [
                 "NE_16",
                 "NE_1"
@@ -3235,7 +3235,7 @@
             "color": "#FA9E0D",
             "system": "MRT",
             "type": "",
-            "shortname": "CC",
+            "code": "CC",
             "direction": [
                 "CC_29",
                 "CC_1"
@@ -3248,7 +3248,7 @@
             "color": "#FA9E0D",
             "system": "MRT",
             "type": "",
-            "shortname": "CE",
+            "code": "CE",
             "direction": [
                 "CE_3",
                 "CE_1"
@@ -3261,7 +3261,7 @@
             "color": "#005EC4",
             "system": "MRT",
             "type": "",
-            "shortname": "DT",
+            "code": "DT",
             "direction": [
                 "DT_34",
                 "DT_1"
@@ -3274,14 +3274,14 @@
             "color": "#9D5B25",
             "system": "MRT",
             "type": "",
-            "shortname": "TE",
+            "code": "TE",
             "direction": [
                 "TE_3",
                 "TE_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "MRT": {
             "zh": "MRT"
         }

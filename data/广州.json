@@ -1,5 +1,5 @@
 {
-    "Stations": {
+    "stations": {
         "1_1": {
             "name": {
                 "zh": "西朗"
@@ -6520,7 +6520,7 @@
             }
         }
     },
-    "Lines": {
+    "lines": {
         "1": {
             "name": {
                 "zh": "1 号线"
@@ -6528,7 +6528,7 @@
             "color": "#E1B54F",
             "system": "广州地铁",
             "type": "",
-            "shortname": "1",
+            "code": "1",
             "direction": [
                 "1_16",
                 "1_1"
@@ -6541,7 +6541,7 @@
             "color": "#286C98",
             "system": "广州地铁",
             "type": "",
-            "shortname": "2",
+            "code": "2",
             "direction": [
                 "2_24",
                 "2_1"
@@ -6554,7 +6554,7 @@
             "color": "#DE9061",
             "system": "广州地铁",
             "type": "",
-            "shortname": "3",
+            "code": "3",
             "direction": [
                 "3_16",
                 "3_1"
@@ -6567,7 +6567,7 @@
             "color": "#DE9061",
             "system": "广州地铁",
             "type": "",
-            "shortname": "3",
+            "code": "3",
             "direction": [
                 "3__25",
                 "3__1"
@@ -6580,7 +6580,7 @@
             "color": "#378846",
             "system": "广州地铁",
             "type": "",
-            "shortname": "4",
+            "code": "4",
             "direction": [
                 "4_22",
                 "4_1"
@@ -6593,7 +6593,7 @@
             "color": "#C42453",
             "system": "广州地铁",
             "type": "",
-            "shortname": "5",
+            "code": "5",
             "direction": [
                 "5_24",
                 "5_1"
@@ -6606,7 +6606,7 @@
             "color": "#842F6A",
             "system": "广州地铁",
             "type": "",
-            "shortname": "6",
+            "code": "6",
             "direction": [
                 "6_29",
                 "6_1"
@@ -6619,7 +6619,7 @@
             "color": "#95D600",
             "system": "广州地铁",
             "type": "",
-            "shortname": "7",
+            "code": "7",
             "direction": [
                 "7_9",
                 "7_1"
@@ -6632,7 +6632,7 @@
             "color": "#2D9496",
             "system": "广州地铁",
             "type": "",
-            "shortname": "8",
+            "code": "8",
             "direction": [
                 "8_26",
                 "8_1"
@@ -6645,7 +6645,7 @@
             "color": "#71CC98",
             "system": "广州地铁",
             "type": "",
-            "shortname": "9",
+            "code": "9",
             "direction": [
                 "9_10",
                 "9_1"
@@ -6658,7 +6658,7 @@
             "color": "#8e8c13",
             "system": "广州地铁",
             "type": "",
-            "shortname": "13",
+            "code": "13",
             "direction": [
                 "13_11",
                 "13_1"
@@ -6671,7 +6671,7 @@
             "color": "#81212F",
             "system": "广州地铁",
             "type": "",
-            "shortname": "14",
+            "code": "14",
             "direction": [
                 "14_13",
                 "14_1"
@@ -6684,7 +6684,7 @@
             "color": "#81212F",
             "system": "广州地铁",
             "type": "",
-            "shortname": "14",
+            "code": "14",
             "direction": [
                 "14__10",
                 "14__1"
@@ -6697,7 +6697,7 @@
             "color": "#201747",
             "system": "广州地铁",
             "type": "",
-            "shortname": "21",
+            "code": "21",
             "direction": [
                 "21_21",
                 "21_1"
@@ -6710,7 +6710,7 @@
             "color": "#B5BF3B",
             "system": "广州地铁",
             "type": "",
-            "shortname": "GF",
+            "code": "GF",
             "direction": [
                 "GF_25",
                 "GF_1"
@@ -6723,7 +6723,7 @@
             "color": "#2B9FBE",
             "system": "APM",
             "type": "",
-            "shortname": "APM 线",
+            "code": "APM 线",
             "direction": [
                 "APM 线_9",
                 "APM 线_1"
@@ -6736,14 +6736,14 @@
             "color": "#3CAABC",
             "system": "有轨电车",
             "type": "",
-            "shortname": "THZ1",
+            "code": "THZ1",
             "direction": [
                 "THZ1_11",
                 "THZ1_1"
             ]
         }
     },
-    "Systems": {
+    "systems": {
         "广州地铁": {
             "zh": "广州地铁"
         },
