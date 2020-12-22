@@ -1,8 +1,8 @@
 {
-    "Attention": [
+    "attentions": [
         "持单程车票的旅客，如需出站换乘，请在 30 分钟内，使用橙色闸机完成换乘。"
     ],
-    "Connection": [
+    "connections": [
         [
             "赤坂見附",
             "永田町",
@@ -69,12 +69,12 @@
             ]
         ]
     ],
-    "Lines": [
+    "lines": [
         {
-            "Color": "#f39700",
-            "Name": "銀座線",
-            "ShortName": "G",
-            "Stations": [
+            "color": "#f39700",
+            "name": "銀座線",
+            "code": "G",
+            "stations": [
                 "渋谷",
                 "表参道",
                 "外苑前",
@@ -95,14 +95,14 @@
                 "田原町",
                 "浅草"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-G"
         },
         {
-            "Color": "#e60012",
-            "Name": "丸ノ内線",
-            "ShortName": "M",
-            "Stations": [
+            "color": "#e60012",
+            "name": "丸ノ内線",
+            "code": "M",
+            "stations": [
                 "荻窪",
                 "南阿佐ケ谷",
                 "新高円寺",
@@ -129,27 +129,27 @@
                 "新大塚",
                 "池袋"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-M"
         },
         {
-            "Color": "#e60012",
-            "Name": "丸ノ内線",
-            "ShortName": "M",
-            "Stations": [
+            "color": "#e60012",
+            "name": "丸ノ内線",
+            "code": "M",
+            "stations": [
                 "方南町",
                 "中野富士見町",
                 "中野新橋",
                 "中野坂上"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-m"
         },
         {
-            "Color": "#9caeb7",
-            "Name": "日比谷線",
-            "ShortName": "H",
-            "Stations": [
+            "color": "#9caeb7",
+            "name": "日比谷線",
+            "code": "H",
+            "stations": [
                 "中目黒",
                 "恵比寿",
                 "広尾",
@@ -172,14 +172,14 @@
                 "南千住",
                 "北千住"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-H"
         },
         {
-            "Color": "#00a7db",
-            "Name": "東西線",
-            "ShortName": "T",
-            "Stations": [
+            "color": "#00a7db",
+            "name": "東西線",
+            "code": "T",
+            "stations": [
                 "中野",
                 "落合",
                 "高田馬場",
@@ -204,14 +204,14 @@
                 "原木中山",
                 "西船橋"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-T"
         },
         {
-            "Color": "#009944",
-            "Name": "千代田線",
-            "ShortName": "C",
-            "Stations": [
+            "color": "#009944",
+            "name": "千代田線",
+            "code": "C",
+            "stations": [
                 "代々木上原",
                 "代々木公園",
                 "明治神宮前",
@@ -233,14 +233,14 @@
                 "綾瀬",
                 "北綾瀬"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-C"
         },
         {
-            "Color": "#d7c447",
-            "Name": "有楽町線",
-            "ShortName": "Y",
-            "Stations": [
+            "color": "#d7c447",
+            "name": "有楽町線",
+            "code": "Y",
+            "stations": [
                 "和光市",
                 "地下鉄成増",
                 "地下鉄赤塚",
@@ -266,14 +266,14 @@
                 "辰巳",
                 "新木場"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-Y"
         },
         {
-            "Color": "#9b7cb6",
-            "Name": "半蔵門線",
-            "ShortName": "Z",
-            "Stations": [
+            "color": "#9b7cb6",
+            "name": "半蔵門線",
+            "code": "Z",
+            "stations": [
                 "押上",
                 "錦糸町",
                 "住吉",
@@ -289,14 +289,14 @@
                 "表参道",
                 "渋谷"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-Z"
         },
         {
-            "Color": "#00ada9",
-            "Name": "南北線",
-            "ShortName": "N",
-            "Stations": [
+            "color": "#00ada9",
+            "name": "南北線",
+            "code": "N",
+            "stations": [
                 "目黒",
                 "白金台",
                 "白金高輪",
@@ -317,14 +317,14 @@
                 "志茂",
                 "赤羽岩淵"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-N"
         },
         {
-            "Color": "#bb641d",
-            "Name": "副都心線",
-            "ShortName": "F",
-            "Stations": [
+            "color": "#bb641d",
+            "name": "副都心線",
+            "code": "F",
+            "stations": [
                 "和光市",
                 "地下鉄成増",
                 "地下鉄赤塚",
@@ -342,14 +342,14 @@
                 "明治神宮前",
                 "渋谷"
             ],
-            "System": "東京メトロ",
+            "system": "東京メトロ",
             "id": "Metro-F"
         },
         {
-            "Color": "#e85298",
-            "Name": "都営浅草線",
-            "ShortName": "A",
-            "Stations": [
+            "color": "#e85298",
+            "name": "都営浅草線",
+            "code": "A",
+            "stations": [
                 "西馬込",
                 "馬込",
                 "中延",
@@ -371,14 +371,14 @@
                 "本所吾妻橋",
                 "押上"
             ],
-            "System": "都営地下鉄",
+            "system": "都営地下鉄",
             "id": "Toei-A"
         },
         {
-            "Color": "#0079c2",
-            "Name": "都営三田線",
-            "ShortName": "I",
-            "Stations": [
+            "color": "#0079c2",
+            "name": "都営三田線",
+            "code": "I",
+            "stations": [
                 "目黒",
                 "白金台",
                 "白金高輪",
@@ -407,14 +407,14 @@
                 "新高島平",
                 "西高島平"
             ],
-            "System": "都営地下鉄",
+            "system": "都営地下鉄",
             "id": "Toei-I"
         },
         {
-            "Color": "#6cbb5a",
-            "Name": "都営新宿線",
-            "ShortName": "S",
-            "Stations": [
+            "color": "#6cbb5a",
+            "name": "都営新宿線",
+            "code": "S",
+            "stations": [
                 "新宿",
                 "新宿三丁目",
                 "曙橋",
@@ -437,14 +437,14 @@
                 "篠崎",
                 "本八幡"
             ],
-            "System": "都営地下鉄",
+            "system": "都営地下鉄",
             "id": "Toei-S"
         },
         {
-            "Color": "#b6007a",
-            "Name": "都営大江戸線",
-            "ShortName": "E",
-            "Stations": [
+            "color": "#b6007a",
+            "name": "都営大江戸線",
+            "code": "E",
+            "stations": [
                 "都庁前",
                 "新宿西口",
                 "東新宿",
@@ -485,15 +485,15 @@
                 "練馬春日町",
                 "光が丘"
             ],
-            "System": "都営地下鉄",
+            "system": "都営地下鉄",
             "id": "Toei-E"
         },
         {
-            "Color": "#9acd32",
-            "Name": "山手線",
+            "color": "#9acd32",
+            "name": "山手線",
             "Ring": 1,
-            "ShortName": "JY",
-            "Stations": [
+            "code": "JY",
+            "stations": [
                 "東京",
                 "神田",
                 "秋葉原",
@@ -524,14 +524,14 @@
                 "新橋",
                 "有楽町"
             ],
-            "System": "JR 東日本",
+            "system": "JR 東日本",
             "id": "JR-JY"
         },
         {
-            "Color": "#ffd400",
-            "Name": "中央・総武緩行線",
-            "ShortName": "JB",
-            "Stations": [
+            "color": "#ffd400",
+            "name": "中央・総武緩行線",
+            "code": "JB",
+            "stations": [
                 "千葉",
                 "西千葉",
                 "稲毛",
@@ -572,14 +572,14 @@
                 "吉祥寺",
                 "三鷹"
             ],
-            "System": "JR 東日本",
+            "system": "JR 東日本",
             "id": "JR-JB"
         },
         {
-            "Color": "#1479cc",
-            "Name": "東京モノレール",
-            "ShortName": "MO",
-            "Stations": [
+            "color": "#1479cc",
+            "name": "東京モノレール",
+            "code": "MO",
+            "stations": [
                 "浜松町",
                 "天王洲アイル",
                 "大井競馬場前",
@@ -592,14 +592,14 @@
                 "羽田空港第 1 ビル",
                 "羽田空港第 2 ビル"
             ],
-            "System": "東京モノレール",
+            "system": "東京モノレール",
             "id": "Mono-MO"
         },
         {
-            "Color": "#f15a22",
-            "Name": "中央線（快速）",
-            "ShortName": "JC",
-            "Stations": [
+            "color": "#f15a22",
+            "name": "中央線（快速）",
+            "code": "JC",
+            "stations": [
                 "東京",
                 "神田",
                 "御茶ノ水",
@@ -633,14 +633,14 @@
                 "猿橋",
                 "大月"
             ],
-            "System": "JR 東日本",
+            "system": "JR 東日本",
             "id": "JR-JC"
         },
         {
-            "Color": "#00b2e5",
-            "Name": "京浜東北線・根岸線",
-            "ShortName": "JK",
-            "Stations": [
+            "color": "#00b2e5",
+            "name": "京浜東北線・根岸線",
+            "code": "JK",
+            "stations": [
                 "大宮",
                 "さいたま新都心",
                 "与野",
@@ -688,14 +688,14 @@
                 "本郷台",
                 "大船"
             ],
-            "System": "JR 東日本",
+            "system": "JR 東日本",
             "id": "JR-JK"
         },
         {
-            "Color": "#DA0442",
-            "Name": "東急東横線",
-            "ShortName": "TY",
-            "Stations": [
+            "color": "#DA0442",
+            "name": "東急東横線",
+            "code": "TY",
+            "stations": [
                 "渋谷",
                 "代官山",
                 "中目黒",
@@ -718,14 +718,14 @@
                 "反町",
                 "横浜"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-TY"
         },
         {
-            "Color": "#009cd2",
-            "Name": "東急目黒線",
-            "ShortName": "MG",
-            "Stations": [
+            "color": "#009cd2",
+            "name": "東急目黒線",
+            "code": "MG",
+            "stations": [
                 "目黒",
                 "不動前",
                 "武蔵小山",
@@ -740,14 +740,14 @@
                 "元住吉",
                 "日吉"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-MG"
         },
         {
-            "Color": "#20a288",
-            "Name": "東急田園都市線",
-            "ShortName": "DT",
-            "Stations": [
+            "color": "#20a288",
+            "name": "東急田園都市線",
+            "code": "DT",
+            "stations": [
                 "渋谷",
                 "池尻大橋",
                 "三軒茶屋",
@@ -776,14 +776,14 @@
                 "つきみ野",
                 "中央林間"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-DT"
         },
         {
-            "Color": "#f18c43",
-            "Name": "東急大井町線",
-            "ShortName": "OM",
-            "Stations": [
+            "color": "#f18c43",
+            "name": "東急大井町線",
+            "code": "OM",
+            "stations": [
                 "大井町",
                 "下神明",
                 "戸越公園",
@@ -801,14 +801,14 @@
                 "二子玉川",
                 "溝の口"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-OM"
         },
         {
-            "Color": "#DA0442",
-            "Name": "東急池上線",
-            "ShortName": "IK",
-            "Stations": [
+            "color": "#DA0442",
+            "name": "東急池上線",
+            "code": "IK",
+            "stations": [
                 "五反田",
                 "大崎広小路",
                 "戸越銀座",
@@ -825,14 +825,14 @@
                 "蓮沼",
                 "蒲田"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-IK"
         },
         {
-            "Color": "#ee86a7",
-            "Name": "東急多摩川線",
-            "ShortName": "TM",
-            "Stations": [
+            "color": "#ee86a7",
+            "name": "東急多摩川線",
+            "code": "TM",
+            "stations": [
                 "多摩川",
                 "沼部",
                 "鵜の木",
@@ -841,26 +841,26 @@
                 "矢口渡",
                 "蒲田"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-TM"
         },
         {
-            "Color": "#0068b7",
-            "Name": "東急こどもの国線",
-            "ShortName": "KD",
-            "Stations": [
+            "color": "#0068b7",
+            "name": "東急こどもの国線",
+            "code": "KD",
+            "stations": [
                 "長津田",
                 "恩田",
                 "こどもの国"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-KD"
         },
         {
-            "Color": "#fcc70d",
-            "Name": "東急世田谷線",
-            "ShortName": "SG",
-            "Stations": [
+            "color": "#fcc70d",
+            "name": "東急世田谷線",
+            "code": "SG",
+            "stations": [
                 "三軒茶屋",
                 "西太子堂",
                 "若林",
@@ -872,11 +872,11 @@
                 "松原",
                 "下高井戸"
             ],
-            "System": "東京急行電鉄",
+            "system": "東京急行電鉄",
             "id": "TK-SG"
         }
     ],
-    "VirtualTransfers": [
+    "virtualTransfers": [
         [
             "上野",
             "日比谷線",

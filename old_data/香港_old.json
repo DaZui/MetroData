@@ -1,5 +1,5 @@
 {
-  "Connection": [
+  "connections": [
     [
       "中環",
       "香港",
@@ -24,12 +24,12 @@
       "港鐵市區綫"
     ]
   ],
-  "Lines": [
+  "lines": [
     {
-      "Color": "#61B4E4",
-      "Name": "東鐵綫",
-      "ShortName": "ERL",
-      "Stations": [
+      "color": "#61B4E4",
+      "name": "東鐵綫",
+      "code": "ERL",
+      "stations": [
         "羅湖",
         "上水",
         "粉嶺",
@@ -43,34 +43,34 @@
         "旺角東",
         "紅磡"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#61B4E4",
-      "Name": "東鐵綫",
-      "ShortName": "ERL",
-      "Stations": [
+      "color": "#61B4E4",
+      "name": "東鐵綫",
+      "code": "ERL",
+      "stations": [
         "落馬洲",
         "上水"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#61B4E4",
-      "Name": "東鐵綫",
-      "ShortName": "ERL",
-      "Stations": [
+      "color": "#61B4E4",
+      "name": "東鐵綫",
+      "code": "ERL",
+      "stations": [
         "大學",
         "馬場",
         "沙田"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#00AF41",
-      "Name": "觀塘綫",
-      "ShortName": "KTL",
-      "Stations": [
+      "color": "#00AF41",
+      "name": "觀塘綫",
+      "code": "KTL",
+      "stations": [
         "黄埔",
         "何文田",
         "油麻地",
@@ -89,13 +89,13 @@
         "油塘",
         "調景嶺"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#E2231A",
-      "Name": "荃灣綫",
-      "ShortName": "TWL",
-      "Stations": [
+      "color": "#E2231A",
+      "name": "荃灣綫",
+      "code": "TWL",
+      "stations": [
         "荃灣",
         "大窩口",
         "葵興",
@@ -113,13 +113,13 @@
         "金鐘",
         "中環"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#0071CE",
-      "Name": "港島綫",
-      "ShortName": "ISL",
-      "Stations": [
+      "color": "#0071CE",
+      "name": "港島綫",
+      "code": "ISL",
+      "stations": [
         "堅尼地城",
         "香港大學",
         "西營盤",
@@ -138,26 +138,26 @@
         "杏花邨",
         "柴灣"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#007078",
-      "Name": "機場快綫",
-      "ShortName": "AEL",
-      "Stations": [
+      "color": "#007078",
+      "name": "機場快綫",
+      "code": "AEL",
+      "stations": [
         "博覽館",
         "機場",
         "青衣",
         "九龍",
         "香港"
       ],
-      "System": "機場快綫"
+      "system": "機場快綫"
     },
     {
-      "Color": "#F38B00",
-      "Name": "東涌綫",
-      "ShortName": "TCL",
-      "Stations": [
+      "color": "#F38B00",
+      "name": "東涌綫",
+      "code": "TCL",
+      "stations": [
         "東涌",
         "欣澳",
         "青衣",
@@ -167,13 +167,13 @@
         "九龍",
         "香港"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#A35EB5",
-      "Name": "將軍澳綫",
-      "ShortName": "TKL",
-      "Stations": [
+      "color": "#A35EB5",
+      "name": "將軍澳綫",
+      "code": "TKL",
+      "stations": [
         "北角",
         "鲗魚涌",
         "油塘",
@@ -182,23 +182,23 @@
         "坑口",
         "寶琳"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#A35EB5",
-      "Name": "將軍澳綫",
-      "ShortName": "TKL",
-      "Stations": [
+      "color": "#A35EB5",
+      "name": "將軍澳綫",
+      "code": "TKL",
+      "stations": [
         "將軍澳",
         "康城"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#B6008D",
-      "Name": "西鐵綫",
-      "ShortName": "WRL",
-      "Stations": [
+      "color": "#B6008D",
+      "name": "西鐵綫",
+      "code": "WRL",
+      "stations": [
         "屯門",
         "兆康",
         "天水圍",
@@ -212,13 +212,13 @@
         "尖東",
         "紅磡"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#9A3820",
-      "Name": "屯馬綫",
-      "ShortName": "EWL",
-      "Stations": [
+      "color": "#9A3820",
+      "name": "屯馬綫",
+      "code": "EWL",
+      "stations": [
         "烏溪沙",
         "馬鞍山",
         "恒安",
@@ -232,30 +232,30 @@
         "鑽石山",
         "啟德"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#E777CB",
-      "Name": "迪士尼綫",
-      "ShortName": "DRL",
-      "Stations": [
+      "color": "#E777CB",
+      "name": "迪士尼綫",
+      "code": "DRL",
+      "stations": [
         "欣澳",
         "迪士尼"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     },
     {
-      "Color": "#B6BD00",
-      "Name": "南港島綫",
-      "ShortName": "SIL",
-      "Stations": [
+      "color": "#B6BD00",
+      "name": "南港島綫",
+      "code": "SIL",
+      "stations": [
         "金鐘",
         "海洋公園",
         "黃竹坑",
         "利東",
         "海怡半島"
       ],
-      "System": "港鐵市區綫"
+      "system": "港鐵市區綫"
     }
   ]
 }

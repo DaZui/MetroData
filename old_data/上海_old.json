@@ -1,10 +1,10 @@
 {
-    "Lines": [
+    "lines": [
         {
-            "Color": "#E4002B",
-            "Name": "1 号线",
-            "ShortName": "1",
-            "Stations": [
+            "color": "#E4002B",
+            "name": "1 号线",
+            "code": "1",
+            "stations": [
                 "富锦路",
                 "友谊西路",
                 "宝安公路",
@@ -34,13 +34,13 @@
                 "外环路",
                 "莘庄"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#97D700",
-            "Name": "2 号线",
-            "ShortName": "2",
-            "Stations": [
+            "color": "#97D700",
+            "name": "2 号线",
+            "code": "2",
+            "stations": [
                 "徐泾东",
                 "虹桥火车站",
                 "虹桥 2 号航站楼",
@@ -72,13 +72,13 @@
                 "海天三路",
                 "浦东国际机场"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#FFD100",
-            "Name": "3 号线",
-            "ShortName": "3",
-            "Stations": [
+            "color": "#FFD100",
+            "name": "3 号线",
+            "code": "3",
+            "stations": [
                 "江杨北路",
                 "铁力路",
                 "友谊路",
@@ -109,14 +109,14 @@
                 "石龙路",
                 "上海南站"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#5F259F",
-            "Name": "4 号线",
-            "Ring": 1,
-            "ShortName": "4",
-            "Stations": [
+            "color": "#5F259F",
+            "name": "4 号线",
+            "ring": 1,
+            "code": "4",
+            "stations": [
                 "宜山路",
                 "上海体育馆",
                 "上海体育场",
@@ -144,13 +144,13 @@
                 "延安西路",
                 "虹桥路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#AC4FC6",
-            "Name": "5 号线",
-            "ShortName": "5",
-            "Stations": [
+            "color": "#AC4FC6",
+            "name": "5 号线",
+            "code": "5",
+            "stations": [
                 "莘庄",
                 "春申路",
                 "银都路",
@@ -167,26 +167,26 @@
                 "金海湖",
                 "奉贤新城"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#AC4FC6",
-            "Name": "5 号线",
-            "ShortName": "5",
-            "Stations": [
+            "color": "#AC4FC6",
+            "name": "5 号线",
+            "code": "5",
+            "stations": [
                 "东川路",
                 "金平路",
                 "华宁路",
                 "文井路",
                 "闵行开发区"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#D71671",
-            "Name": "6 号线",
-            "ShortName": "6",
-            "Stations": [
+            "color": "#D71671",
+            "name": "6 号线",
+            "code": "6",
+            "stations": [
                 "港城路",
                 "外高桥保税区北",
                 "航津路",
@@ -216,13 +216,13 @@
                 "灵岩南路",
                 "东方体育中心"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#FF6900",
-            "Name": "7 号线",
-            "ShortName": "7",
-            "Stations": [
+            "color": "#FF6900",
+            "name": "7 号线",
+            "code": "7",
+            "stations": [
                 "美兰湖",
                 "罗南新村",
                 "潘广路",
@@ -257,13 +257,13 @@
                 "龙阳路",
                 "花木路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#009EDB",
-            "Name": "8 号线",
-            "ShortName": "8",
-            "Stations": [
+            "color": "#009EDB",
+            "name": "8 号线",
+            "code": "8",
+            "stations": [
                 "市光路",
                 "嫩江路",
                 "翔殷路",
@@ -295,13 +295,13 @@
                 "联航路",
                 "沈杜公路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#71C5E8",
-            "Name": "9 号线",
-            "ShortName": "9",
-            "Stations": [
+            "color": "#71C5E8",
+            "name": "9 号线",
+            "code": "9",
+            "stations": [
                 "松江南站",
                 "醉白池",
                 "松江体育中心",
@@ -337,13 +337,13 @@
                 "民雷路",
                 "曹路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#C1A7E2",
-            "Name": "10 号线",
-            "ShortName": "10",
-            "Stations": [
+            "color": "#C1A7E2",
+            "name": "10 号线",
+            "code": "10",
+            "stations": [
                 "基隆路",
                 "港城路",
                 "高桥",
@@ -379,25 +379,25 @@
                 "虹桥 2 号航站楼",
                 "虹桥火车站"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#C1A7E2",
-            "Name": "10 号线",
-            "ShortName": "10",
-            "Stations": [
+            "color": "#C1A7E2",
+            "name": "10 号线",
+            "code": "10",
+            "stations": [
                 "龙溪路",
                 "龙柏新村",
                 "紫藤路",
                 "航中路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#76232F",
-            "Name": "11 号线",
-            "ShortName": "11",
-            "Stations": [
+            "color": "#76232F",
+            "name": "11 号线",
+            "code": "11",
+            "stations": [
                 "嘉定北",
                 "嘉定西",
                 "白银路",
@@ -431,13 +431,13 @@
                 "康新公路",
                 "迪士尼"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#76232F",
-            "Name": "11 号线",
-            "ShortName": "11",
-            "Stations": [
+            "color": "#76232F",
+            "name": "11 号线",
+            "code": "11",
+            "stations": [
                 "花桥",
                 "光明路",
                 "兆丰路",
@@ -447,13 +447,13 @@
                 "上海赛车场",
                 "嘉定新城"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#007B5F",
-            "Name": "12 号线",
-            "ShortName": "12",
-            "Stations": [
+            "color": "#007B5F",
+            "name": "12 号线",
+            "code": "12",
+            "stations": [
                 "七莘路",
                 "虹莘路",
                 "顾戴路",
@@ -487,13 +487,13 @@
                 "申江路",
                 "金海路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#EF95CF",
-            "Name": "13 号线",
-            "ShortName": "13",
-            "Stations": [
+            "color": "#EF95CF",
+            "name": "13 号线",
+            "code": "13",
+            "stations": [
                 "金运路",
                 "金沙江西路",
                 "丰庄",
@@ -526,13 +526,13 @@
                 "学林路",
                 "张江路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#BBA786",
-            "Name": "15 号线",
-            "ShortName": "15",
-            "Stations": [
+            "color": "#BBA786",
+            "name": "15 号线",
+            "code": "15",
+            "stations": [
                 "顾村公园",
                 "锦秋路",
                 "丰翔路",
@@ -564,13 +564,13 @@
                 "永德路",
                 "紫竹高新区"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#2CD5C4",
-            "Name": "16 号线",
-            "ShortName": "16",
-            "Stations": [
+            "color": "#2CD5C4",
+            "name": "16 号线",
+            "code": "16",
+            "stations": [
                 "龙阳路",
                 "华夏中路",
                 "罗山路",
@@ -585,13 +585,13 @@
                 "临港大道",
                 "滴水湖"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#B4786A",
-            "Name": "17 号线",
-            "ShortName": "17",
-            "Stations": [
+            "color": "#B4786A",
+            "name": "17 号线",
+            "code": "17",
+            "stations": [
                 "东方绿舟",
                 "朱家角",
                 "淀山湖大道",
@@ -606,13 +606,13 @@
                 "诸光路",
                 "虹桥火车站"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#D6A461",
-            "Name": "18 号线",
-            "ShortName": "18",
-            "Stations": [
+            "color": "#D6A461",
+            "name": "18 号线",
+            "code": "18",
+            "stations": [
                 "御桥",
                 "康桥",
                 "周浦",
@@ -622,23 +622,23 @@
                 "鹤立西路",
                 "航头"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         },
         {
-            "Color": "#008080",
-            "Name": "磁悬浮",
-            "ShortName": "磁",
-            "Stations": [
+            "color": "#008080",
+            "name": "磁悬浮",
+            "code": "磁",
+            "stations": [
                 "龙阳路",
                 "浦东国际机场"
             ],
-            "System": "磁悬浮"
+            "system": "磁悬浮"
         },
         {
-            "Color": "#999999",
-            "Name": "浦江线",
-            "ShortName": "浦",
-            "Stations": [
+            "color": "#999999",
+            "name": "浦江线",
+            "code": "浦",
+            "stations": [
                 "沈杜公路",
                 "三鲁公路",
                 "闵瑞路",
@@ -646,10 +646,10 @@
                 "东城一路",
                 "汇臻路"
             ],
-            "System": "上海地铁"
+            "system": "上海地铁"
         }
     ],
-    "VirtualTransfers": [
+    "virtualTransfers": [
         [
             "南京西路",
             "2 号线",

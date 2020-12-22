@@ -1,10 +1,10 @@
 {
-  "Lines": [
+  "lines": [
     {
-      "Color": "#A4343A",
-      "Name": "一号线",
-      "ShortName": "1",
-      "Stations": [
+      "color": "#A4343A",
+      "name": "一号线",
+      "code": "1",
+      "stations": [
         "古城",
         "八角游乐园",
         "八宝山",
@@ -28,13 +28,13 @@
         "四惠",
         "四惠东"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#A4343A",
-      "Name": "八通线",
-      "ShortName": "通",
-      "Stations": [
+      "color": "#A4343A",
+      "name": "八通线",
+      "code": "通",
+      "stations": [
         "四惠",
         "四惠东",
         "高碑店",
@@ -50,14 +50,14 @@
         "土桥",
         "花庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#004B87",
-      "Name": "二号线",
-      "Ring": -1,
-      "ShortName": "2",
-      "Stations": [
+      "color": "#004B87",
+      "name": "二号线",
+      "ring": -1,
+      "code": "2",
+      "stations": [
         "西直门",
         "积水潭",
         "鼓楼大街",
@@ -77,13 +77,13 @@
         "阜成门",
         "车公庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#008C95",
-      "Name": "四号线大兴线",
-      "ShortName": "4",
-      "Stations": [
+      "color": "#008C95",
+      "name": "四号线大兴线",
+      "code": "4",
+      "stations": [
         "安河桥北",
         "北宫门",
         "西苑",
@@ -120,13 +120,13 @@
         "生物医药基地",
         "天宫院"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#AA0061",
-      "Name": "五号线",
-      "ShortName": "5",
-      "Stations": [
+      "color": "#AA0061",
+      "name": "五号线",
+      "code": "5",
+      "stations": [
         "天通苑北",
         "天通苑",
         "天通苑南",
@@ -151,13 +151,13 @@
         "刘家窑",
         "宋家庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#B58500",
-      "Name": "六号线",
-      "ShortName": "6",
-      "Stations": [
+      "color": "#B58500",
+      "name": "六号线",
+      "code": "6",
+      "stations": [
         "金安桥",
         "杨庄",
         "西黄村",
@@ -192,13 +192,13 @@
         "东夏园",
         "潞城"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#FFC56E",
-      "Name": "七号线",
-      "ShortName": "7",
-      "Stations": [
+      "color": "#FFC56E",
+      "name": "七号线",
+      "code": "7",
+      "stations": [
         "北京西站",
         "湾子",
         "达官营",
@@ -229,13 +229,13 @@
         "高楼金",
         "花庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#009B77",
-      "Name": "八号线",
-      "ShortName": "8",
-      "Stations": [
+      "color": "#009B77",
+      "name": "八号线",
+      "code": "8",
+      "stations": [
         "朱辛庄",
         "育知路",
         "平西府",
@@ -256,13 +256,13 @@
         "南锣鼓巷",
         "中国美术馆"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#009B77",
-      "Name": "八号线",
-      "ShortName": "8",
-      "Stations": [
+      "color": "#009B77",
+      "name": "八号线",
+      "code": "8",
+      "stations": [
         "珠市口",
         "天桥",
         "永定门外",
@@ -276,13 +276,13 @@
         "德茂",
         "瀛海"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#97D700",
-      "Name": "九号线",
-      "ShortName": "9",
-      "Stations": [
+      "color": "#97D700",
+      "name": "九号线",
+      "code": "9",
+      "stations": [
         "国家图书馆",
         "白石桥南",
         "白堆子",
@@ -297,14 +297,14 @@
         "丰台科技园",
         "郭公庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#0092BC",
-      "Name": "十号线",
-      "Ring": -1,
-      "ShortName": "10",
-      "Stations": [
+      "color": "#0092BC",
+      "name": "十号线",
+      "ring": -1,
+      "code": "10",
+      "stations": [
         "巴沟",
         "苏州街",
         "海淀黄庄",
@@ -351,13 +351,13 @@
         "长春桥",
         "火器营"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#F4DA40",
-      "Name": "十三号线",
-      "ShortName": "13",
-      "Stations": [
+      "color": "#F4DA40",
+      "name": "十三号线",
+      "code": "13",
+      "stations": [
         "西直门",
         "大钟寺",
         "知春路",
@@ -376,13 +376,13 @@
         "柳芳",
         "东直门"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#CA9A8E",
-      "Name": "十四号线",
-      "ShortName": "14",
-      "Stations": [
+      "color": "#CA9A8E",
+      "name": "十四号线",
+      "code": "14",
+      "stations": [
         "张郭庄",
         "园博园",
         "大瓦窑",
@@ -391,13 +391,13 @@
         "七里庄",
         "西局"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#CA9A8E",
-      "Name": "十四号线",
-      "ShortName": "14",
-      "Stations": [
+      "color": "#CA9A8E",
+      "name": "十四号线",
+      "code": "14",
+      "stations": [
         "北京南站",
         "永定门外",
         "景泰",
@@ -420,13 +420,13 @@
         "来广营",
         "善各庄"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#653279",
-      "Name": "十五号线",
-      "ShortName": "15",
-      "Stations": [
+      "color": "#653279",
+      "name": "十五号线",
+      "code": "15",
+      "stations": [
         "清华东路西口",
         "六道口",
         "北沙滩",
@@ -448,13 +448,13 @@
         "顺义",
         "俸伯"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#6BA539",
-      "Name": "十六号线",
-      "ShortName": "16",
-      "Stations": [
+      "color": "#6BA539",
+      "name": "十六号线",
+      "code": "16",
+      "stations": [
         "北安河",
         "温阳路",
         "稻香湖路",
@@ -473,13 +473,13 @@
         "二里沟",
         "甘家口"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#D0006F",
-      "Name": "亦庄线",
-      "ShortName": "亦",
-      "Stations": [
+      "color": "#D0006F",
+      "name": "亦庄线",
+      "code": "亦",
+      "stations": [
         "宋家庄",
         "肖村",
         "小红门",
@@ -495,13 +495,13 @@
         "次渠",
         "亦庄火车站"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#D86018",
-      "Name": "房山线",
-      "ShortName": "房",
-      "Stations": [
+      "color": "#D86018",
+      "name": "房山线",
+      "code": "房",
+      "stations": [
         "东管头南",
         "首经贸",
         "花乡东桥",
@@ -519,13 +519,13 @@
         "苏庄",
         "阎村东"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#D86018",
-      "Name": "燕房线",
-      "ShortName": "燕",
-      "Stations": [
+      "color": "#D86018",
+      "name": "燕房线",
+      "code": "燕",
+      "stations": [
         "燕山",
         "房山城关",
         "饶乐府",
@@ -536,13 +536,13 @@
         "紫草坞",
         "阎村东"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#A65A2A",
-      "Name": "地铁 S1 线",
-      "ShortName": "S1",
-      "Stations": [
+      "color": "#A65A2A",
+      "name": "地铁 S1 线",
+      "code": "S1",
+      "stations": [
         "石厂",
         "小园",
         "栗园庄",
@@ -551,13 +551,13 @@
         "四道桥",
         "金安桥"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#D986BA",
-      "Name": "昌平线",
-      "ShortName": "昌",
-      "Stations": [
+      "color": "#D986BA",
+      "name": "昌平线",
+      "code": "昌",
+      "stations": [
         "昌平西山口",
         "十三陵景区",
         "昌平",
@@ -571,13 +571,13 @@
         "生命科学园",
         "西二旗"
       ],
-      "System": "北京地铁"
+      "system": "北京地铁"
     },
     {
-      "Color": "#D22630",
-      "Name": "西郊线",
-      "ShortName": "郊",
-      "Stations": [
+      "color": "#D22630",
+      "name": "西郊线",
+      "code": "郊",
+      "stations": [
         "香山",
         "植物园",
         "万安",
@@ -585,44 +585,44 @@
         "颐和园西门",
         "巴沟"
       ],
-      "System": "西郊有轨电车"
+      "system": "西郊有轨电车"
     },
     {
-      "Color": "#A192B2",
-      "Name": "首都机场线",
-      "ShortName": "首",
-      "Single": true,
-      "Stations": [
+      "color": "#A192B2",
+      "name": "首都机场线",
+      "code": "首",
+      "single": true,
+      "stations": [
         "东直门",
         "三元桥",
         "三号航站楼",
         "二号航站楼"
       ],
-      "System": "首都机场线"
+      "system": "首都机场线"
     },
     {
-      "Color": "#A192B2",
-      "Name": "首都机场线",
-      "ShortName": "首",
-      "Single": true,
-      "Stations": [
+      "color": "#A192B2",
+      "name": "首都机场线",
+      "code": "首",
+      "single": true,
+      "stations": [
         "三号航站楼",
         "二号航站楼",
         "三元桥",
         "东直门"
       ],
-      "System": "首都机场线"
+      "system": "首都机场线"
     },
     {
-      "Color": "#0047BB",
-      "Name": "大兴机场线",
-      "ShortName": "大",
-      "Stations": [
+      "color": "#0047BB",
+      "name": "大兴机场线",
+      "code": "大",
+      "stations": [
         "草桥",
         "大兴新城",
         "大兴机场"
       ],
-      "System": "大兴机场线"
+      "system": "大兴机场线"
     }
   ]
 }

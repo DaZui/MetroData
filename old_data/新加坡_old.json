@@ -1,10 +1,10 @@
 {
-    "Lines": [
+    "lines": [
         {
-            "Color": "#D42E12",
-            "Name": "南北线",
-            "ShortName": "NS",
-            "Stations": [
+            "color": "#D42E12",
+            "name": "南北线",
+            "code": "NS",
+            "stations": [
                 "裕廊东",
                 "武吉巴督",
                 "武吉甘柏",
@@ -33,13 +33,13 @@
                 "滨海湾",
                 "滨海南码头"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#009645",
-            "Name": "东西线",
-            "ShortName": "EW",
-            "Stations": [
+            "color": "#009645",
+            "name": "东西线",
+            "code": "EW",
+            "stations": [
                 "巴西立",
                 "淡滨尼",
                 "四美",
@@ -74,24 +74,24 @@
                 "大士西路",
                 "大士连"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#009645",
-            "Name": "东西线",
-            "ShortName": "CG",
-            "Stations": [
+            "color": "#009645",
+            "name": "东西线",
+            "code": "CG",
+            "stations": [
                 "丹那美拉",
                 "博览",
                 "樟宜机场"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#9900AA",
-            "Name": "东北线",
-            "ShortName": "NE",
-            "Stations": [
+            "color": "#9900AA",
+            "name": "东北线",
+            "code": "NE",
+            "stations": [
                 "港湾",
                 "欧南园",
                 "牛车水",
@@ -109,13 +109,13 @@
                 "盛港",
                 "榜鹅"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#FA9E0D",
-            "Name": "环线",
-            "ShortName": "CC",
-            "Stations": [
+            "color": "#FA9E0D",
+            "name": "环线",
+            "code": "CC",
+            "stations": [
                 "多美歌",
                 "百胜",
                 "滨海中心",
@@ -146,24 +146,24 @@
                 "直落布兰雅",
                 "港湾"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#FA9E0D",
-            "Name": "环线",
-            "ShortName": "CE",
-            "Stations": [
+            "color": "#FA9E0D",
+            "name": "环线",
+            "code": "CE",
+            "stations": [
                 "宝门廊",
                 "海湾舫",
                 "滨海湾"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#005EC4",
-            "Name": "滨海市区线",
-            "ShortName": "DT",
-            "Stations": [
+            "color": "#005EC4",
+            "name": "滨海市区线",
+            "code": "DT",
+            "stations": [
                 "武吉班让",
                 "凯秀",
                 "山景",
@@ -199,18 +199,18 @@
                 "樟宜上段",
                 "博览"
             ],
-            "System": "MRT"
+            "system": "MRT"
         },
         {
-            "Color": "#9D5B25",
-            "Name": "汤申－东海岸线",
-            "ShortName": "TE",
-            "Stations": [
+            "color": "#9D5B25",
+            "name": "汤申－东海岸线",
+            "code": "TE",
+            "stations": [
                 "兀兰北",
                 "兀兰",
                 "兀兰南"
             ],
-            "System": "MRT"
+            "system": "MRT"
         }
     ]
 }
